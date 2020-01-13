@@ -1,0 +1,464 @@
+Running 2 test cases...
+[1;34;49mEntering test module "Bitcoin Core Test Suite"
+[0;39;49m[1;34;49mtest/txvalidationcache_tests.cpp(18): Entering test suite "tx_validationcache_tests"
+[0;39;49m[1;34;49mtest/txvalidationcache_tests.cpp(20): Entering test case "tx_mempool_block_doublespend"
+[0;39;49m[1;36;49m2020-01-10T01:09:58Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=9bc1bfff03cbca7f8ff8fea2cd8ccc8f0da440d71bc955ae79766bd7dd19a969[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z Using obfuscation key for /tmp/test_common_Bitcoin Core/3518682189/regtest/blocks/index: 0000000000000000[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z Wrote new obfuscate key for /tmp/test_common_Bitcoin Core/3518682189/regtest/chainstate: 5500fd1cf05730c7[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z Using obfuscation key for /tmp/test_common_Bitcoin Core/3518682189/regtest/chainstate: 5500fd1cf05730c7[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z Pre-allocating up to position 0x1000000 in blk00000.dat[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 height=0 version=0x00000001 log2_work=1 tx=1 date='2011-02-02T23:16:42Z' progress=1.000000 cache=0.0MiB(0txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z ERROR: DeserializeFileDB: Failed to open file /tmp/test_common_Bitcoin Core/3518682189/regtest/banlist.dat[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z Invalid or missing banlist.dat; recreating[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z Pre-allocating up to position 0x100000 in rev00000.dat[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z Leaving InitialBlockDownload (latching to false)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=4fafc1f84b0899f57591fb2cd7f730904d6a23b221820852d2bcfcb610f182d0 height=1 version=0x20000000 log2_work=2 tx=2 date='2020-01-10T01:09:58Z' progress=1.000000 cache=0.0MiB(1txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=48706fd5ede4365b9fa840b011e3f0057500e4723f2103da42b0f931edba9f13 height=2 version=0x20000000 log2_work=2.5849625 tx=3 date='2020-01-10T01:09:59Z' progress=1.000000 cache=0.0MiB(2txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=23a9c20414d46b043ca0bcfcb7ae107bcf9a82920151d9c7b5b1ba74b185960e height=3 version=0x20000000 log2_work=3 tx=4 date='2020-01-10T01:09:59Z' progress=1.000000 cache=0.0MiB(3txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=7026c606a22d8eca4d2264d8063ddb3f3dd9fc6810c5aae9109bf1f4f603d837 height=4 version=0x20000000 log2_work=3.3219281 tx=5 date='2020-01-10T01:10:00Z' progress=1.000000 cache=0.0MiB(4txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=4e9f96310dbf749b71194203e470750382621c57a9dba60f27921559149ae63b height=5 version=0x20000000 log2_work=3.5849625 tx=6 date='2020-01-10T01:10:00Z' progress=1.000000 cache=0.0MiB(5txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=43cfe3286caa7d2ac7f32b9dc762e38fe314ca0e631f10042599d821605e8800 height=6 version=0x20000000 log2_work=3.8073549 tx=7 date='2020-01-10T01:10:00Z' progress=1.000000 cache=0.0MiB(6txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=28b8bb85a54a688bc5c0eb309c2eea0aac1f328324574cc635a5bd2566c6c0ac height=7 version=0x20000000 log2_work=4 tx=8 date='2020-01-10T01:10:00Z' progress=1.000000 cache=0.0MiB(7txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=7d2b8b3bf37309d199f9c193b57876adc170604813daa5e2c26331391080604b height=8 version=0x20000000 log2_work=4.169925 tx=9 date='2020-01-10T01:10:01Z' progress=1.000000 cache=0.0MiB(8txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=6d2b45fd1b33c29478c082ab7a2af510725867d00098aaf19a1a505123b7e356 height=9 version=0x20000000 log2_work=4.3219281 tx=10 date='2020-01-10T01:10:01Z' progress=1.000000 cache=0.0MiB(9txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=67da56e2b9983b3afd12a20d048d9493022af2a43d065fbfc9610449a61b2524 height=10 version=0x20000000 log2_work=4.4594316 tx=11 date='2020-01-10T01:10:01Z' progress=1.000000 cache=0.0MiB(10txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=18397c89951412c365fa7bbde7087f459838e73c78cd54b953dd9a52cebe78a2 height=11 version=0x20000000 log2_work=4.5849625 tx=12 date='2020-01-10T01:10:01Z' progress=1.000000 cache=0.0MiB(11txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=08f9ba0b13b69ebe897fdab3f8720b8b2c32096762c1484253ff686c51694436 height=12 version=0x20000000 log2_work=4.7004397 tx=13 date='2020-01-10T01:10:01Z' progress=1.000000 cache=0.0MiB(12txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=25c3f69cc6e07bf1d81652abedd930ef7bb6e9fddc7536a67845e5a873c79776 height=13 version=0x20000000 log2_work=4.8073549 tx=14 date='2020-01-10T01:10:01Z' progress=1.000000 cache=0.0MiB(13txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=30458c379345fce059e90886c26bfe83cf0dc85e1c6bbc46c190a96cbf46b66e height=14 version=0x20000000 log2_work=4.9068906 tx=15 date='2020-01-10T01:10:02Z' progress=1.000000 cache=0.0MiB(14txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=6a232d86efd32116168850432ec341cb03ed920912a355104cdc80905278a74c height=15 version=0x20000000 log2_work=5 tx=16 date='2020-01-10T01:10:02Z' progress=1.000000 cache=0.0MiB(15txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=0b8589e618beae6595f0c1827598998c983dfb1a92e89ae05cefc8c2c50d8d2a height=16 version=0x20000000 log2_work=5.0874628 tx=17 date='2020-01-10T01:10:02Z' progress=1.000000 cache=0.0MiB(16txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=1e8e80268471edcdab2d31228521d2b08f3d41e4b607da9e79f4d494d3b14c13 height=17 version=0x20000000 log2_work=5.169925 tx=18 date='2020-01-10T01:10:02Z' progress=1.000000 cache=0.0MiB(17txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=72e87fc3bcae40c9d8237bcd227483029e2d92cf77efe810d241ec6d02ee0916 height=18 version=0x20000000 log2_work=5.2479275 tx=19 date='2020-01-10T01:10:02Z' progress=1.000000 cache=0.0MiB(18txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=24f52745344014633eccae4be93d89821c70bbbe09accbf1c2195d9e6da67587 height=19 version=0x20000000 log2_work=5.3219281 tx=20 date='2020-01-10T01:10:02Z' progress=1.000000 cache=0.0MiB(19txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=3e001a9533af0b6abbb0d42ed232557c6786ece53939defb9bdafbb376c1b62d height=20 version=0x20000000 log2_work=5.3923174 tx=21 date='2020-01-10T01:10:03Z' progress=1.000000 cache=0.0MiB(20txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=7ab7a34c26fda9386589303d6b84e29a7256144c576faf537f706f1acaf53c8e height=21 version=0x20000000 log2_work=5.4594316 tx=22 date='2020-01-10T01:10:03Z' progress=1.000000 cache=0.0MiB(21txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=579926124513e59ca7e5e787a72d6ee3eeb3a3d57e08d0db3a3b4d036b84d42a height=22 version=0x20000000 log2_work=5.523562 tx=23 date='2020-01-10T01:10:03Z' progress=1.000000 cache=0.0MiB(22txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=7284bc7e95e8c318a55bceac6913e685c3bf47528a96b801f65a9dec90173828 height=23 version=0x20000000 log2_work=5.5849625 tx=24 date='2020-01-10T01:10:03Z' progress=1.000000 cache=0.0MiB(23txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=532e3d52c46f83a929bc345b846004380d4c7f66ce97d904b338db4caa5131eb height=24 version=0x20000000 log2_work=5.6438562 tx=25 date='2020-01-10T01:10:03Z' progress=1.000000 cache=0.0MiB(24txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=57055fabf92c17a28e9a833767427190ecfc5b534c47f1827fb71efd5422012b height=25 version=0x20000000 log2_work=5.7004397 tx=26 date='2020-01-10T01:10:03Z' progress=1.000000 cache=0.0MiB(25txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=452e5962c829646588003f250db310e3b5769bcce29fe24ca577829d96d1a2e1 height=26 version=0x20000000 log2_work=5.7548875 tx=27 date='2020-01-10T01:10:04Z' progress=1.000000 cache=0.0MiB(26txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=46e87512df7fd45aa8821a780db60545b11af15c2c3270f909cfcfe32ccc29f6 height=27 version=0x20000000 log2_work=5.8073549 tx=28 date='2020-01-10T01:10:04Z' progress=1.000000 cache=0.0MiB(27txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=3673b80dd64fc570847294cd37b3d433fa9f34ba7f98fe062f259ede4fb6b931 height=28 version=0x20000000 log2_work=5.857981 tx=29 date='2020-01-10T01:10:04Z' progress=1.000000 cache=0.0MiB(28txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=14a93b5b609cff2e5db2b13a7695222433d1a28063206cba48be83b96f6d420b height=29 version=0x20000000 log2_work=5.9068906 tx=30 date='2020-01-10T01:10:04Z' progress=1.000000 cache=0.0MiB(29txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=009b69774143221e2230630b04937bf15fb5e4ae9ea1bf759834a27b6195ff98 height=30 version=0x20000000 log2_work=5.9541963 tx=31 date='2020-01-10T01:10:04Z' progress=1.000000 cache=0.0MiB(30txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=3ec2a82f1e6b1c80e4dd0e49f6ff24027be7659a3c0cac7a5d9678a88d8b56fe height=31 version=0x20000000 log2_work=6 tx=32 date='2020-01-10T01:10:04Z' progress=1.000000 cache=0.0MiB(31txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=72bc333f978ea94f27cc1200106dadb9b09ebf5a0f42867a6f0542697da930c2 height=32 version=0x20000000 log2_work=6.0443941 tx=33 date='2020-01-10T01:10:05Z' progress=1.000000 cache=0.0MiB(32txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=43081540522f7b6b3559b348d1c093136ed1301a5156bb324603e15591aaa371 height=33 version=0x20000000 log2_work=6.0874628 tx=34 date='2020-01-10T01:10:05Z' progress=1.000000 cache=0.0MiB(33txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=47aadfe56bdbf68c905af5372192bff2a3ac05dc48d11c2a19e8eecc3e38f5d1 height=34 version=0x20000000 log2_work=6.129283 tx=35 date='2020-01-10T01:10:05Z' progress=1.000000 cache=0.0MiB(34txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=1eda41d72ece5d2253e5ed149b708b1a39f5939ff7c53b71b9202b7688390696 height=35 version=0x20000000 log2_work=6.169925 tx=36 date='2020-01-10T01:10:05Z' progress=1.000000 cache=0.0MiB(35txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=74b17f064fcce3018177a030e8927f73692720af8d49cd0737e8e5e47580cdd6 height=36 version=0x20000000 log2_work=6.2094534 tx=37 date='2020-01-10T01:10:05Z' progress=1.000000 cache=0.0MiB(36txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=26b6e2975f6f500999d2793d656d1ed063c1c7ab540c4e76211d90c96d8ba7cc height=37 version=0x20000000 log2_work=6.2479275 tx=38 date='2020-01-10T01:10:05Z' progress=1.000000 cache=0.0MiB(37txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=4bef3878fe277eee5926718c651c62a87d2811f726efa28e7839612d92569ed8 height=38 version=0x20000000 log2_work=6.2854022 tx=39 date='2020-01-10T01:10:06Z' progress=1.000000 cache=0.0MiB(38txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=3a5117f6805cc4a601a4d1877389b896b7ee3564b8d4fc6490fe0e5a72d20452 height=39 version=0x20000000 log2_work=6.3219281 tx=40 date='2020-01-10T01:10:06Z' progress=1.000000 cache=0.0MiB(39txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=544fffb37fbf76e05ccdd7c02b40b635d94a64007205ab729f240f66e8b7903d height=40 version=0x20000000 log2_work=6.357552 tx=41 date='2020-01-10T01:10:06Z' progress=1.000000 cache=0.0MiB(40txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=784cfbae42061d7821944eb5e956c4f06c9263e7869f9a1c3f0168ac842a8188 height=41 version=0x20000000 log2_work=6.3923174 tx=42 date='2020-01-10T01:10:06Z' progress=1.000000 cache=0.0MiB(41txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=40759c0ba51ab49e6134e79e1790da5669bb8c0ace1e1ee0087a8266838d4ae9 height=42 version=0x20000000 log2_work=6.4262648 tx=43 date='2020-01-10T01:10:06Z' progress=1.000000 cache=0.0MiB(42txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=067a6f282dfc68a8938b8a8d98078e1a9c2264f76fba167aad32542d0052fa7c height=43 version=0x20000000 log2_work=6.4594316 tx=44 date='2020-01-10T01:10:06Z' progress=1.000000 cache=0.0MiB(43txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=6d87d81011698de78ec5b54c371b470a83269f59592650136c7d3e5fa0e9a87b height=44 version=0x20000000 log2_work=6.4918531 tx=45 date='2020-01-10T01:10:07Z' progress=1.000000 cache=0.0MiB(44txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=519ab4d43e903ae1d726352f49c9d07a990c9d6ef7364dd9126349db0b141bfb height=45 version=0x20000000 log2_work=6.523562 tx=46 date='2020-01-10T01:10:07Z' progress=1.000000 cache=0.0MiB(45txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=5e1fe5bc563a79f2993dfc09f36cd4d80c978232fbff3030a9017f6743baa9bc height=46 version=0x20000000 log2_work=6.5545889 tx=47 date='2020-01-10T01:10:07Z' progress=1.000000 cache=0.0MiB(46txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=6373a19850a7bc28b069ba068e45c57e8515dd833ce6502fc79050bf483be292 height=47 version=0x20000000 log2_work=6.5849625 tx=48 date='2020-01-10T01:10:07Z' progress=1.000000 cache=0.0MiB(47txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=590deda86ae8af0c68b453b1861b1fffa83630d1595109f04b7330ad7106b30a height=48 version=0x20000000 log2_work=6.6147098 tx=49 date='2020-01-10T01:10:07Z' progress=1.000000 cache=0.0MiB(48txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=07c645e659d2f60824446f8e0cc4114f3302b38e56dc29fa71293d10ea7fb9f4 height=49 version=0x20000000 log2_work=6.6438562 tx=50 date='2020-01-10T01:10:07Z' progress=1.000000 cache=0.0MiB(49txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=65c250343967fbea24c7cef130b89b2aae3ea22a4552b204e2654affa48c1f76 height=50 version=0x20000000 log2_work=6.6724253 tx=51 date='2020-01-10T01:10:08Z' progress=1.000000 cache=0.0MiB(50txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=3407a01d6b2536daebf86c20f210be567a654acd47dfdcbf6a8ab3234afaf695 height=51 version=0x20000000 log2_work=6.7004397 tx=52 date='2020-01-10T01:10:08Z' progress=1.000000 cache=0.0MiB(51txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=607471eea5efcf4bc0bf657806b8afb7c551b61c1cf074a1169c73d7fc0752b2 height=52 version=0x20000000 log2_work=6.7279205 tx=53 date='2020-01-10T01:10:08Z' progress=1.000000 cache=0.0MiB(52txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=73241c13108b58a2c47d7d2cfa9e80c32159edd3d6be39e30c450d909dee2c0c height=53 version=0x20000000 log2_work=6.7548875 tx=54 date='2020-01-10T01:10:08Z' progress=1.000000 cache=0.0MiB(53txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=3f12492ce0397576a8641f38f8b74d4b559b1ff9132932a04fda7c53c19a3c79 height=54 version=0x20000000 log2_work=6.7813597 tx=55 date='2020-01-10T01:10:08Z' progress=1.000000 cache=0.0MiB(54txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=346a85e3b2cf57ccf6a9a75edfaa06b2220fd54e2fee59e9a93eb08c8f1044f3 height=55 version=0x20000000 log2_work=6.8073549 tx=56 date='2020-01-10T01:10:08Z' progress=1.000000 cache=0.0MiB(55txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=304c551e6c8455bec0d907535b38c102dd3fbfb41a8373236ef647b820619c4d height=56 version=0x20000000 log2_work=6.83289 tx=57 date='2020-01-10T01:10:09Z' progress=1.000000 cache=0.0MiB(56txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=7982262bfdba8faff0e517ebd6879e8027e32d101e064de00ea23e98772dac4b height=57 version=0x20000000 log2_work=6.857981 tx=58 date='2020-01-10T01:10:09Z' progress=1.000000 cache=0.0MiB(57txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=44b96167a886aee3c02040f25e510b4b9567e3bd810aa7105b8baf0e0dd087b0 height=58 version=0x20000000 log2_work=6.882643 tx=59 date='2020-01-10T01:10:09Z' progress=1.000000 cache=0.0MiB(58txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=242cb58524d62da6c49f9ce314d20f16224cb3b86a16ddfda54a47191703b47d height=59 version=0x20000000 log2_work=6.9068906 tx=60 date='2020-01-10T01:10:09Z' progress=1.000000 cache=0.0MiB(59txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=409978156dc66c8e82b011e84d7d0145bf0f566d1596be0b672b57e5a7b657d0 height=60 version=0x20000000 log2_work=6.9307373 tx=61 date='2020-01-10T01:10:09Z' progress=1.000000 cache=0.0MiB(60txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=7b4de79bc470460520922eb14dc9b59ec6a9e20a6211a30054cd338d607021d1 height=61 version=0x20000000 log2_work=6.9541963 tx=62 date='2020-01-10T01:10:09Z' progress=1.000000 cache=0.0MiB(61txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=746232d317e7e96276f109307bd06ec3981b8392455aae6c543a7966e7bf5feb height=62 version=0x20000000 log2_work=6.9772799 tx=63 date='2020-01-10T01:10:10Z' progress=1.000000 cache=0.0MiB(62txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=5fae6d934f54f77e907ccdec1f67a24e703f2dab21d011fc3f984bda5b194c7c height=63 version=0x20000000 log2_work=7 tx=64 date='2020-01-10T01:10:10Z' progress=1.000000 cache=0.0MiB(63txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=657c06138c6cfbffd9c915d0fdbb75ec80613252c03bcc8d9477cbe249e517d0 height=64 version=0x20000000 log2_work=7.0223678 tx=65 date='2020-01-10T01:10:10Z' progress=1.000000 cache=0.0MiB(64txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=6b2b19507ac0bcf80016d37fbc2c54d906f17aba28f4cadef733ec4dc221b99c height=65 version=0x20000000 log2_work=7.0443941 tx=66 date='2020-01-10T01:10:10Z' progress=1.000000 cache=0.0MiB(65txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=6feffbca1e0a1663f9c1ce5e799d91e68cd09a6743811d04a12639126bd3263d height=66 version=0x20000000 log2_work=7.0660892 tx=67 date='2020-01-10T01:10:10Z' progress=1.000000 cache=0.0MiB(66txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=51140fcf440975e067b0da239c597c4d8e63f61b4eaf7295479d73498332bd22 height=67 version=0x20000000 log2_work=7.0874628 tx=68 date='2020-01-10T01:10:10Z' progress=1.000000 cache=0.0MiB(67txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=683d88053e6c596f27ad04b1b87f8680340cda74602e88d62e711dfa811a02df height=68 version=0x20000000 log2_work=7.1085245 tx=69 date='2020-01-10T01:10:11Z' progress=1.000000 cache=0.0MiB(68txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=090865fab39b83267d21317de9a8dcde7ed969209918967ff36106598e7aad27 height=69 version=0x20000000 log2_work=7.129283 tx=70 date='2020-01-10T01:10:11Z' progress=1.000000 cache=0.0MiB(69txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=1a3bafe3f528e052cb9f21644382eae9eddef7fca9a8605e8224deddb1e8d669 height=70 version=0x20000000 log2_work=7.1497471 tx=71 date='2020-01-10T01:10:11Z' progress=1.000000 cache=0.0MiB(70txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=1302fda329d70678b0a8ee92ff904d2001a30bad1b4ba7304fef2c106a77bcc9 height=71 version=0x20000000 log2_work=7.169925 tx=72 date='2020-01-10T01:10:11Z' progress=1.000000 cache=0.0MiB(71txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=3164f069263d12bd74aab6292498a7be3ea196f56e7a541211315378cdfdc2f3 height=72 version=0x20000000 log2_work=7.1898246 tx=73 date='2020-01-10T01:10:11Z' progress=1.000000 cache=0.0MiB(72txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=3552a75e6164f093c630d2ece7750b8ec0243fd6bc9029ace859cbc2fffde0e1 height=73 version=0x20000000 log2_work=7.2094534 tx=74 date='2020-01-10T01:10:11Z' progress=1.000000 cache=0.0MiB(73txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=713f8a73155e6cf68179ea31301cebe7af1fb3580e8e92565c76eaf86b6fa0f4 height=74 version=0x20000000 log2_work=7.2288187 tx=75 date='2020-01-10T01:10:12Z' progress=1.000000 cache=0.0MiB(74txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=7e8196a07e1e736913beadea6838b4dad22bde2b8b3dcb785d7b89df2b3be0e3 height=75 version=0x20000000 log2_work=7.2479275 tx=76 date='2020-01-10T01:10:12Z' progress=1.000000 cache=0.0MiB(75txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=6508a78bf1db951a38694ec55a34d94bda1b1be460cdc8a6d61eb529604a5422 height=76 version=0x20000000 log2_work=7.2667865 tx=77 date='2020-01-10T01:10:12Z' progress=1.000000 cache=0.0MiB(76txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=5c1a46cba330657671e28f1263f22f92dfebe8a05f4ff2a9ee2129182fd35630 height=77 version=0x20000000 log2_work=7.2854022 tx=78 date='2020-01-10T01:10:12Z' progress=1.000000 cache=0.0MiB(77txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=7abd718f954cb78ba68a76be204b2f0c16f0a3a277ef67027cacdd4aaff83de1 height=78 version=0x20000000 log2_work=7.3037807 tx=79 date='2020-01-10T01:10:12Z' progress=1.000000 cache=0.0MiB(78txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=46b45f3b29f5f58b38e53d984bf10dd2b022551b497aab3e4e8ec88559e63375 height=79 version=0x20000000 log2_work=7.3219281 tx=80 date='2020-01-10T01:10:12Z' progress=1.000000 cache=0.0MiB(79txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=0d3db6f064823c6782e43e242d0e368cdfc73d7519a222a8469c91babee17a81 height=80 version=0x20000000 log2_work=7.33985 tx=81 date='2020-01-10T01:10:13Z' progress=1.000000 cache=0.0MiB(80txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=0deb3066e8f382de96a0ec6245d6dfc64cd2900e052d65512796dc6a8df0d9a4 height=81 version=0x20000000 log2_work=7.357552 tx=82 date='2020-01-10T01:10:13Z' progress=1.000000 cache=0.0MiB(81txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=55f36fe582cee8d40bcf240d9d0dfa1f33286b73e0b9cc962a17bad1cee24177 height=82 version=0x20000000 log2_work=7.3750394 tx=83 date='2020-01-10T01:10:13Z' progress=1.000000 cache=0.0MiB(82txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=5f65160839b6c8d680749609703e52e9731eb441ecfeee62cc03592ac32344be height=83 version=0x20000000 log2_work=7.3923174 tx=84 date='2020-01-10T01:10:13Z' progress=1.000000 cache=0.0MiB(83txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=1b0f1a583994683af70e26c04b4545d036774e13787c78b1aa7b4f2e62597208 height=84 version=0x20000000 log2_work=7.4093909 tx=85 date='2020-01-10T01:10:13Z' progress=1.000000 cache=0.0MiB(84txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=22ce74bf751e8fad7981ae944754384d7e53df0915d29ba4ae4d6a3a8dcaa4ef height=85 version=0x20000000 log2_work=7.4262648 tx=86 date='2020-01-10T01:10:13Z' progress=1.000000 cache=0.0MiB(85txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=19a643a101ac7d9d3c0e374574b50de8f6980c567551c5d16d6c5f176dabecc1 height=86 version=0x20000000 log2_work=7.4429435 tx=87 date='2020-01-10T01:10:14Z' progress=1.000000 cache=0.0MiB(86txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=1cb4c9ad5e7df447abe36e96dcae874fa0696c8956469d7671b6dfb74739d04f height=87 version=0x20000000 log2_work=7.4594316 tx=88 date='2020-01-10T01:10:14Z' progress=1.000000 cache=0.0MiB(87txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=1bbb273a658e31ddaa9f4af3df790100512954dd79a25f439ec053f415bb4919 height=88 version=0x20000000 log2_work=7.4757334 tx=89 date='2020-01-10T01:10:14Z' progress=1.000000 cache=0.0MiB(88txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=70c632f08866e660ee5cbd3660fe790cfa8bdcc2fd141690028608c036ed6409 height=89 version=0x20000000 log2_work=7.4918531 tx=90 date='2020-01-10T01:10:14Z' progress=1.000000 cache=0.0MiB(89txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=6b1bdf475843911dd5f8a6d2b91db5492eab76e75e3b0b394636e830b4ecd755 height=90 version=0x20000000 log2_work=7.5077946 tx=91 date='2020-01-10T01:10:14Z' progress=1.000000 cache=0.0MiB(90txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=698425dce14d5e70571c2caf92ba42c39e5d4ac0cc20dbfe49fb980832689186 height=91 version=0x20000000 log2_work=7.523562 tx=92 date='2020-01-10T01:10:14Z' progress=1.000000 cache=0.0MiB(91txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=394d34912634a05c5e4be7462460d51cebd04fa588e2ecfb167389348f8e5803 height=92 version=0x20000000 log2_work=7.5391588 tx=93 date='2020-01-10T01:10:15Z' progress=1.000000 cache=0.0MiB(92txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=353d9e22d842d6dd6bb20224e23250895ee64ab5db8c34930c6cff29ea630b7e height=93 version=0x20000000 log2_work=7.5545889 tx=94 date='2020-01-10T01:10:15Z' progress=1.000000 cache=0.0MiB(93txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=628561b6d8d43c6fe715cc65772bdef99e7a9b42bb96fd220fe6679bf65bc984 height=94 version=0x20000000 log2_work=7.5698556 tx=95 date='2020-01-10T01:10:15Z' progress=1.000000 cache=0.0MiB(94txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=21e24be4c4fbc8eec92299e392009dd5f06dd8d171c2c4721c75fc12151e90d5 height=95 version=0x20000000 log2_work=7.5849625 tx=96 date='2020-01-10T01:10:15Z' progress=1.000000 cache=0.0MiB(95txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=13be3f54b4f00579e9f1068456126b874fe54b6e4b50c607b0398432959c70a1 height=96 version=0x20000000 log2_work=7.5999128 tx=97 date='2020-01-10T01:10:15Z' progress=1.000000 cache=0.0MiB(96txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=3e32828995a1a5bebe682c6c089c032ac603a12bc6c603499e11424fb49ee94c height=97 version=0x20000000 log2_work=7.6147098 tx=98 date='2020-01-10T01:10:15Z' progress=1.000000 cache=0.0MiB(97txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=0e31db6548e7d9426d5749525ab8f218a333e72584687726d5267c270f11e290 height=98 version=0x20000000 log2_work=7.6293566 tx=99 date='2020-01-10T01:10:16Z' progress=1.000000 cache=0.0MiB(98txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=7ec552fcf4e774a7ef183909a4cbcd146b88413b0a06baa8c4ada903ad192b60 height=99 version=0x20000000 log2_work=7.6438562 tx=100 date='2020-01-10T01:10:16Z' progress=1.000000 cache=0.0MiB(99txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=59d3e0ed14cae7130fc3dbc4e87cc4a492e60f6628770a736eaa14ed59ad9368 height=100 version=0x20000000 log2_work=7.6582115 tx=101 date='2020-01-10T01:10:16Z' progress=1.000000 cache=0.0MiB(100txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z ERROR: ConnectBlock: Consensus::CheckTxInputs: ad49cd945306327825fb258064ac7273e75805b38f131737789e507658373f69, bad-txns-inputs-missingorspent, CheckTxInputs: inputs missing/spent[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z InvalidChainFound: invalid block=51f2db9891db5a3f907541b49c0a4a4e0c0d1acac33e0d8a4b3e73d6cc112e05  height=101  log2_work=7.6724253  date=2020-01-10T01:10:16Z[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z InvalidChainFound:  current best=59d3e0ed14cae7130fc3dbc4e87cc4a492e60f6628770a736eaa14ed59ad9368  height=100  log2_work=7.6582115  date=2020-01-10T01:10:16Z[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z ERROR: ConnectTip: ConnectBlock 51f2db9891db5a3f907541b49c0a4a4e0c0d1acac33e0d8a4b3e73d6cc112e05 failed, bad-txns-inputs-missingorspent, CheckTxInputs: inputs missing/spent[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z InvalidChainFound: invalid block=51f2db9891db5a3f907541b49c0a4a4e0c0d1acac33e0d8a4b3e73d6cc112e05  height=101  log2_work=7.6724253  date=2020-01-10T01:10:16Z[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z InvalidChainFound:  current best=59d3e0ed14cae7130fc3dbc4e87cc4a492e60f6628770a736eaa14ed59ad9368  height=100  log2_work=7.6582115  date=2020-01-10T01:10:16Z[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 1572 txs: 1 fees: 4989000000 sigops 404[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z ERROR: ConnectBlock: Consensus::CheckTxInputs: ad49cd945306327825fb258064ac7273e75805b38f131737789e507658373f69, bad-txns-inputs-missingorspent, CheckTxInputs: inputs missing/spent[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z InvalidChainFound: invalid block=3a9dfc7e3c3227d187207a04af5541c4b10930ea4cbab2381de628f3ddf2881b  height=101  log2_work=7.6724253  date=2020-01-10T01:10:16Z[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z InvalidChainFound:  current best=59d3e0ed14cae7130fc3dbc4e87cc4a492e60f6628770a736eaa14ed59ad9368  height=100  log2_work=7.6582115  date=2020-01-10T01:10:16Z[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z ERROR: ConnectTip: ConnectBlock 3a9dfc7e3c3227d187207a04af5541c4b10930ea4cbab2381de628f3ddf2881b failed, bad-txns-inputs-missingorspent, CheckTxInputs: inputs missing/spent[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z InvalidChainFound: invalid block=3a9dfc7e3c3227d187207a04af5541c4b10930ea4cbab2381de628f3ddf2881b  height=101  log2_work=7.6724253  date=2020-01-10T01:10:16Z[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z InvalidChainFound:  current best=59d3e0ed14cae7130fc3dbc4e87cc4a492e60f6628770a736eaa14ed59ad9368  height=100  log2_work=7.6582115  date=2020-01-10T01:10:16Z[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 1572 txs: 1 fees: 4989000000 sigops 404[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z ERROR: AcceptBlockHeader: block 3a9dfc7e3c3227d187207a04af5541c4b10930ea4cbab2381de628f3ddf2881b is marked invalid[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z ERROR: ProcessNewBlock: AcceptBlock FAILED (duplicate)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 1572 txs: 1 fees: 4989000000 sigops 404[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=5eb6fada56c4b0d4517d855e0df73e8f2fc332845208ff4c02b601379cb82457 height=101 version=0x20000000 log2_work=7.6724253 tx=103 date='2020-01-10T01:10:16Z' progress=1.000000 cache=0.0MiB(102txo)[0;39;49m
+[1;34;49mtest/txvalidationcache_tests.cpp(20): Leaving test case "tx_mempool_block_doublespend"; testing time: 55255us
+[0;39;49m[1;34;49mtest/txvalidationcache_tests.cpp(148): Entering test case "checkinputs_test"
+[0;39;49m[1;36;49m2020-01-10T01:09:58Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=9bc1bfff03cbca7f8ff8fea2cd8ccc8f0da440d71bc955ae79766bd7dd19a969[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z Using obfuscation key for /tmp/test_common_Bitcoin Core/2656602540/regtest/blocks/index: 0000000000000000[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z Wrote new obfuscate key for /tmp/test_common_Bitcoin Core/2656602540/regtest/chainstate: dddc3c44e748512a[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z Using obfuscation key for /tmp/test_common_Bitcoin Core/2656602540/regtest/chainstate: dddc3c44e748512a[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z Pre-allocating up to position 0x1000000 in blk00000.dat[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 height=0 version=0x00000001 log2_work=1 tx=1 date='2011-02-02T23:16:42Z' progress=1.000000 cache=0.0MiB(0txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z ERROR: DeserializeFileDB: Failed to open file /tmp/test_common_Bitcoin Core/2656602540/regtest/banlist.dat[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z Invalid or missing banlist.dat; recreating[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z Pre-allocating up to position 0x100000 in rev00000.dat[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z Leaving InitialBlockDownload (latching to false)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=71b00aebaf36aa2eb6777e96e88c05d40ae954ee787b5fdb80ea142c2894a56f height=1 version=0x20000000 log2_work=2 tx=2 date='2020-01-10T01:09:58Z' progress=1.000000 cache=0.0MiB(1txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=7e96e74e40db7b2319bc65f6c1458dd6096071d7cdc498b3285e7a4c4b1c3001 height=2 version=0x20000000 log2_work=2.5849625 tx=3 date='2020-01-10T01:09:59Z' progress=1.000000 cache=0.0MiB(2txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=1b3ff4c31b719165eccf18e4f48248235d1a425c25b8d98982fe86b8ca148a64 height=3 version=0x20000000 log2_work=3 tx=4 date='2020-01-10T01:09:59Z' progress=1.000000 cache=0.0MiB(3txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=6b80418a20b4cd2fb2c6bc327057bd1ca93c8ff5b1d412f80feab4da0b017692 height=4 version=0x20000000 log2_work=3.3219281 tx=5 date='2020-01-10T01:10:00Z' progress=1.000000 cache=0.0MiB(4txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=2b1c865356ec8de94999b70a3a221db0304cc0d30c5eb7c26307ab956590a199 height=5 version=0x20000000 log2_work=3.5849625 tx=6 date='2020-01-10T01:10:00Z' progress=1.000000 cache=0.0MiB(5txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=18fd2aff4f3fce8dac23561d11e32276b91b98dde2899bf787902e2b85f39545 height=6 version=0x20000000 log2_work=3.8073549 tx=7 date='2020-01-10T01:10:00Z' progress=1.000000 cache=0.0MiB(6txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=2ea8c285a592f707af27237369b3092564741999ae70a57b21e9e5fa8811fff4 height=7 version=0x20000000 log2_work=4 tx=8 date='2020-01-10T01:10:00Z' progress=1.000000 cache=0.0MiB(7txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=2ba66d9a6d6592b1b2f193137fdc1ffec18ec3ed8021b87400690db9d11610f0 height=8 version=0x20000000 log2_work=4.169925 tx=9 date='2020-01-10T01:10:01Z' progress=1.000000 cache=0.0MiB(8txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=3e0bc9b692fbfe568f67bcb720be605c266f47a87cd7e5bb6eac09fa1f9844cf height=9 version=0x20000000 log2_work=4.3219281 tx=10 date='2020-01-10T01:10:01Z' progress=1.000000 cache=0.0MiB(9txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=4c0c9ada8fc4e4c5ed51e6c44ebe4455ce1256c466037fde2ebe5bd4c1d589f2 height=10 version=0x20000000 log2_work=4.4594316 tx=11 date='2020-01-10T01:10:01Z' progress=1.000000 cache=0.0MiB(10txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=6b1a37d12ab40e34aefa99527c22b35b735e56fcf3184f7c1f23d52e2f8d9314 height=11 version=0x20000000 log2_work=4.5849625 tx=12 date='2020-01-10T01:10:01Z' progress=1.000000 cache=0.0MiB(11txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=0fb3740f8e2356c34c267c6b0a7e13e2322e6be4dc9f40b2ca4b554252b50dc9 height=12 version=0x20000000 log2_work=4.7004397 tx=13 date='2020-01-10T01:10:01Z' progress=1.000000 cache=0.0MiB(12txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=255d260ac0171a3b9e9575b4b2f64db4131ea2e9d2af2ba74946255aee5787dc height=13 version=0x20000000 log2_work=4.8073549 tx=14 date='2020-01-10T01:10:01Z' progress=1.000000 cache=0.0MiB(13txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=287f7e8fc11e7985fe618face5cac4b08cfc7588fdd53964b388d0b708bebc71 height=14 version=0x20000000 log2_work=4.9068906 tx=15 date='2020-01-10T01:10:02Z' progress=1.000000 cache=0.0MiB(14txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=4c368be699750385a74ec6c5fe566339aebb69e48e0688c8de8f9e5bbd631d9e height=15 version=0x20000000 log2_work=5 tx=16 date='2020-01-10T01:10:02Z' progress=1.000000 cache=0.0MiB(15txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=035b27e735a335409f8c31e99d9afdbaba9f43de2131edbb52080c2cd2c5059e height=16 version=0x20000000 log2_work=5.0874628 tx=17 date='2020-01-10T01:10:02Z' progress=1.000000 cache=0.0MiB(16txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=4f2cef1a5de2f27ea44eff09b044459ccd964e971e0cecae652bf18597b91568 height=17 version=0x20000000 log2_work=5.169925 tx=18 date='2020-01-10T01:10:02Z' progress=1.000000 cache=0.0MiB(17txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=00c1d6948b3ba90fc8a8eb04e12aa724c46c2ebc979495593034589c9ce5320f height=18 version=0x20000000 log2_work=5.2479275 tx=19 date='2020-01-10T01:10:02Z' progress=1.000000 cache=0.0MiB(18txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=49be7f937846b6b777f4d37e4a4cc65f784130a1b6d5f074ebc7a9181e246292 height=19 version=0x20000000 log2_work=5.3219281 tx=20 date='2020-01-10T01:10:02Z' progress=1.000000 cache=0.0MiB(19txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=4c2adea955f7d3d18ce231fbe95c688e96c642cfa99ead80cf456c0f95633b7f height=20 version=0x20000000 log2_work=5.3923174 tx=21 date='2020-01-10T01:10:03Z' progress=1.000000 cache=0.0MiB(20txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=60db7e1c4d87182198e95f7b909ec303565c5296c6a6b15d5df5704d1d0c89e8 height=21 version=0x20000000 log2_work=5.4594316 tx=22 date='2020-01-10T01:10:03Z' progress=1.000000 cache=0.0MiB(21txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=2840a408b49423508bf6faa40d9f9ce9b4b31a16c662ea236430c32bee354c99 height=22 version=0x20000000 log2_work=5.523562 tx=23 date='2020-01-10T01:10:03Z' progress=1.000000 cache=0.0MiB(22txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=176384caf8febef86c564a9187cb925e5d2a2292872f63ed0a692f2f38d5ef71 height=23 version=0x20000000 log2_work=5.5849625 tx=24 date='2020-01-10T01:10:03Z' progress=1.000000 cache=0.0MiB(23txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=658dd02f15f83423d253c206f5fd043fb132381794fee11d5e768ac7ae60d663 height=24 version=0x20000000 log2_work=5.6438562 tx=25 date='2020-01-10T01:10:03Z' progress=1.000000 cache=0.0MiB(24txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=5ed3c92f789ca4d394aca36cd581409c612646792ab0884c9e19dc018898c010 height=25 version=0x20000000 log2_work=5.7004397 tx=26 date='2020-01-10T01:10:03Z' progress=1.000000 cache=0.0MiB(25txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=67b3a324380c23433f40215bbfafc30b33d0bfeff557585657ae667b9c562d2a height=26 version=0x20000000 log2_work=5.7548875 tx=27 date='2020-01-10T01:10:04Z' progress=1.000000 cache=0.0MiB(26txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=580263db1bde6b4fb783c39e66f41d97e9cb90126b1aad3b37b91e476a5c91e3 height=27 version=0x20000000 log2_work=5.8073549 tx=28 date='2020-01-10T01:10:04Z' progress=1.000000 cache=0.0MiB(27txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=06156d7bdad268e891a5cb63656ef29956c2d4451ad11c4f0a0278965184c750 height=28 version=0x20000000 log2_work=5.857981 tx=29 date='2020-01-10T01:10:04Z' progress=1.000000 cache=0.0MiB(28txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=7452037b69bc14faecdaabe76551ec9fb25fc20e383a0accd325841df086eac0 height=29 version=0x20000000 log2_work=5.9068906 tx=30 date='2020-01-10T01:10:04Z' progress=1.000000 cache=0.0MiB(29txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=17c2c676fae5e83dfee7317d61e90290c69073237920f7a9e9c92df57bbd84a4 height=30 version=0x20000000 log2_work=5.9541963 tx=31 date='2020-01-10T01:10:04Z' progress=1.000000 cache=0.0MiB(30txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=7141f821b4f77f60782bcab9b28e11141db59ac7c7a5bf029f8637fbd7391582 height=31 version=0x20000000 log2_work=6 tx=32 date='2020-01-10T01:10:04Z' progress=1.000000 cache=0.0MiB(31txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=30c7b5e41723cd08aede5981ab4c5691443b220688e6fbc0669bed191a052ca9 height=32 version=0x20000000 log2_work=6.0443941 tx=33 date='2020-01-10T01:10:05Z' progress=1.000000 cache=0.0MiB(32txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=5bc33a37fc14b96150de585ab86c32398e97c2f88aad548c70f78fa2800879c9 height=33 version=0x20000000 log2_work=6.0874628 tx=34 date='2020-01-10T01:10:05Z' progress=1.000000 cache=0.0MiB(33txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=486e07d59dc2f9b5ccd6a3b9251fc70296b9b4a7e7d896d29ff47479ea6d9f84 height=34 version=0x20000000 log2_work=6.129283 tx=35 date='2020-01-10T01:10:05Z' progress=1.000000 cache=0.0MiB(34txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=59d46d8e4fa687ade437ffb7e26944530dd433607f7e37adab68dac29a071920 height=35 version=0x20000000 log2_work=6.169925 tx=36 date='2020-01-10T01:10:05Z' progress=1.000000 cache=0.0MiB(35txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=10f3d6552ad787100b37726efe8a65f28f6d398870a5511fa4f3d8e908c1824a height=36 version=0x20000000 log2_work=6.2094534 tx=37 date='2020-01-10T01:10:05Z' progress=1.000000 cache=0.0MiB(36txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=11a58043c66fb6d5650de3c65139af1cd1ec633571912419dacd28208492f2a2 height=37 version=0x20000000 log2_work=6.2479275 tx=38 date='2020-01-10T01:10:05Z' progress=1.000000 cache=0.0MiB(37txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=73c1d9b2268ca4851c339722ea3517592b4b69bc3b307d37b02df305e261f004 height=38 version=0x20000000 log2_work=6.2854022 tx=39 date='2020-01-10T01:10:06Z' progress=1.000000 cache=0.0MiB(38txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=7e018a206bdf12e977d8130ddd244c57dba38e4029d8d5b9ad8b742ee8580da1 height=39 version=0x20000000 log2_work=6.3219281 tx=40 date='2020-01-10T01:10:06Z' progress=1.000000 cache=0.0MiB(39txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=16db0472b2830b1188e2f624d0b5ad6db1eafda110b6c3c4b55617eac52101ea height=40 version=0x20000000 log2_work=6.357552 tx=41 date='2020-01-10T01:10:06Z' progress=1.000000 cache=0.0MiB(40txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=1ae1723202f9ea3fee8e993d951d4f714c42952b3da106b1c5060b03ff701a11 height=41 version=0x20000000 log2_work=6.3923174 tx=42 date='2020-01-10T01:10:06Z' progress=1.000000 cache=0.0MiB(41txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=64cc46db7a2a17f7566c6eab69a17261165463e582124cbc60335d361874ca9f height=42 version=0x20000000 log2_work=6.4262648 tx=43 date='2020-01-10T01:10:06Z' progress=1.000000 cache=0.0MiB(42txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=0c6f7021d42232f86bb0bcf25975b589f71ebd37d02f9ab729dcc7b0587550a9 height=43 version=0x20000000 log2_work=6.4594316 tx=44 date='2020-01-10T01:10:06Z' progress=1.000000 cache=0.0MiB(43txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=4dea139e2eb943baa104f66284fd310b4e265a07c42aaddff434c9aa03ee54d5 height=44 version=0x20000000 log2_work=6.4918531 tx=45 date='2020-01-10T01:10:07Z' progress=1.000000 cache=0.0MiB(44txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=7984d43e43aabec14e572938e5fc79c32a7db29c714d2a1ec15244dbdff2357c height=45 version=0x20000000 log2_work=6.523562 tx=46 date='2020-01-10T01:10:07Z' progress=1.000000 cache=0.0MiB(45txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=5ad68eb9f8855ef1f49228053183c4d4998533092c97ead0a81c4bfacb5b34ba height=46 version=0x20000000 log2_work=6.5545889 tx=47 date='2020-01-10T01:10:07Z' progress=1.000000 cache=0.0MiB(46txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=2d53ab607a863f339d8a6fa1a8a1b509922926829442bf77dc0fa35c8b5a575f height=47 version=0x20000000 log2_work=6.5849625 tx=48 date='2020-01-10T01:10:07Z' progress=1.000000 cache=0.0MiB(47txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=0dd9da9d9d29b3609cc1380d41040f59a0d695b9a5320355773cfaeebe27f1f3 height=48 version=0x20000000 log2_work=6.6147098 tx=49 date='2020-01-10T01:10:07Z' progress=1.000000 cache=0.0MiB(48txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=34deecc86c2d7004b6f5761e6e5e96c415fa7bff759fe2aa038af9fd7eff6e0e height=49 version=0x20000000 log2_work=6.6438562 tx=50 date='2020-01-10T01:10:07Z' progress=1.000000 cache=0.0MiB(49txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=351e6b365d05b18319c8bbc1ff2eb6b3b1a43fad4d52fba9a7053c9fc1a7a032 height=50 version=0x20000000 log2_work=6.6724253 tx=51 date='2020-01-10T01:10:08Z' progress=1.000000 cache=0.0MiB(50txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=60cac91cb58d3b7c5035f1090b2cf74ae610b9ad6fecb156a0781acc540a25b7 height=51 version=0x20000000 log2_work=6.7004397 tx=52 date='2020-01-10T01:10:08Z' progress=1.000000 cache=0.0MiB(51txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=4daea5c0f8c4ca01392db65fa0f2503304ccb18694a1957f8bba04c2874353c5 height=52 version=0x20000000 log2_work=6.7279205 tx=53 date='2020-01-10T01:10:08Z' progress=1.000000 cache=0.0MiB(52txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=3baf743a2d71331a0d210f76c1cd31535e4f7ed438a23ac09460a3ae68cc9a12 height=53 version=0x20000000 log2_work=6.7548875 tx=54 date='2020-01-10T01:10:08Z' progress=1.000000 cache=0.0MiB(53txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=7be2cb41fdb0001949a8195adb9079f03f2b7072b15b57076e225eaf49463015 height=54 version=0x20000000 log2_work=6.7813597 tx=55 date='2020-01-10T01:10:08Z' progress=1.000000 cache=0.0MiB(54txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=06670edbd1ff6e3a9d6e4cfa2eac441280ad643e6b91b38e9f1eb495255ae438 height=55 version=0x20000000 log2_work=6.8073549 tx=56 date='2020-01-10T01:10:08Z' progress=1.000000 cache=0.0MiB(55txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=785d36ba035982559768a066ee19fc60da379aed5b7cf55a8830e7550aae9c9e height=56 version=0x20000000 log2_work=6.83289 tx=57 date='2020-01-10T01:10:09Z' progress=1.000000 cache=0.0MiB(56txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=73c0e90be5363e6e81d02633131e69ddebdf3fce84da7bad04f8c74ac9800c80 height=57 version=0x20000000 log2_work=6.857981 tx=58 date='2020-01-10T01:10:09Z' progress=1.000000 cache=0.0MiB(57txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=03b1ebfe0cebd4702b20107d7b54e1448f1b84e6a7103ec76f1f45f9a03140b1 height=58 version=0x20000000 log2_work=6.882643 tx=59 date='2020-01-10T01:10:09Z' progress=1.000000 cache=0.0MiB(58txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=4dddd6691baf080f1160143b06a23c6b9009552226ddb6daa7447affa668c952 height=59 version=0x20000000 log2_work=6.9068906 tx=60 date='2020-01-10T01:10:09Z' progress=1.000000 cache=0.0MiB(59txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=419250325d22a7db8268a36e9f4d6b826754ee03b5fe908afdbbf4de95527201 height=60 version=0x20000000 log2_work=6.9307373 tx=61 date='2020-01-10T01:10:09Z' progress=1.000000 cache=0.0MiB(60txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=5e4a3dc457b121e5b6eb8a34cfc8ba7442857e2f038d95d82b2aed84a227c954 height=61 version=0x20000000 log2_work=6.9541963 tx=62 date='2020-01-10T01:10:09Z' progress=1.000000 cache=0.0MiB(61txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=3936d6ed64072522f0631bbfb18f9bf58edce0d40c41d87de6c5ae9d47fdff75 height=62 version=0x20000000 log2_work=6.9772799 tx=63 date='2020-01-10T01:10:10Z' progress=1.000000 cache=0.0MiB(62txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=0803e15955ddc0bb16253e61f64ba61d1a90d1612ceb7e5c8b08c9b449d6897e height=63 version=0x20000000 log2_work=7 tx=64 date='2020-01-10T01:10:10Z' progress=1.000000 cache=0.0MiB(63txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=1adbaa2ede08dcff27c880f76ae5f0d9a28c8e5fc7481b6bd9711fb4140db90c height=64 version=0x20000000 log2_work=7.0223678 tx=65 date='2020-01-10T01:10:10Z' progress=1.000000 cache=0.0MiB(64txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=05ca0861d84cb10849f6edbb9cf0acd813bb78f824d3916f3017454cb1516318 height=65 version=0x20000000 log2_work=7.0443941 tx=66 date='2020-01-10T01:10:10Z' progress=1.000000 cache=0.0MiB(65txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=3d9f186828f3051d08900e2d746513e622f51100745e9e7619d4bef7b12367d4 height=66 version=0x20000000 log2_work=7.0660892 tx=67 date='2020-01-10T01:10:10Z' progress=1.000000 cache=0.0MiB(66txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=61a4f2b44e9cbd6e6c32f4d9cc66d1ae3dce32c3f3c7f65da3f4684613a76089 height=67 version=0x20000000 log2_work=7.0874628 tx=68 date='2020-01-10T01:10:10Z' progress=1.000000 cache=0.0MiB(67txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=26bf772d6cbf53afc5485b3819d92ec713f5ab76cfe9abfec6c9290ab606c5e9 height=68 version=0x20000000 log2_work=7.1085245 tx=69 date='2020-01-10T01:10:11Z' progress=1.000000 cache=0.0MiB(68txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=66cdb664f84843d47fd6af68209174a90d377c867b5f0de5e5201c38e192de67 height=69 version=0x20000000 log2_work=7.129283 tx=70 date='2020-01-10T01:10:11Z' progress=1.000000 cache=0.0MiB(69txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=11f737ab010994a69bbf2701c03c9cb7d42bce61d054300c18a948b51dd01903 height=70 version=0x20000000 log2_work=7.1497471 tx=71 date='2020-01-10T01:10:11Z' progress=1.000000 cache=0.0MiB(70txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=5a2081b7804f203ebf32a25ebcd123a9160957e9e1bd9cbfe436fb3c4ec01dc3 height=71 version=0x20000000 log2_work=7.169925 tx=72 date='2020-01-10T01:10:11Z' progress=1.000000 cache=0.0MiB(71txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=087a9521700c31500021d6ae314353672bc304cd1db0866401fa19406ceeac65 height=72 version=0x20000000 log2_work=7.1898246 tx=73 date='2020-01-10T01:10:11Z' progress=1.000000 cache=0.0MiB(72txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=129b47e8ced497936750763bb7fc689bad4678ee83780e86c6b2bff6491466d9 height=73 version=0x20000000 log2_work=7.2094534 tx=74 date='2020-01-10T01:10:11Z' progress=1.000000 cache=0.0MiB(73txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=68a8ee9c3a71e9e1f62fbe29abfa4ce5d45e810c7d85f1b593181ecac55391ec height=74 version=0x20000000 log2_work=7.2288187 tx=75 date='2020-01-10T01:10:12Z' progress=1.000000 cache=0.0MiB(74txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=2685913c11f2c892365b3cdcc4f468d69d16bf6b332070ab8e0907e3f48e152d height=75 version=0x20000000 log2_work=7.2479275 tx=76 date='2020-01-10T01:10:12Z' progress=1.000000 cache=0.0MiB(75txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=6eac97578a8a7ad2fa97088b8ef2234a8ed7ac550a6a818d6bcc903b8530d23c height=76 version=0x20000000 log2_work=7.2667865 tx=77 date='2020-01-10T01:10:12Z' progress=1.000000 cache=0.0MiB(76txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=7f4e4d4d5e2d7c584d2b97cb4c9bba00ed76a80112835ec6f4fcbec01cb3b082 height=77 version=0x20000000 log2_work=7.2854022 tx=78 date='2020-01-10T01:10:12Z' progress=1.000000 cache=0.0MiB(77txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=46085e73492942f80c9d1922575de108d56ef3cc6d241f826db8bc22f4473224 height=78 version=0x20000000 log2_work=7.3037807 tx=79 date='2020-01-10T01:10:12Z' progress=1.000000 cache=0.0MiB(78txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=6e37b954a36ea936639fff2372c15cd43470baa8a94583256218a03bc99c3e86 height=79 version=0x20000000 log2_work=7.3219281 tx=80 date='2020-01-10T01:10:12Z' progress=1.000000 cache=0.0MiB(79txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=75e944f979a5cef3e15d978d2d57bfad878804302a4a97d0e8c43ae09cb688ae height=80 version=0x20000000 log2_work=7.33985 tx=81 date='2020-01-10T01:10:13Z' progress=1.000000 cache=0.0MiB(80txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=784ce77eaa34384cc7714ca6acd4747587b069126156b4082bcda4f8008e88e4 height=81 version=0x20000000 log2_work=7.357552 tx=82 date='2020-01-10T01:10:13Z' progress=1.000000 cache=0.0MiB(81txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=1879e6d0165bcab4271b75161dbe60867e20aa0be010ab6c5e8071d2b207d3bf height=82 version=0x20000000 log2_work=7.3750394 tx=83 date='2020-01-10T01:10:13Z' progress=1.000000 cache=0.0MiB(82txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=3aa4b25529c0b082ea9366d6065e6ff66fc6dbce3308ec9875380c1dcd465a76 height=83 version=0x20000000 log2_work=7.3923174 tx=84 date='2020-01-10T01:10:13Z' progress=1.000000 cache=0.0MiB(83txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=1cc2bab7207b67ec24b77705a7eae507886c3add3004bebd47b1990796acc01c height=84 version=0x20000000 log2_work=7.4093909 tx=85 date='2020-01-10T01:10:13Z' progress=1.000000 cache=0.0MiB(84txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=6e96177458cbd1598af33a6ca43c0a11302b85e26317d95e8c14a2a974422141 height=85 version=0x20000000 log2_work=7.4262648 tx=86 date='2020-01-10T01:10:13Z' progress=1.000000 cache=0.0MiB(85txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=3991ceec900ce49521aacae6edd2d709231f47a12b49ed3dce85aa0fdca8d56c height=86 version=0x20000000 log2_work=7.4429435 tx=87 date='2020-01-10T01:10:14Z' progress=1.000000 cache=0.0MiB(86txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=524e211105104f37f42aabc2b7102dfe89f8e01dfa51280a2e07a81f006b39bc height=87 version=0x20000000 log2_work=7.4594316 tx=88 date='2020-01-10T01:10:14Z' progress=1.000000 cache=0.0MiB(87txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=4c34b07a54ee87eb3f9a94953ac01bb5840a5d687aff0353f71e95acba3ec913 height=88 version=0x20000000 log2_work=7.4757334 tx=89 date='2020-01-10T01:10:14Z' progress=1.000000 cache=0.0MiB(88txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=6b48b1e7662a946d4289e35df616ad56f4b0d85b67c8d87c4f236674afe8be65 height=89 version=0x20000000 log2_work=7.4918531 tx=90 date='2020-01-10T01:10:14Z' progress=1.000000 cache=0.0MiB(89txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=50c416f9351c0e4c2bc0aa3db893efda6a954140653e6c66403bbce5f6ca62d8 height=90 version=0x20000000 log2_work=7.5077946 tx=91 date='2020-01-10T01:10:14Z' progress=1.000000 cache=0.0MiB(90txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=2b10e0043f962d66411b520ec73ce9d4a4453a4918c5662065f67aa019a3b797 height=91 version=0x20000000 log2_work=7.523562 tx=92 date='2020-01-10T01:10:14Z' progress=1.000000 cache=0.0MiB(91txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=6f1f1a26637d92f430d29bb2365cec05182e149b774125c4413a39992b0cd618 height=92 version=0x20000000 log2_work=7.5391588 tx=93 date='2020-01-10T01:10:15Z' progress=1.000000 cache=0.0MiB(92txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=350b771c91ccfa4363530236a29aff6bcf57d533d8bc12b5a60d2023b0e3f1af height=93 version=0x20000000 log2_work=7.5545889 tx=94 date='2020-01-10T01:10:15Z' progress=1.000000 cache=0.0MiB(93txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=04a8486a415011955786a5518b25ea468b4f2b911502da9cef31c980b18f0b99 height=94 version=0x20000000 log2_work=7.5698556 tx=95 date='2020-01-10T01:10:15Z' progress=1.000000 cache=0.0MiB(94txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=6e29a926abda0157b0efe16a638aab353ff620290d4b0c3c5c6645ba34a73286 height=95 version=0x20000000 log2_work=7.5849625 tx=96 date='2020-01-10T01:10:15Z' progress=1.000000 cache=0.0MiB(95txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=7c7d485991f9ba63f16f7359c145561445c4e6e7de12670703f53852fe1daa7e height=96 version=0x20000000 log2_work=7.5999128 tx=97 date='2020-01-10T01:10:15Z' progress=1.000000 cache=0.0MiB(96txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=69f5e28773688eb5ec91cf6b5955869cb68f2909a926bd87c6a3527ebae0c23d height=97 version=0x20000000 log2_work=7.6147098 tx=98 date='2020-01-10T01:10:15Z' progress=1.000000 cache=0.0MiB(97txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=2279ba0d61bab43e00ead72e1bab4ab1f196ec87071ceb3ca8d8f57c5136ad65 height=98 version=0x20000000 log2_work=7.6293566 tx=99 date='2020-01-10T01:10:16Z' progress=1.000000 cache=0.0MiB(98txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=40d49165416c56de92ca9fc064a8d8e78f9ac19633f21b06bdedfbb2c7224ecc height=99 version=0x20000000 log2_work=7.6438562 tx=100 date='2020-01-10T01:10:16Z' progress=1.000000 cache=0.0MiB(99txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z UpdateTip: new best=7e184e039ad051484a4d7d280521525d836b16868cc8d3a83933ca50284bb62f height=100 version=0x20000000 log2_work=7.6582115 tx=101 date='2020-01-10T01:10:16Z' progress=1.000000 cache=0.0MiB(100txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:58Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:59Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:09:59Z UpdateTip: new best=672b4fdf8736e3015c0fa433788232a5cbc45e016b50b2b477c4dce126434342 height=101 version=0x20000000 log2_work=7.6724253 tx=103 date='2020-01-10T01:10:16Z' progress=1.000000 cache=0.0MiB(105txo)[0;39;49m
+[1;34;49mtest/txvalidationcache_tests.cpp(148): Leaving test case "checkinputs_test"; testing time: 1329291us
+[0;39;49m[1;34;49mtest/txvalidationcache_tests.cpp(18): Leaving test suite "tx_validationcache_tests"; testing time: 1384584us
+[0;39;49m[1;34;49mLeaving test module "Bitcoin Core Test Suite"; testing time: 1384672us
+[0;39;49m
+[1;32;49m*** No errors detected
+[0;39;49m

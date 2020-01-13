@@ -1,0 +1,38 @@
+Running 5 test cases...
+[1;34;49mEntering test module "Bitcoin Core Test Suite"
+[0;39;49m[1;34;49mtest/script_standard_tests.cpp(14): Entering test suite "script_standard_tests"
+[0;39;49m[1;34;49mtest/script_standard_tests.cpp(16): Entering test case "script_standard_Solver_success"
+[0;39;49m[1;36;49m2020-01-10T01:09:50Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=80d85bcc35631d493cfb4ed003eb6ca6149a9d59bdd61c54fcc55f684d27c552[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/script_standard_tests.cpp(16): Leaving test case "script_standard_Solver_success"; testing time: 14526us
+[0;39;49m[1;34;49mtest/script_standard_tests.cpp(110): Entering test case "script_standard_Solver_failure"
+[0;39;49m[1;36;49m2020-01-10T01:09:50Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=80d85bcc35631d493cfb4ed003eb6ca6149a9d59bdd61c54fcc55f684d27c552[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/script_standard_tests.cpp(110): Leaving test case "script_standard_Solver_failure"; testing time: 2503us
+[0;39;49m[1;34;49mtest/script_standard_tests.cpp(166): Entering test case "script_standard_ExtractDestination"
+[0;39;49m[1;36;49m2020-01-10T01:09:50Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=80d85bcc35631d493cfb4ed003eb6ca6149a9d59bdd61c54fcc55f684d27c552[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/script_standard_tests.cpp(166): Leaving test case "script_standard_ExtractDestination"; testing time: 2335us
+[0;39;49m[1;34;49mtest/script_standard_tests.cpp(235): Entering test case "script_standard_ExtractDestinations"
+[0;39;49m[1;36;49m2020-01-10T01:09:50Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=80d85bcc35631d493cfb4ed003eb6ca6149a9d59bdd61c54fcc55f684d27c552[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/script_standard_tests.cpp(235): Leaving test case "script_standard_ExtractDestinations"; testing time: 2471us
+[0;39;49m[1;34;49mtest/script_standard_tests.cpp(301): Entering test case "script_standard_GetScriptFor_"
+[0;39;49m[1;36;49m2020-01-10T01:09:50Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=80d85bcc35631d493cfb4ed003eb6ca6149a9d59bdd61c54fcc55f684d27c552[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/script_standard_tests.cpp(301): Leaving test case "script_standard_GetScriptFor_"; testing time: 2602us
+[0;39;49m[1;34;49mtest/script_standard_tests.cpp(14): Leaving test suite "script_standard_tests"; testing time: 24507us
+[0;39;49m[1;34;49mLeaving test module "Bitcoin Core Test Suite"; testing time: 24667us
+[0;39;49m
+[1;32;49m*** No errors detected
+[0;39;49m

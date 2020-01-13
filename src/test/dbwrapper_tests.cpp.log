@@ -1,0 +1,107 @@
+Running 9 test cases...
+[1;34;49mEntering test module "Bitcoin Core Test Suite"
+[0;39;49m[1;34;49mtest/dbwrapper_tests.cpp(24): Entering test suite "dbwrapper_tests"
+[0;39;49m[1;34;49mtest/dbwrapper_tests.cpp(26): Entering test case "dbwrapper"
+[0;39;49m[1;36;49m2020-01-10T01:09:42Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=7a61046d37c36e521bcd2e4a3085cec7380cdc8916534dd5e25f076e4a38f85d[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Using obfuscation key for /tmp/test_common_Bitcoin Core/4159055695/dbwrapper_obfuscate_false: 0000000000000000[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Wrote new obfuscate key for /tmp/test_common_Bitcoin Core/4159055695/dbwrapper_obfuscate_true: 10b22e1265266d9f[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Using obfuscation key for /tmp/test_common_Bitcoin Core/4159055695/dbwrapper_obfuscate_true: 10b22e1265266d9f[0;39;49m
+[1;34;49mtest/dbwrapper_tests.cpp(26): Leaving test case "dbwrapper"; testing time: 15793us
+[0;39;49m[1;34;49mtest/dbwrapper_tests.cpp(45): Entering test case "dbwrapper_basic_data"
+[0;39;49m[1;36;49m2020-01-10T01:09:42Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=7a61046d37c36e521bcd2e4a3085cec7380cdc8916534dd5e25f076e4a38f85d[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Wiping LevelDB in /tmp/test_common_Bitcoin Core/2518893952/dbwrapper_1_obfuscate_false[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Opening LevelDB in /tmp/test_common_Bitcoin Core/2518893952/dbwrapper_1_obfuscate_false[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Using obfuscation key for /tmp/test_common_Bitcoin Core/2518893952/dbwrapper_1_obfuscate_false: 0000000000000000[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Wiping LevelDB in /tmp/test_common_Bitcoin Core/2518893952/dbwrapper_1_obfuscate_true[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Opening LevelDB in /tmp/test_common_Bitcoin Core/2518893952/dbwrapper_1_obfuscate_true[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Wrote new obfuscate key for /tmp/test_common_Bitcoin Core/2518893952/dbwrapper_1_obfuscate_true: f60476624e20bd9f[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Using obfuscation key for /tmp/test_common_Bitcoin Core/2518893952/dbwrapper_1_obfuscate_true: f60476624e20bd9f[0;39;49m
+[1;34;49mtest/dbwrapper_tests.cpp(45): Leaving test case "dbwrapper_basic_data"; testing time: 12729us
+[0;39;49m[1;34;49mtest/dbwrapper_tests.cpp(126): Entering test case "dbwrapper_batch"
+[0;39;49m[1;36;49m2020-01-10T01:09:42Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=7a61046d37c36e521bcd2e4a3085cec7380cdc8916534dd5e25f076e4a38f85d[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Using obfuscation key for /tmp/test_common_Bitcoin Core/2729629819/dbwrapper_batch_obfuscate_false: 0000000000000000[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Wrote new obfuscate key for /tmp/test_common_Bitcoin Core/2729629819/dbwrapper_batch_obfuscate_true: d157aec6db0545ac[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Using obfuscation key for /tmp/test_common_Bitcoin Core/2729629819/dbwrapper_batch_obfuscate_true: d157aec6db0545ac[0;39;49m
+[1;34;49mtest/dbwrapper_tests.cpp(126): Leaving test case "dbwrapper_batch"; testing time: 2733us
+[0;39;49m[1;34;49mtest/dbwrapper_tests.cpp(162): Entering test case "dbwrapper_iterator"
+[0;39;49m[1;36;49m2020-01-10T01:09:42Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=7a61046d37c36e521bcd2e4a3085cec7380cdc8916534dd5e25f076e4a38f85d[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Using obfuscation key for /tmp/test_common_Bitcoin Core/3154885567/dbwrapper_iterator_obfuscate_false: 0000000000000000[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Wrote new obfuscate key for /tmp/test_common_Bitcoin Core/3154885567/dbwrapper_iterator_obfuscate_true: 2e1bdb677f21a92d[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Using obfuscation key for /tmp/test_common_Bitcoin Core/3154885567/dbwrapper_iterator_obfuscate_true: 2e1bdb677f21a92d[0;39;49m
+[1;34;49mtest/dbwrapper_tests.cpp(162): Leaving test case "dbwrapper_iterator"; testing time: 2614us
+[0;39;49m[1;34;49mtest/dbwrapper_tests.cpp(203): Entering test case "existing_data_no_obfuscate"
+[0;39;49m[1;36;49m2020-01-10T01:09:42Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=7a61046d37c36e521bcd2e4a3085cec7380cdc8916534dd5e25f076e4a38f85d[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Opening LevelDB in /tmp/test_common_Bitcoin Core/2779518857/existing_data_no_obfuscate[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Using obfuscation key for /tmp/test_common_Bitcoin Core/2779518857/existing_data_no_obfuscate: 0000000000000000[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Opening LevelDB in /tmp/test_common_Bitcoin Core/2779518857/existing_data_no_obfuscate[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Using obfuscation key for /tmp/test_common_Bitcoin Core/2779518857/existing_data_no_obfuscate: 0000000000000000[0;39;49m
+[1;34;49mtest/dbwrapper_tests.cpp(203): Leaving test case "existing_data_no_obfuscate"; testing time: 9531us
+[0;39;49m[1;34;49mtest/dbwrapper_tests.cpp(244): Entering test case "existing_data_reindex"
+[0;39;49m[1;36;49m2020-01-10T01:09:42Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=7a61046d37c36e521bcd2e4a3085cec7380cdc8916534dd5e25f076e4a38f85d[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Opening LevelDB in /tmp/test_common_Bitcoin Core/3209603322/existing_data_reindex[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Using obfuscation key for /tmp/test_common_Bitcoin Core/3209603322/existing_data_reindex: 0000000000000000[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Wiping LevelDB in /tmp/test_common_Bitcoin Core/3209603322/existing_data_reindex[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Opening LevelDB in /tmp/test_common_Bitcoin Core/3209603322/existing_data_reindex[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Wrote new obfuscate key for /tmp/test_common_Bitcoin Core/3209603322/existing_data_reindex: b190f952e2ec68dc[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Using obfuscation key for /tmp/test_common_Bitcoin Core/3209603322/existing_data_reindex: b190f952e2ec68dc[0;39;49m
+[1;34;49mtest/dbwrapper_tests.cpp(244): Leaving test case "existing_data_reindex"; testing time: 9291us
+[0;39;49m[1;34;49mtest/dbwrapper_tests.cpp(280): Entering test case "iterator_ordering"
+[0;39;49m[1;36;49m2020-01-10T01:09:42Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=7a61046d37c36e521bcd2e4a3085cec7380cdc8916534dd5e25f076e4a38f85d[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Using obfuscation key for /tmp/test_common_Bitcoin Core/1370099013/iterator_ordering: 0000000000000000[0;39;49m
+[1;34;49mtest/dbwrapper_tests.cpp(280): Leaving test case "iterator_ordering"; testing time: 3472us
+[0;39;49m[1;34;49mtest/dbwrapper_tests.cpp(356): Entering test case "iterator_string_ordering"
+[0;39;49m[1;36;49m2020-01-10T01:09:42Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=7a61046d37c36e521bcd2e4a3085cec7380cdc8916534dd5e25f076e4a38f85d[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Using obfuscation key for /tmp/test_common_Bitcoin Core/2442229417/iterator_string_ordering: 0000000000000000[0;39;49m
+[1;34;49mtest/dbwrapper_tests.cpp(356): Leaving test case "iterator_string_ordering"; testing time: 3576us
+[0;39;49m[1;34;49mtest/dbwrapper_tests.cpp(400): Entering test case "unicodepath"
+[0;39;49m[1;36;49m2020-01-10T01:09:43Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=7a61046d37c36e521bcd2e4a3085cec7380cdc8916534dd5e25f076e4a38f85d[0;39;49m
+[1;36;49m2020-01-10T01:09:43Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:43Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:43Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:43Z Opening LevelDB in /tmp/test_common_Bitcoin Core/3344816980/test_runner_₿_🏃_20191128_104644[0;39;49m
+[1;36;49m2020-01-10T01:09:43Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:09:43Z Using obfuscation key for /tmp/test_common_Bitcoin Core/3344816980/test_runner_₿_🏃_20191128_104644: 0000000000000000[0;39;49m
+[1;34;49mtest/dbwrapper_tests.cpp(400): Leaving test case "unicodepath"; testing time: 6932us
+[0;39;49m[1;34;49mtest/dbwrapper_tests.cpp(24): Leaving test suite "dbwrapper_tests"; testing time: 66806us
+[0;39;49m[1;34;49mLeaving test module "Bitcoin Core Test Suite"; testing time: 66909us
+[0;39;49m
+[1;32;49m*** No errors detected
+[0;39;49m

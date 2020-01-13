@@ -1,0 +1,21 @@
+Running 2 test cases...
+[1;34;49mEntering test module "Bitcoin Core Test Suite"
+[0;39;49m[1;34;49mtest/timedata_tests.cpp(17): Entering test suite "timedata_tests"
+[0;39;49m[1;34;49mtest/timedata_tests.cpp(19): Entering test case "util_MedianFilter"
+[0;39;49m[1;36;49m2020-01-10T01:09:52Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=8e6bb24264635f1a803f94aa5ff6a581502360f1797c31942ade7095c5e971c6[0;39;49m
+[1;36;49m2020-01-10T01:09:52Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:53Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:53Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/timedata_tests.cpp(19): Leaving test case "util_MedianFilter"; testing time: 14599us
+[0;39;49m[1;34;49mtest/timedata_tests.cpp(55): Entering test case "addtimedata"
+[0;39;49m[1;36;49m2020-01-10T01:09:53Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=8e6bb24264635f1a803f94aa5ff6a581502360f1797c31942ade7095c5e971c6[0;39;49m
+[1;36;49m2020-01-10T01:09:53Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:53Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:53Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:53Z : Please check that your computer's date and time are correct! If your clock is wrong, Bitcoin Core will not work properly.[0;39;49m
+[1;34;49mtest/timedata_tests.cpp(55): Leaving test case "addtimedata"; testing time: 2789us
+[0;39;49m[1;34;49mtest/timedata_tests.cpp(17): Leaving test suite "timedata_tests"; testing time: 17419us
+[0;39;49m[1;34;49mLeaving test module "Bitcoin Core Test Suite"; testing time: 17515us
+[0;39;49m
+[1;32;49m*** No errors detected
+[0;39;49m

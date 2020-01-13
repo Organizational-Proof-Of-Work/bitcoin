@@ -1,0 +1,122 @@
+Running 19 test cases...
+[1;34;49mEntering test module "Bitcoin Core Test Suite"
+[0;39;49m[1;34;49mtest/script_tests.cpp(123): Entering test suite "script_tests"
+[0;39;49m[1;34;49mtest/script_tests.cpp(453): Entering test case "script_build"
+[0;39;49m[1;36;49m2020-01-10T01:09:49Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=b743be6eb0ced350201b6b1e50e316d2ef1c535f5b98ba848bb2209a4fbe2aa1[0;39;49m
+[1;36;49m2020-01-10T01:09:49Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:49Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:49Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/script_tests.cpp(453): Leaving test case "script_build"; testing time: 190138us
+[0;39;49m[1;34;49mtest/script_tests.cpp(930): Entering test case "script_json_test"
+[0;39;49m[1;36;49m2020-01-10T01:09:50Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=b743be6eb0ced350201b6b1e50e316d2ef1c535f5b98ba848bb2209a4fbe2aa1[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/script_tests.cpp(930): Leaving test case "script_json_test"; testing time: 157393us
+[0;39;49m[1;34;49mtest/script_tests.cpp(973): Entering test case "script_PushData"
+[0;39;49m[1;36;49m2020-01-10T01:09:50Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=b743be6eb0ced350201b6b1e50e316d2ef1c535f5b98ba848bb2209a4fbe2aa1[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/script_tests.cpp(973): Leaving test case "script_PushData"; testing time: 2374us
+[0;39;49m[1;34;49mtest/script_tests.cpp(1015): Entering test case "script_cltv_truncated"
+[0;39;49m[1;36;49m2020-01-10T01:09:50Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=b743be6eb0ced350201b6b1e50e316d2ef1c535f5b98ba848bb2209a4fbe2aa1[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/script_tests.cpp(1015): Leaving test case "script_cltv_truncated"; testing time: 2235us
+[0;39;49m[1;34;49mtest/script_tests.cpp(1057): Entering test case "script_CHECKMULTISIG12"
+[0;39;49m[1;36;49m2020-01-10T01:09:50Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=b743be6eb0ced350201b6b1e50e316d2ef1c535f5b98ba848bb2209a4fbe2aa1[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/script_tests.cpp(1057): Leaving test case "script_CHECKMULTISIG12"; testing time: 3121us
+[0;39;49m[1;34;49mtest/script_tests.cpp(1087): Entering test case "script_CHECKMULTISIG23"
+[0;39;49m[1;36;49m2020-01-10T01:09:50Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=b743be6eb0ced350201b6b1e50e316d2ef1c535f5b98ba848bb2209a4fbe2aa1[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/script_tests.cpp(1087): Leaving test case "script_CHECKMULTISIG23"; testing time: 5358us
+[0;39;49m[1;34;49mtest/script_tests.cpp(1166): Entering test case "script_combineSigs"
+[0;39;49m[1;36;49m2020-01-10T01:09:50Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=b743be6eb0ced350201b6b1e50e316d2ef1c535f5b98ba848bb2209a4fbe2aa1[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/script_tests.cpp(1166): Leaving test case "script_combineSigs"; testing time: 5877us
+[0;39;49m[1;34;49mtest/script_tests.cpp(1280): Entering test case "script_standard_push"
+[0;39;49m[1;36;49m2020-01-10T01:09:50Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=b743be6eb0ced350201b6b1e50e316d2ef1c535f5b98ba848bb2209a4fbe2aa1[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/script_tests.cpp(1280): Leaving test case "script_standard_push"; testing time: 107761us
+[0;39;49m[1;34;49mtest/script_tests.cpp(1301): Entering test case "script_IsPushOnly_on_invalid_scripts"
+[0;39;49m[1;36;49m2020-01-10T01:09:50Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=b743be6eb0ced350201b6b1e50e316d2ef1c535f5b98ba848bb2209a4fbe2aa1[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/script_tests.cpp(1301): Leaving test case "script_IsPushOnly_on_invalid_scripts"; testing time: 2422us
+[0;39;49m[1;34;49mtest/script_tests.cpp(1312): Entering test case "script_GetScriptAsm"
+[0;39;49m[1;36;49m2020-01-10T01:09:50Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=b743be6eb0ced350201b6b1e50e316d2ef1c535f5b98ba848bb2209a4fbe2aa1[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/script_tests.cpp(1312): Leaving test case "script_GetScriptAsm"; testing time: 2278us
+[0;39;49m[1;34;49mtest/script_tests.cpp(1350): Entering test case "script_FindAndDelete"
+[0;39;49m[1;36;49m2020-01-10T01:09:50Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=b743be6eb0ced350201b6b1e50e316d2ef1c535f5b98ba848bb2209a4fbe2aa1[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/script_tests.cpp(1350): Leaving test case "script_FindAndDelete"; testing time: 2248us
+[0;39;49m[1;34;49mtest/script_tests.cpp(1459): Entering test case "script_HasValidOps"
+[0;39;49m[1;36;49m2020-01-10T01:09:50Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=b743be6eb0ced350201b6b1e50e316d2ef1c535f5b98ba848bb2209a4fbe2aa1[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/script_tests.cpp(1459): Leaving test case "script_HasValidOps"; testing time: 2209us
+[0;39;49m[1;34;49mtest/script_tests.cpp(1473): Entering test case "script_can_append_self"
+[0;39;49m[1;36;49m2020-01-10T01:09:50Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=b743be6eb0ced350201b6b1e50e316d2ef1c535f5b98ba848bb2209a4fbe2aa1[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/script_tests.cpp(1473): Leaving test case "script_can_append_self"; testing time: 2255us
+[0;39;49m[1;34;49mtest/script_tests.cpp(1494): Entering test case "bitcoinconsensus_verify_script_returns_true"
+[0;39;49m[1;36;49m2020-01-10T01:09:50Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=b743be6eb0ced350201b6b1e50e316d2ef1c535f5b98ba848bb2209a4fbe2aa1[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/script_tests.cpp(1494): Leaving test case "bitcoinconsensus_verify_script_returns_true"; testing time: 2267us
+[0;39;49m[1;34;49mtest/script_tests.cpp(1517): Entering test case "bitcoinconsensus_verify_script_tx_index_err"
+[0;39;49m[1;36;49m2020-01-10T01:09:50Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=b743be6eb0ced350201b6b1e50e316d2ef1c535f5b98ba848bb2209a4fbe2aa1[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/script_tests.cpp(1517): Leaving test case "bitcoinconsensus_verify_script_tx_index_err"; testing time: 2256us
+[0;39;49m[1;34;49mtest/script_tests.cpp(1540): Entering test case "bitcoinconsensus_verify_script_tx_size"
+[0;39;49m[1;36;49m2020-01-10T01:09:50Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=b743be6eb0ced350201b6b1e50e316d2ef1c535f5b98ba848bb2209a4fbe2aa1[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/script_tests.cpp(1540): Leaving test case "bitcoinconsensus_verify_script_tx_size"; testing time: 2252us
+[0;39;49m[1;34;49mtest/script_tests.cpp(1563): Entering test case "bitcoinconsensus_verify_script_tx_serialization"
+[0;39;49m[1;36;49m2020-01-10T01:09:50Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=b743be6eb0ced350201b6b1e50e316d2ef1c535f5b98ba848bb2209a4fbe2aa1[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/script_tests.cpp(1563): Leaving test case "bitcoinconsensus_verify_script_tx_serialization"; testing time: 2223us
+[0;39;49m[1;34;49mtest/script_tests.cpp(1586): Entering test case "bitcoinconsensus_verify_script_amount_required_err"
+[0;39;49m[1;36;49m2020-01-10T01:09:50Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=b743be6eb0ced350201b6b1e50e316d2ef1c535f5b98ba848bb2209a4fbe2aa1[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/script_tests.cpp(1586): Leaving test case "bitcoinconsensus_verify_script_amount_required_err"; testing time: 2216us
+[0;39;49m[1;34;49mtest/script_tests.cpp(1609): Entering test case "bitcoinconsensus_verify_script_invalid_flags"
+[0;39;49m[1;36;49m2020-01-10T01:09:50Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=b743be6eb0ced350201b6b1e50e316d2ef1c535f5b98ba848bb2209a4fbe2aa1[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:50Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/script_tests.cpp(1609): Leaving test case "bitcoinconsensus_verify_script_invalid_flags"; testing time: 2209us
+[0;39;49m[1;34;49mtest/script_tests.cpp(123): Leaving test suite "script_tests"; testing time: 499361us
+[0;39;49m[1;34;49mLeaving test module "Bitcoin Core Test Suite"; testing time: 499457us
+[0;39;49m
+[1;32;49m*** No errors detected
+[0;39;49m

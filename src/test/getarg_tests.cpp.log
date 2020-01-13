@@ -1,0 +1,40 @@
+Running 5 test cases...
+[1;34;49mEntering test module "Bitcoin Core Test Suite"
+[0;39;49m[1;34;49mtest/getarg_tests.cpp(16): Entering test suite "getarg_tests"
+[0;39;49m[1;34;49mtest/getarg_tests.cpp(44): Entering test case "boolarg"
+[0;39;49m[1;36;49m2020-01-10T01:09:41Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=58356c27029cdb7a082266dbb93cfc56762f7f27a34bbfaafef0032a59252a6a[0;39;49m
+[1;36;49m2020-01-10T01:09:41Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:41Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:41Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:41Z Warning: parsed potentially confusing double-negative -foo=0[0;39;49m
+[1;34;49mtest/getarg_tests.cpp(44): Leaving test case "boolarg"; testing time: 14241us
+[0;39;49m[1;34;49mtest/getarg_tests.cpp(98): Entering test case "stringarg"
+[0;39;49m[1;36;49m2020-01-10T01:09:41Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=58356c27029cdb7a082266dbb93cfc56762f7f27a34bbfaafef0032a59252a6a[0;39;49m
+[1;36;49m2020-01-10T01:09:41Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:41Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:41Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/getarg_tests.cpp(98): Leaving test case "stringarg"; testing time: 2463us
+[0;39;49m[1;34;49mtest/getarg_tests.cpp(125): Entering test case "intarg"
+[0;39;49m[1;36;49m2020-01-10T01:09:41Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=58356c27029cdb7a082266dbb93cfc56762f7f27a34bbfaafef0032a59252a6a[0;39;49m
+[1;36;49m2020-01-10T01:09:41Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:41Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:41Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/getarg_tests.cpp(125): Leaving test case "intarg"; testing time: 2393us
+[0;39;49m[1;34;49mtest/getarg_tests.cpp(147): Entering test case "doubledash"
+[0;39;49m[1;36;49m2020-01-10T01:09:41Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=58356c27029cdb7a082266dbb93cfc56762f7f27a34bbfaafef0032a59252a6a[0;39;49m
+[1;36;49m2020-01-10T01:09:41Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:41Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:41Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/getarg_tests.cpp(147): Leaving test case "doubledash"; testing time: 2384us
+[0;39;49m[1;34;49mtest/getarg_tests.cpp(160): Entering test case "boolargno"
+[0;39;49m[1;36;49m2020-01-10T01:09:41Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=58356c27029cdb7a082266dbb93cfc56762f7f27a34bbfaafef0032a59252a6a[0;39;49m
+[1;36;49m2020-01-10T01:09:41Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:41Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:41Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:41Z Warning: parsed potentially confusing double-negative -foo=0[0;39;49m
+[1;34;49mtest/getarg_tests.cpp(160): Leaving test case "boolargno"; testing time: 2343us
+[0;39;49m[1;34;49mtest/getarg_tests.cpp(16): Leaving test suite "getarg_tests"; testing time: 23889us
+[0;39;49m[1;34;49mLeaving test module "Bitcoin Core Test Suite"; testing time: 23989us
+[0;39;49m
+[1;32;49m*** No errors detected
+[0;39;49m

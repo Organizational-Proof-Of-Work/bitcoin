@@ -1,0 +1,20 @@
+Running 2 test cases...
+[1;34;49mEntering test module "Bitcoin Core Test Suite"
+[0;39;49m[1;34;49mtest/raii_event_tests.cpp(37): Entering test suite "raii_event_tests"
+[0;39;49m[1;34;49mtest/raii_event_tests.cpp(39): Entering test case "raii_event_creation"
+[0;39;49m[1;36;49m2020-01-10T01:09:48Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=fe57044c35aaf97773c0080e74ee5394c50fbf0c5c41db50c0193896ea0afe97[0;39;49m
+[1;36;49m2020-01-10T01:09:48Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:48Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:48Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/raii_event_tests.cpp(39): Leaving test case "raii_event_creation"; testing time: 14831us
+[0;39;49m[1;34;49mtest/raii_event_tests.cpp(68): Entering test case "raii_event_order"
+[0;39;49m[1;36;49m2020-01-10T01:09:48Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=fe57044c35aaf97773c0080e74ee5394c50fbf0c5c41db50c0193896ea0afe97[0;39;49m
+[1;36;49m2020-01-10T01:09:48Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:48Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:48Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/raii_event_tests.cpp(68): Leaving test case "raii_event_order"; testing time: 2549us
+[0;39;49m[1;34;49mtest/raii_event_tests.cpp(37): Leaving test suite "raii_event_tests"; testing time: 17408us
+[0;39;49m[1;34;49mLeaving test module "Bitcoin Core Test Suite"; testing time: 17528us
+[0;39;49m
+[1;32;49m*** No errors detected
+[0;39;49m

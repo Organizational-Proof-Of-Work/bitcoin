@@ -1,0 +1,20 @@
+Running 2 test cases...
+[1;34;49mEntering test module "Bitcoin Core Test Suite"
+[0;39;49m[1;34;49mtest/reverselock_tests.cpp(10): Entering test suite "reverselock_tests"
+[0;39;49m[1;34;49mtest/reverselock_tests.cpp(12): Entering test case "reverselock_basics"
+[0;39;49m[1;36;49m2020-01-10T01:09:49Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=be244e601305f5bcd9c394504b900cdf8d2b0ac645a84784de4d81d9e4d7d852[0;39;49m
+[1;36;49m2020-01-10T01:09:49Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:49Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:49Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/reverselock_tests.cpp(12): Leaving test case "reverselock_basics"; testing time: 14389us
+[0;39;49m[1;34;49mtest/reverselock_tests.cpp(25): Entering test case "reverselock_errors"
+[0;39;49m[1;36;49m2020-01-10T01:09:49Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=be244e601305f5bcd9c394504b900cdf8d2b0ac645a84784de4d81d9e4d7d852[0;39;49m
+[1;36;49m2020-01-10T01:09:49Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:49Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:49Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/reverselock_tests.cpp(25): Leaving test case "reverselock_errors"; testing time: 2745us
+[0;39;49m[1;34;49mtest/reverselock_tests.cpp(10): Leaving test suite "reverselock_tests"; testing time: 17161us
+[0;39;49m[1;34;49mLeaving test module "Bitcoin Core Test Suite"; testing time: 17271us
+[0;39;49m
+[1;32;49m*** No errors detected
+[0;39;49m

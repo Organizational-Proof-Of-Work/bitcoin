@@ -1,0 +1,35 @@
+Running 4 test cases...
+[1;34;49mEntering test module "Bitcoin Core Test Suite"
+[0;39;49m[1;34;49mtest/flatfile_tests.cpp(13): Entering test suite "flatfile_tests"
+[0;39;49m[1;34;49mtest/flatfile_tests.cpp(15): Entering test case "flatfile_filename"
+[0;39;49m[1;36;49m2020-01-10T01:09:41Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=3d192c20e0cafa3f69a19cf204bbb27a99aeb9ac942dc66daef3ff87e091b8ae[0;39;49m
+[1;36;49m2020-01-10T01:09:41Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:41Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:41Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/flatfile_tests.cpp(15): Leaving test case "flatfile_filename"; testing time: 14915us
+[0;39;49m[1;34;49mtest/flatfile_tests.cpp(28): Entering test case "flatfile_open"
+[0;39;49m[1;36;49m2020-01-10T01:09:41Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=3d192c20e0cafa3f69a19cf204bbb27a99aeb9ac942dc66daef3ff87e091b8ae[0;39;49m
+[1;36;49m2020-01-10T01:09:41Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:41Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:41Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/flatfile_tests.cpp(28): Leaving test case "flatfile_open"; testing time: 2813us
+[0;39;49m[1;34;49mtest/flatfile_tests.cpp(89): Entering test case "flatfile_allocate"
+[0;39;49m[1;36;49m2020-01-10T01:09:41Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=3d192c20e0cafa3f69a19cf204bbb27a99aeb9ac942dc66daef3ff87e091b8ae[0;39;49m
+[1;36;49m2020-01-10T01:09:41Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:41Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:41Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:41Z Pre-allocating up to position 0x64 in a00000.dat[0;39;49m
+[1;36;49m2020-01-10T01:09:41Z Pre-allocating up to position 0xc8 in a00000.dat[0;39;49m
+[1;34;49mtest/flatfile_tests.cpp(89): Leaving test case "flatfile_allocate"; testing time: 2563us
+[0;39;49m[1;34;49mtest/flatfile_tests.cpp(109): Entering test case "flatfile_flush"
+[0;39;49m[1;36;49m2020-01-10T01:09:41Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=3d192c20e0cafa3f69a19cf204bbb27a99aeb9ac942dc66daef3ff87e091b8ae[0;39;49m
+[1;36;49m2020-01-10T01:09:41Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:41Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:41Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:41Z Pre-allocating up to position 0x64 in a00000.dat[0;39;49m
+[1;34;49mtest/flatfile_tests.cpp(109): Leaving test case "flatfile_flush"; testing time: 4422us
+[0;39;49m[1;34;49mtest/flatfile_tests.cpp(13): Leaving test suite "flatfile_tests"; testing time: 24778us
+[0;39;49m[1;34;49mLeaving test module "Bitcoin Core Test Suite"; testing time: 24881us
+[0;39;49m
+[1;32;49m*** No errors detected
+[0;39;49m

@@ -1,0 +1,26 @@
+Running 3 test cases...
+[1;34;49mEntering test module "Bitcoin Core Test Suite"
+[0;39;49m[1;34;49mtest/bip32_tests.cpp(124): Entering test suite "bip32_tests"
+[0;39;49m[1;34;49mtest/bip32_tests.cpp(126): Entering test case "bip32_test1"
+[0;39;49m[1;36;49m2020-01-10T01:09:31Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=adde67f80c5084ef72bf796a9e22dd2b2c5a85bed643585f5e7e6fd38f65b686[0;39;49m
+[1;36;49m2020-01-10T01:09:31Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:31Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:31Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/bip32_tests.cpp(126): Leaving test case "bip32_test1"; testing time: 17006us
+[0;39;49m[1;34;49mtest/bip32_tests.cpp(130): Entering test case "bip32_test2"
+[0;39;49m[1;36;49m2020-01-10T01:09:31Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=adde67f80c5084ef72bf796a9e22dd2b2c5a85bed643585f5e7e6fd38f65b686[0;39;49m
+[1;36;49m2020-01-10T01:09:31Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:31Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:31Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/bip32_tests.cpp(130): Leaving test case "bip32_test2"; testing time: 4200us
+[0;39;49m[1;34;49mtest/bip32_tests.cpp(134): Entering test case "bip32_test3"
+[0;39;49m[1;36;49m2020-01-10T01:09:31Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=adde67f80c5084ef72bf796a9e22dd2b2c5a85bed643585f5e7e6fd38f65b686[0;39;49m
+[1;36;49m2020-01-10T01:09:31Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:31Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:31Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/bip32_tests.cpp(134): Leaving test case "bip32_test3"; testing time: 3154us
+[0;39;49m[1;34;49mtest/bip32_tests.cpp(124): Leaving test suite "bip32_tests"; testing time: 24426us
+[0;39;49m[1;34;49mLeaving test module "Bitcoin Core Test Suite"; testing time: 24533us
+[0;39;49m
+[1;32;49m*** No errors detected
+[0;39;49m

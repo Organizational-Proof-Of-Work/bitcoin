@@ -1,0 +1,80 @@
+Running 12 test cases...
+[1;34;49mEntering test module "Bitcoin Core Test Suite"
+[0;39;49m[1;34;49mtest/bloom_tests.cpp(24): Entering test suite "bloom_tests"
+[0;39;49m[1;34;49mtest/bloom_tests.cpp(26): Entering test case "bloom_create_insert_serialize"
+[0;39;49m[1;36;49m2020-01-10T01:09:32Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=a96cf7f3d1b56e40c9cc3e5dcebbd7cd12fa4984657a3af97b08ca13214084c7[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/bloom_tests.cpp(26): Leaving test case "bloom_create_insert_serialize"; testing time: 18828us
+[0;39;49m[1;34;49mtest/bloom_tests.cpp(57): Entering test case "bloom_create_insert_serialize_with_tweak"
+[0;39;49m[1;36;49m2020-01-10T01:09:32Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=a96cf7f3d1b56e40c9cc3e5dcebbd7cd12fa4984657a3af97b08ca13214084c7[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/bloom_tests.cpp(57): Leaving test case "bloom_create_insert_serialize_with_tweak"; testing time: 3096us
+[0;39;49m[1;34;49mtest/bloom_tests.cpp(85): Entering test case "bloom_create_insert_key"
+[0;39;49m[1;36;49m2020-01-10T01:09:32Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=a96cf7f3d1b56e40c9cc3e5dcebbd7cd12fa4984657a3af97b08ca13214084c7[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/bloom_tests.cpp(85): Leaving test case "bloom_create_insert_key"; testing time: 3095us
+[0;39;49m[1;34;49mtest/bloom_tests.cpp(109): Entering test case "bloom_match"
+[0;39;49m[1;36;49m2020-01-10T01:09:32Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=a96cf7f3d1b56e40c9cc3e5dcebbd7cd12fa4984657a3af97b08ca13214084c7[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/bloom_tests.cpp(109): Leaving test case "bloom_match"; testing time: 3099us
+[0;39;49m[1;34;49mtest/bloom_tests.cpp(178): Entering test case "merkle_block_1"
+[0;39;49m[1;36;49m2020-01-10T01:09:32Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=a96cf7f3d1b56e40c9cc3e5dcebbd7cd12fa4984657a3af97b08ca13214084c7[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/bloom_tests.cpp(178): Leaving test case "merkle_block_1"; testing time: 3201us
+[0;39;49m[1;34;49mtest/bloom_tests.cpp(219): Entering test case "merkle_block_2"
+[0;39;49m[1;36;49m2020-01-10T01:09:32Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=a96cf7f3d1b56e40c9cc3e5dcebbd7cd12fa4984657a3af97b08ca13214084c7[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/bloom_tests.cpp(219): Leaving test case "merkle_block_2"; testing time: 3142us
+[0;39;49m[1;34;49mtest/bloom_tests.cpp(274): Entering test case "merkle_block_2_with_update_none"
+[0;39;49m[1;36;49m2020-01-10T01:09:32Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=a96cf7f3d1b56e40c9cc3e5dcebbd7cd12fa4984657a3af97b08ca13214084c7[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/bloom_tests.cpp(274): Leaving test case "merkle_block_2_with_update_none"; testing time: 3109us
+[0;39;49m[1;34;49mtest/bloom_tests.cpp(326): Entering test case "merkle_block_3_and_serialize"
+[0;39;49m[1;36;49m2020-01-10T01:09:32Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=a96cf7f3d1b56e40c9cc3e5dcebbd7cd12fa4984657a3af97b08ca13214084c7[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/bloom_tests.cpp(326): Leaving test case "merkle_block_3_and_serialize"; testing time: 2993us
+[0;39;49m[1;34;49mtest/bloom_tests.cpp(365): Entering test case "merkle_block_4"
+[0;39;49m[1;36;49m2020-01-10T01:09:32Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=a96cf7f3d1b56e40c9cc3e5dcebbd7cd12fa4984657a3af97b08ca13214084c7[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/bloom_tests.cpp(365): Leaving test case "merkle_block_4"; testing time: 3097us
+[0;39;49m[1;34;49mtest/bloom_tests.cpp(411): Entering test case "merkle_block_4_test_p2pubkey_only"
+[0;39;49m[1;36;49m2020-01-10T01:09:32Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=a96cf7f3d1b56e40c9cc3e5dcebbd7cd12fa4984657a3af97b08ca13214084c7[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/bloom_tests.cpp(411): Leaving test case "merkle_block_4_test_p2pubkey_only"; testing time: 3051us
+[0;39;49m[1;34;49mtest/bloom_tests.cpp(434): Entering test case "merkle_block_4_test_update_none"
+[0;39;49m[1;36;49m2020-01-10T01:09:32Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=a96cf7f3d1b56e40c9cc3e5dcebbd7cd12fa4984657a3af97b08ca13214084c7[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/bloom_tests.cpp(434): Leaving test case "merkle_block_4_test_update_none"; testing time: 3121us
+[0;39;49m[1;34;49mtest/bloom_tests.cpp(462): Entering test case "rolling_bloom"
+[0;39;49m[1;36;49m2020-01-10T01:09:32Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=a96cf7f3d1b56e40c9cc3e5dcebbd7cd12fa4984657a3af97b08ca13214084c7[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/bloom_tests.cpp(462): Leaving test case "rolling_bloom"; testing time: 8142us
+[0;39;49m[1;34;49mtest/bloom_tests.cpp(24): Leaving test suite "bloom_tests"; testing time: 58226us
+[0;39;49m[1;34;49mLeaving test module "Bitcoin Core Test Suite"; testing time: 58360us
+[0;39;49m
+[1;32;49m*** No errors detected
+[0;39;49m

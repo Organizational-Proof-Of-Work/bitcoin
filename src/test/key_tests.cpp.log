@@ -1,0 +1,26 @@
+Running 3 test cases...
+[1;34;49mEntering test module "Bitcoin Core Test Suite"
+[0;39;49m[1;34;49mtest/key_tests.cpp(30): Entering test suite "key_tests"
+[0;39;49m[1;34;49mtest/key_tests.cpp(32): Entering test case "key_test1"
+[0;39;49m[1;36;49m2020-01-10T01:09:42Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=8b9f0411b8dee91f97c7934e614d0f69ce4e94764ee2ea28c4849474f4e46b22[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/key_tests.cpp(32): Leaving test case "key_test1"; testing time: 59934us
+[0;39;49m[1;34;49mtest/key_tests.cpp(154): Entering test case "key_signature_tests"
+[0;39;49m[1;36;49m2020-01-10T01:09:42Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=8b9f0411b8dee91f97c7934e614d0f69ce4e94764ee2ea28c4849474f4e46b22[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/key_tests.cpp(154): Leaving test case "key_signature_tests"; testing time: 35230us
+[0;39;49m[1;34;49mtest/key_tests.cpp(190): Entering test case "key_key_negation"
+[0;39;49m[1;36;49m2020-01-10T01:09:42Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=8b9f0411b8dee91f97c7934e614d0f69ce4e94764ee2ea28c4849474f4e46b22[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/key_tests.cpp(190): Leaving test case "key_key_negation"; testing time: 3582us
+[0;39;49m[1;34;49mtest/key_tests.cpp(30): Leaving test suite "key_tests"; testing time: 98824us
+[0;39;49m[1;34;49mLeaving test module "Bitcoin Core Test Suite"; testing time: 98933us
+[0;39;49m
+[1;32;49m*** No errors detected
+[0;39;49m

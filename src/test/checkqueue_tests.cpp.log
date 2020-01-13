@@ -1,0 +1,158 @@
+Running 10 test cases...
+[1;34;49mEntering test module "Bitcoin Core Test Suite"
+[0;39;49m[1;34;49mtest/checkqueue_tests.cpp(22): Entering test suite "checkqueue_tests"
+[0;39;49m[1;34;49mtest/checkqueue_tests.cpp(176): Entering test case "test_CheckQueue_Correct_Zero"
+[0;39;49m[1;36;49m2020-01-10T01:09:32Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=4d4c914a26786e37bb7a93589d82d30bffc9decf3a229810b2461beb813a385b[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using obfuscation key for /tmp/test_common_Bitcoin Core/3821934155/blocks/index: 0000000000000000[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Wrote new obfuscate key for /tmp/test_common_Bitcoin Core/3821934155/chainstate: daa2f320b9132816[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using obfuscation key for /tmp/test_common_Bitcoin Core/3821934155/chainstate: daa2f320b9132816[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Pre-allocating up to position 0x1000000 in blk00000.dat[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z UpdateTip: new best=000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f height=0 version=0x00000001 log2_work=32.000022 tx=1 date='2009-01-03T18:15:05Z' progress=0.000000 cache=0.0MiB(0txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z ERROR: DeserializeFileDB: Failed to open file /tmp/test_common_Bitcoin Core/3821934155/banlist.dat[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Invalid or missing banlist.dat; recreating[0;39;49m
+[1;34;49mtest/checkqueue_tests.cpp(176): Leaving test case "test_CheckQueue_Correct_Zero"; testing time: 19176us
+[0;39;49m[1;34;49mtest/checkqueue_tests.cpp(184): Entering test case "test_CheckQueue_Correct_One"
+[0;39;49m[1;36;49m2020-01-10T01:09:32Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=4d4c914a26786e37bb7a93589d82d30bffc9decf3a229810b2461beb813a385b[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using obfuscation key for /tmp/test_common_Bitcoin Core/1884625741/blocks/index: 0000000000000000[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Wrote new obfuscate key for /tmp/test_common_Bitcoin Core/1884625741/chainstate: 8fd5f82b52094159[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using obfuscation key for /tmp/test_common_Bitcoin Core/1884625741/chainstate: 8fd5f82b52094159[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Pre-allocating up to position 0x1000000 in blk00000.dat[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z UpdateTip: new best=000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f height=0 version=0x00000001 log2_work=32.000022 tx=1 date='2009-01-03T18:15:05Z' progress=0.000000 cache=0.0MiB(0txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z ERROR: DeserializeFileDB: Failed to open file /tmp/test_common_Bitcoin Core/1884625741/banlist.dat[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Invalid or missing banlist.dat; recreating[0;39;49m
+[1;34;49mtest/checkqueue_tests.cpp(184): Leaving test case "test_CheckQueue_Correct_One"; testing time: 6184us
+[0;39;49m[1;34;49mtest/checkqueue_tests.cpp(192): Entering test case "test_CheckQueue_Correct_Max"
+[0;39;49m[1;36;49m2020-01-10T01:09:32Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=4d4c914a26786e37bb7a93589d82d30bffc9decf3a229810b2461beb813a385b[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using obfuscation key for /tmp/test_common_Bitcoin Core/2807852739/blocks/index: 0000000000000000[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Wrote new obfuscate key for /tmp/test_common_Bitcoin Core/2807852739/chainstate: b30f9e6c04c68b56[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using obfuscation key for /tmp/test_common_Bitcoin Core/2807852739/chainstate: b30f9e6c04c68b56[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Pre-allocating up to position 0x1000000 in blk00000.dat[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z UpdateTip: new best=000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f height=0 version=0x00000001 log2_work=32.000022 tx=1 date='2009-01-03T18:15:05Z' progress=0.000000 cache=0.0MiB(0txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z ERROR: DeserializeFileDB: Failed to open file /tmp/test_common_Bitcoin Core/2807852739/banlist.dat[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Invalid or missing banlist.dat; recreating[0;39;49m
+[1;34;49mtest/checkqueue_tests.cpp(192): Leaving test case "test_CheckQueue_Correct_Max"; testing time: 13371us
+[0;39;49m[1;34;49mtest/checkqueue_tests.cpp(200): Entering test case "test_CheckQueue_Correct_Random"
+[0;39;49m[1;36;49m2020-01-10T01:09:32Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=4d4c914a26786e37bb7a93589d82d30bffc9decf3a229810b2461beb813a385b[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using obfuscation key for /tmp/test_common_Bitcoin Core/701143121/blocks/index: 0000000000000000[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Wrote new obfuscate key for /tmp/test_common_Bitcoin Core/701143121/chainstate: 45dd5102841c60be[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Using obfuscation key for /tmp/test_common_Bitcoin Core/701143121/chainstate: 45dd5102841c60be[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Pre-allocating up to position 0x1000000 in blk00000.dat[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z UpdateTip: new best=000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f height=0 version=0x00000001 log2_work=32.000022 tx=1 date='2009-01-03T18:15:05Z' progress=0.000000 cache=0.0MiB(0txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z ERROR: DeserializeFileDB: Failed to open file /tmp/test_common_Bitcoin Core/701143121/banlist.dat[0;39;49m
+[1;36;49m2020-01-10T01:09:32Z Invalid or missing banlist.dat; recreating[0;39;49m
+[1;34;49mtest/checkqueue_tests.cpp(200): Leaving test case "test_CheckQueue_Correct_Random"; testing time: 856684us
+[0;39;49m[1;34;49mtest/checkqueue_tests.cpp(211): Entering test case "test_CheckQueue_Catches_Failure"
+[0;39;49m[1;36;49m2020-01-10T01:09:33Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=4d4c914a26786e37bb7a93589d82d30bffc9decf3a229810b2461beb813a385b[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Using obfuscation key for /tmp/test_common_Bitcoin Core/3799295706/blocks/index: 0000000000000000[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Wrote new obfuscate key for /tmp/test_common_Bitcoin Core/3799295706/chainstate: ce79195ba2774a41[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Using obfuscation key for /tmp/test_common_Bitcoin Core/3799295706/chainstate: ce79195ba2774a41[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Pre-allocating up to position 0x1000000 in blk00000.dat[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z UpdateTip: new best=000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f height=0 version=0x00000001 log2_work=32.000022 tx=1 date='2009-01-03T18:15:05Z' progress=0.000000 cache=0.0MiB(0txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z ERROR: DeserializeFileDB: Failed to open file /tmp/test_common_Bitcoin Core/3799295706/banlist.dat[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Invalid or missing banlist.dat; recreating[0;39;49m
+[1;34;49mtest/checkqueue_tests.cpp(211): Leaving test case "test_CheckQueue_Catches_Failure"; testing time: 90961us
+[0;39;49m[1;34;49mtest/checkqueue_tests.cpp(244): Entering test case "test_CheckQueue_Recovers_From_Failure"
+[0;39;49m[1;36;49m2020-01-10T01:09:33Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=4d4c914a26786e37bb7a93589d82d30bffc9decf3a229810b2461beb813a385b[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Using obfuscation key for /tmp/test_common_Bitcoin Core/640212388/blocks/index: 0000000000000000[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Wrote new obfuscate key for /tmp/test_common_Bitcoin Core/640212388/chainstate: 4580d5350400d3e9[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Using obfuscation key for /tmp/test_common_Bitcoin Core/640212388/chainstate: 4580d5350400d3e9[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Pre-allocating up to position 0x1000000 in blk00000.dat[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z UpdateTip: new best=000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f height=0 version=0x00000001 log2_work=32.000022 tx=1 date='2009-01-03T18:15:05Z' progress=0.000000 cache=0.0MiB(0txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z ERROR: DeserializeFileDB: Failed to open file /tmp/test_common_Bitcoin Core/640212388/banlist.dat[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Invalid or missing banlist.dat; recreating[0;39;49m
+[1;34;49mtest/checkqueue_tests.cpp(244): Leaving test case "test_CheckQueue_Recovers_From_Failure"; testing time: 5715us
+[0;39;49m[1;34;49mtest/checkqueue_tests.cpp(272): Entering test case "test_CheckQueue_UniqueCheck"
+[0;39;49m[1;36;49m2020-01-10T01:09:33Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=4d4c914a26786e37bb7a93589d82d30bffc9decf3a229810b2461beb813a385b[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Using obfuscation key for /tmp/test_common_Bitcoin Core/4293838376/blocks/index: 0000000000000000[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Wrote new obfuscate key for /tmp/test_common_Bitcoin Core/4293838376/chainstate: 6380aa5b868350ad[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Using obfuscation key for /tmp/test_common_Bitcoin Core/4293838376/chainstate: 6380aa5b868350ad[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Pre-allocating up to position 0x1000000 in blk00000.dat[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z UpdateTip: new best=000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f height=0 version=0x00000001 log2_work=32.000022 tx=1 date='2009-01-03T18:15:05Z' progress=0.000000 cache=0.0MiB(0txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z ERROR: DeserializeFileDB: Failed to open file /tmp/test_common_Bitcoin Core/4293838376/banlist.dat[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Invalid or missing banlist.dat; recreating[0;39;49m
+[1;34;49mtest/checkqueue_tests.cpp(272): Leaving test case "test_CheckQueue_UniqueCheck"; testing time: 31211us
+[0;39;49m[1;34;49mtest/checkqueue_tests.cpp(308): Entering test case "test_CheckQueue_Memory"
+[0;39;49m[1;36;49m2020-01-10T01:09:33Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=4d4c914a26786e37bb7a93589d82d30bffc9decf3a229810b2461beb813a385b[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Using obfuscation key for /tmp/test_common_Bitcoin Core/3076463994/blocks/index: 0000000000000000[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Wrote new obfuscate key for /tmp/test_common_Bitcoin Core/3076463994/chainstate: 0c94d1b2d89e7894[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Using obfuscation key for /tmp/test_common_Bitcoin Core/3076463994/chainstate: 0c94d1b2d89e7894[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Pre-allocating up to position 0x1000000 in blk00000.dat[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z UpdateTip: new best=000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f height=0 version=0x00000001 log2_work=32.000022 tx=1 date='2009-01-03T18:15:05Z' progress=0.000000 cache=0.0MiB(0txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z ERROR: DeserializeFileDB: Failed to open file /tmp/test_common_Bitcoin Core/3076463994/banlist.dat[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Invalid or missing banlist.dat; recreating[0;39;49m
+[1;34;49mtest/checkqueue_tests.cpp(308): Leaving test case "test_CheckQueue_Memory"; testing time: 238298us
+[0;39;49m[1;34;49mtest/checkqueue_tests.cpp(339): Entering test case "test_CheckQueue_FrozenCleanup"
+[0;39;49m[1;36;49m2020-01-10T01:09:33Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=4d4c914a26786e37bb7a93589d82d30bffc9decf3a229810b2461beb813a385b[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Using obfuscation key for /tmp/test_common_Bitcoin Core/634208719/blocks/index: 0000000000000000[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Wrote new obfuscate key for /tmp/test_common_Bitcoin Core/634208719/chainstate: 3dd297b063984532[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Using obfuscation key for /tmp/test_common_Bitcoin Core/634208719/chainstate: 3dd297b063984532[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Pre-allocating up to position 0x1000000 in blk00000.dat[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z UpdateTip: new best=000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f height=0 version=0x00000001 log2_work=32.000022 tx=1 date='2009-01-03T18:15:05Z' progress=0.000000 cache=0.0MiB(0txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z ERROR: DeserializeFileDB: Failed to open file /tmp/test_common_Bitcoin Core/634208719/banlist.dat[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Invalid or missing banlist.dat; recreating[0;39;49m
+[1;34;49mtest/checkqueue_tests.cpp(339): Leaving test case "test_CheckQueue_FrozenCleanup"; testing time: 5445us
+[0;39;49m[1;34;49mtest/checkqueue_tests.cpp(383): Entering test case "test_CheckQueueControl_Locks"
+[0;39;49m[1;36;49m2020-01-10T01:09:33Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=4d4c914a26786e37bb7a93589d82d30bffc9decf3a229810b2461beb813a385b[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Using obfuscation key for /tmp/test_common_Bitcoin Core/1217188632/blocks/index: 0000000000000000[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Wrote new obfuscate key for /tmp/test_common_Bitcoin Core/1217188632/chainstate: 384f350f7acba218[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Using obfuscation key for /tmp/test_common_Bitcoin Core/1217188632/chainstate: 384f350f7acba218[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Pre-allocating up to position 0x1000000 in blk00000.dat[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z UpdateTip: new best=000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f height=0 version=0x00000001 log2_work=32.000022 tx=1 date='2009-01-03T18:15:05Z' progress=0.000000 cache=0.0MiB(0txo)[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z ERROR: DeserializeFileDB: Failed to open file /tmp/test_common_Bitcoin Core/1217188632/banlist.dat[0;39;49m
+[1;36;49m2020-01-10T01:09:33Z Invalid or missing banlist.dat; recreating[0;39;49m
+[1;34;49mtest/checkqueue_tests.cpp(383): Leaving test case "test_CheckQueueControl_Locks"; testing time: 38599us
+[0;39;49m[1;34;49mtest/checkqueue_tests.cpp(22): Leaving test suite "checkqueue_tests"; testing time: 1305918us
+[0;39;49m[1;34;49mLeaving test module "Bitcoin Core Test Suite"; testing time: 1306033us
+[0;39;49m
+[1;32;49m*** No errors detected
+[0;39;49m

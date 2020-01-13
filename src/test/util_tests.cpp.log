@@ -1,0 +1,479 @@
+Running 42 test cases...
+[1;34;49mEntering test module "Bitcoin Core Test Suite"
+[0;39;49m[1;34;49mtest/util_tests.cpp(37): Entering test suite "util_tests"
+[0;39;49m[1;34;49mtest/util_tests.cpp(39): Entering test case "util_criticalsection"
+[0;39;49m[1;36;49m2020-01-10T01:10:00Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/util_tests.cpp(39): Leaving test case "util_criticalsection"; testing time: 14308us
+[0;39;49m[1;34;49mtest/util_tests.cpp(68): Entering test case "util_ParseHex"
+[0;39;49m[1;36;49m2020-01-10T01:10:00Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/util_tests.cpp(68): Leaving test case "util_ParseHex"; testing time: 2432us
+[0;39;49m[1;34;49mtest/util_tests.cpp(89): Entering test case "util_HexStr"
+[0;39;49m[1;36;49m2020-01-10T01:10:00Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/util_tests.cpp(89): Leaving test case "util_HexStr"; testing time: 2324us
+[0;39;49m[1;34;49mtest/util_tests.cpp(136): Entering test case "util_Join"
+[0;39;49m[1;36;49m2020-01-10T01:10:00Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/util_tests.cpp(136): Leaving test case "util_Join"; testing time: 2307us
+[0;39;49m[1;34;49mtest/util_tests.cpp(150): Entering test case "util_FormatParseISO8601DateTime"
+[0;39;49m[1;36;49m2020-01-10T01:10:00Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/util_tests.cpp(150): Leaving test case "util_FormatParseISO8601DateTime"; testing time: 2419us
+[0;39;49m[1;34;49mtest/util_tests.cpp(163): Entering test case "util_FormatISO8601Date"
+[0;39;49m[1;36;49m2020-01-10T01:10:00Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/util_tests.cpp(163): Leaving test case "util_FormatISO8601Date"; testing time: 2377us
+[0;39;49m[1;34;49mtest/util_tests.cpp(287): Entering test case "util_CheckValue"
+[0;39;49m[1;36;49m2020-01-10T01:10:00Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Using obfuscation key for /tmp/test_common_Bitcoin Core/2382768354/regtest/blocks/index: 0000000000000000[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Wrote new obfuscate key for /tmp/test_common_Bitcoin Core/2382768354/regtest/chainstate: 47515f149ad15e29[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Using obfuscation key for /tmp/test_common_Bitcoin Core/2382768354/regtest/chainstate: 47515f149ad15e29[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Pre-allocating up to position 0x1000000 in blk00000.dat[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 height=0 version=0x00000001 log2_work=1 tx=1 date='2011-02-02T23:16:42Z' progress=1.000000 cache=0.0MiB(0txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z ERROR: DeserializeFileDB: Failed to open file /tmp/test_common_Bitcoin Core/2382768354/regtest/banlist.dat[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Invalid or missing banlist.dat; recreating[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Pre-allocating up to position 0x100000 in rev00000.dat[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Leaving InitialBlockDownload (latching to false)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=3720d7033ddd165129bc5c761ad01d83db6dd4f1bcddcf8826f553eb61d3d886 height=1 version=0x20000000 log2_work=2 tx=2 date='2020-01-10T01:10:00Z' progress=1.000000 cache=0.0MiB(1txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=57602ddfb77f07ed29e69cb1df0bcaf730e478847cf91268e97aec0d82fe70a0 height=2 version=0x20000000 log2_work=2.5849625 tx=3 date='2020-01-10T01:10:01Z' progress=1.000000 cache=0.0MiB(2txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=373c824e686efad28a7ffd5bf711bf11df3c96880649b6c52ef830e5c105a941 height=3 version=0x20000000 log2_work=3 tx=4 date='2020-01-10T01:10:01Z' progress=1.000000 cache=0.0MiB(3txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=45182b8eaf224136f9ca027bde0abe9f2e25719de45040019969339c9826c1cd height=4 version=0x20000000 log2_work=3.3219281 tx=5 date='2020-01-10T01:10:02Z' progress=1.000000 cache=0.0MiB(4txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=007d9794f8b0b4509f07afc98d73af13e39abaa47871f966469399a40c4be0e2 height=5 version=0x20000000 log2_work=3.5849625 tx=6 date='2020-01-10T01:10:02Z' progress=1.000000 cache=0.0MiB(5txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=219ec3949637e8caf6a98679b4e081ffd840e53deb6115161187ac13985910ba height=6 version=0x20000000 log2_work=3.8073549 tx=7 date='2020-01-10T01:10:02Z' progress=1.000000 cache=0.0MiB(6txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=5cea128997d10900b34da8317c653060360cb70625a25cb3f1bad7401cfcb47b height=7 version=0x20000000 log2_work=4 tx=8 date='2020-01-10T01:10:02Z' progress=1.000000 cache=0.0MiB(7txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=6ef3a8cd8b3496d9c7be6489a5e0668480a01416f59cb5dac204c2485643f716 height=8 version=0x20000000 log2_work=4.169925 tx=9 date='2020-01-10T01:10:03Z' progress=1.000000 cache=0.0MiB(8txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=0bff27046b209efbbdd28fcd598529c608d2fe4c8be06b2e4bb56c34e8d2c572 height=9 version=0x20000000 log2_work=4.3219281 tx=10 date='2020-01-10T01:10:03Z' progress=1.000000 cache=0.0MiB(9txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=146419d7b58832f0a234d2d2905b2055ee702ed30b87dfee4e33265b816d834e height=10 version=0x20000000 log2_work=4.4594316 tx=11 date='2020-01-10T01:10:03Z' progress=1.000000 cache=0.0MiB(10txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=456018b53892697140ea0e68d400817416c6f48d28e074ce42a5ed289e62e650 height=11 version=0x20000000 log2_work=4.5849625 tx=12 date='2020-01-10T01:10:03Z' progress=1.000000 cache=0.0MiB(11txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=583b5520ce5f0da4392df536a42693da14be26125bbebb0a0bae8f2a85f46f01 height=12 version=0x20000000 log2_work=4.7004397 tx=13 date='2020-01-10T01:10:03Z' progress=1.000000 cache=0.0MiB(12txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=0d27078ec918afc484935c853851bf05009f059c2a157cc1dc59500be03b7796 height=13 version=0x20000000 log2_work=4.8073549 tx=14 date='2020-01-10T01:10:03Z' progress=1.000000 cache=0.0MiB(13txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=5e217ed56149f53cc562d81b1bbe2380464f63582da58bbf5b12d68f5fb378a9 height=14 version=0x20000000 log2_work=4.9068906 tx=15 date='2020-01-10T01:10:04Z' progress=1.000000 cache=0.0MiB(14txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=6a3f79e9ccd546b7222ac0ba0a26b11f20b591a86881e0b5988f8650cd5d5db9 height=15 version=0x20000000 log2_work=5 tx=16 date='2020-01-10T01:10:04Z' progress=1.000000 cache=0.0MiB(15txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=72d328b400761590af03a6fa49fa08c9c9ceb34fc7eade813a64cec146c040e7 height=16 version=0x20000000 log2_work=5.0874628 tx=17 date='2020-01-10T01:10:04Z' progress=1.000000 cache=0.0MiB(16txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=46525aa90eba2f7632605ef2143b07981ebb5739a42e8295f7eb6d6ef27ddd2d height=17 version=0x20000000 log2_work=5.169925 tx=18 date='2020-01-10T01:10:04Z' progress=1.000000 cache=0.0MiB(17txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=419072c7ddbad54c13e0b606efc46356461977ed4d2e88f30c81fefd0170f028 height=18 version=0x20000000 log2_work=5.2479275 tx=19 date='2020-01-10T01:10:04Z' progress=1.000000 cache=0.0MiB(18txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=571589aee2119f41ad8f117b71db11fe0c2aae77a93197db9aa9f175c7c7f893 height=19 version=0x20000000 log2_work=5.3219281 tx=20 date='2020-01-10T01:10:04Z' progress=1.000000 cache=0.0MiB(19txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=3a10874f7a87d92b37702a45d28e6bc77ca484b318584a2568d2a9c67063e671 height=20 version=0x20000000 log2_work=5.3923174 tx=21 date='2020-01-10T01:10:05Z' progress=1.000000 cache=0.0MiB(20txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=25964272ab659fe024986beb1f22e8549519a018c4d9c63fd0f49b808adf87ba height=21 version=0x20000000 log2_work=5.4594316 tx=22 date='2020-01-10T01:10:05Z' progress=1.000000 cache=0.0MiB(21txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=560a72eb2b43de6252ebab6bd299e0f6b865a8e296622d906d4753e99ca1ee6f height=22 version=0x20000000 log2_work=5.523562 tx=23 date='2020-01-10T01:10:05Z' progress=1.000000 cache=0.0MiB(22txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=067a84003d5adc35e8d668bd345cc90377da84665006309945799591f36f6a39 height=23 version=0x20000000 log2_work=5.5849625 tx=24 date='2020-01-10T01:10:05Z' progress=1.000000 cache=0.0MiB(23txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=0dcae214534e9f8e33eba8fe9905d798e085c24d644ee5c906b69d42f702ae97 height=24 version=0x20000000 log2_work=5.6438562 tx=25 date='2020-01-10T01:10:05Z' progress=1.000000 cache=0.0MiB(24txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=25c59075f0490ecfeaf7485ba73270bf4022c3c46b775ee81ec65d1cfa0cae81 height=25 version=0x20000000 log2_work=5.7004397 tx=26 date='2020-01-10T01:10:05Z' progress=1.000000 cache=0.0MiB(25txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=11a583159f081c3560d64886b099343b71a3437380bbcf7abf8e608affb68a24 height=26 version=0x20000000 log2_work=5.7548875 tx=27 date='2020-01-10T01:10:06Z' progress=1.000000 cache=0.0MiB(26txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=494e1612e5005f6a7a2325a15fb4edea48eefa244b783ce142bc4d859fd486a5 height=27 version=0x20000000 log2_work=5.8073549 tx=28 date='2020-01-10T01:10:06Z' progress=1.000000 cache=0.0MiB(27txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=274f317f6c714a8ed72ffe0cd27722e209e8d15fc09444805bb83334e70567a4 height=28 version=0x20000000 log2_work=5.857981 tx=29 date='2020-01-10T01:10:06Z' progress=1.000000 cache=0.0MiB(28txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=1facb0afbf788ee6a69588d3f1a049a88aca819b6078e8d0f3fcb5b8af054411 height=29 version=0x20000000 log2_work=5.9068906 tx=30 date='2020-01-10T01:10:06Z' progress=1.000000 cache=0.0MiB(29txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=45ebf767f96f7267d3574ceae12be583e241108dee3445aacec7f73f7c563460 height=30 version=0x20000000 log2_work=5.9541963 tx=31 date='2020-01-10T01:10:06Z' progress=1.000000 cache=0.0MiB(30txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=3758f45bc26228570e992f1854373816366f9a7df1697c18dfa1d7713c823cf9 height=31 version=0x20000000 log2_work=6 tx=32 date='2020-01-10T01:10:06Z' progress=1.000000 cache=0.0MiB(31txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=181ba5ea84abfdc1bd7d81efaaee27bc01a9765e8042bc0f47300e32b20a3e71 height=32 version=0x20000000 log2_work=6.0443941 tx=33 date='2020-01-10T01:10:07Z' progress=1.000000 cache=0.0MiB(32txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=283d85059213f867d045bcf9c7c53502ef109e554fb749cf930a488c0cf34d53 height=33 version=0x20000000 log2_work=6.0874628 tx=34 date='2020-01-10T01:10:07Z' progress=1.000000 cache=0.0MiB(33txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=5cd0a9747b7cfc03493eddd14c4c182e29e19559204d077301fe84b257ac7948 height=34 version=0x20000000 log2_work=6.129283 tx=35 date='2020-01-10T01:10:07Z' progress=1.000000 cache=0.0MiB(34txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=53fb9cdd5d10ebd07ea090b32f2801655c9b4104cfea15e65626a4ab0ebca426 height=35 version=0x20000000 log2_work=6.169925 tx=36 date='2020-01-10T01:10:07Z' progress=1.000000 cache=0.0MiB(35txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=530beb92acc79b050460de01f63b26fb97b455594f92b7b98319afbc7b76bd46 height=36 version=0x20000000 log2_work=6.2094534 tx=37 date='2020-01-10T01:10:07Z' progress=1.000000 cache=0.0MiB(36txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=2253bd5af9c821ecfa130b1f622c042fa63324d0818e00719908fc6cdf5cac25 height=37 version=0x20000000 log2_work=6.2479275 tx=38 date='2020-01-10T01:10:07Z' progress=1.000000 cache=0.0MiB(37txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=7bfcb9763ab294a851f88ef1b7cc8a569a0cdef5ebb8cdee8b8f3f4b3d0318f8 height=38 version=0x20000000 log2_work=6.2854022 tx=39 date='2020-01-10T01:10:08Z' progress=1.000000 cache=0.0MiB(38txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=39f56bf0d369e6d0f73563fbb211b35e553090db97be574e24352bcfb9bf60ad height=39 version=0x20000000 log2_work=6.3219281 tx=40 date='2020-01-10T01:10:08Z' progress=1.000000 cache=0.0MiB(39txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=22481c7a9911fe4d615a7b18dcdfd961335e1c89e499dc718d33a8920ada1fcc height=40 version=0x20000000 log2_work=6.357552 tx=41 date='2020-01-10T01:10:08Z' progress=1.000000 cache=0.0MiB(40txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=7f4123c18fa0f4dd87e9b01db0d3f9d7c4d5ba09fdf843fbc5a933e814afe23a height=41 version=0x20000000 log2_work=6.3923174 tx=42 date='2020-01-10T01:10:08Z' progress=1.000000 cache=0.0MiB(41txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=20a674e6f78df41a8b5be1f10604c1c5f3cd3135a53d0e3ed21497c6615d8456 height=42 version=0x20000000 log2_work=6.4262648 tx=43 date='2020-01-10T01:10:08Z' progress=1.000000 cache=0.0MiB(42txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=31470e41408098e388debdd9b04846ec4b687168236f629fb406f72cabc8984e height=43 version=0x20000000 log2_work=6.4594316 tx=44 date='2020-01-10T01:10:08Z' progress=1.000000 cache=0.0MiB(43txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=324a82edbcdc0ea5fc302ddad55f0f47f74784ffc430f6871ab5820984592aae height=44 version=0x20000000 log2_work=6.4918531 tx=45 date='2020-01-10T01:10:09Z' progress=1.000000 cache=0.0MiB(44txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=731f293a52bbf4f82510144b33bfbbd02e8abb6d3a36b5899899bc470fe3e1b5 height=45 version=0x20000000 log2_work=6.523562 tx=46 date='2020-01-10T01:10:09Z' progress=1.000000 cache=0.0MiB(45txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=6244917433487ab50561d7f90a229cdfc8f2bccfab58a9e671321d045e0f48e5 height=46 version=0x20000000 log2_work=6.5545889 tx=47 date='2020-01-10T01:10:09Z' progress=1.000000 cache=0.0MiB(46txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=6d8775886dda3aead02c3397ba719fcdd067e3607e2eed145ca7b76b45de26c6 height=47 version=0x20000000 log2_work=6.5849625 tx=48 date='2020-01-10T01:10:09Z' progress=1.000000 cache=0.0MiB(47txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=69fa756950ebff49adb36a7bc39e1f8bc21ab90fc38cbd322710ee393edeae11 height=48 version=0x20000000 log2_work=6.6147098 tx=49 date='2020-01-10T01:10:09Z' progress=1.000000 cache=0.0MiB(48txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=3158902e2c94aa58a210ad833f071027caa9b427fb43a685a933065a9f71f58c height=49 version=0x20000000 log2_work=6.6438562 tx=50 date='2020-01-10T01:10:09Z' progress=1.000000 cache=0.0MiB(49txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=4ae6113df34823f12c922b573368158a29bbb28d9280bbe2a8eaf07d339830bc height=50 version=0x20000000 log2_work=6.6724253 tx=51 date='2020-01-10T01:10:10Z' progress=1.000000 cache=0.0MiB(50txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=14e3a6fc8e70dbd11a237ac638259c86263fb8b1cd46a8acc127dce6765616b7 height=51 version=0x20000000 log2_work=6.7004397 tx=52 date='2020-01-10T01:10:10Z' progress=1.000000 cache=0.0MiB(51txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=58e57ad3fa40b3831f44c1ec6da81f41567abc50bc37334ec38c699867ab5deb height=52 version=0x20000000 log2_work=6.7279205 tx=53 date='2020-01-10T01:10:10Z' progress=1.000000 cache=0.0MiB(52txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=6e34e8ac2a8c829c7b81fa65269b5781461ddb541eb52457940933ecec0871f0 height=53 version=0x20000000 log2_work=6.7548875 tx=54 date='2020-01-10T01:10:10Z' progress=1.000000 cache=0.0MiB(53txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=0603ec08b77a918d5cd1d083674a5eb538e2ab8a73a3ae636d10b208d792531e height=54 version=0x20000000 log2_work=6.7813597 tx=55 date='2020-01-10T01:10:10Z' progress=1.000000 cache=0.0MiB(54txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=4761366d8535349b8a387a4fb5920c056d72a72d0723d75ed30be26bb909196a height=55 version=0x20000000 log2_work=6.8073549 tx=56 date='2020-01-10T01:10:10Z' progress=1.000000 cache=0.0MiB(55txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=4d1d7bf05569346840f9a5abded148c6bf232c58c8db5b932dd2384946b0daf8 height=56 version=0x20000000 log2_work=6.83289 tx=57 date='2020-01-10T01:10:11Z' progress=1.000000 cache=0.0MiB(56txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=74fd40e6a3320cb4e4da732c828797213f0233fa0b53bc7e8ed5c8c3c5253cbf height=57 version=0x20000000 log2_work=6.857981 tx=58 date='2020-01-10T01:10:11Z' progress=1.000000 cache=0.0MiB(57txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=4dbc9031f68a8317ed3ea3fe1937fc2961246151b347b2a1ac8af8cf87edcadd height=58 version=0x20000000 log2_work=6.882643 tx=59 date='2020-01-10T01:10:11Z' progress=1.000000 cache=0.0MiB(58txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=304684890c02b6c3428025a8efa4c09292ec38c55e2102f163558afcc5961668 height=59 version=0x20000000 log2_work=6.9068906 tx=60 date='2020-01-10T01:10:11Z' progress=1.000000 cache=0.0MiB(59txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=34727ced2f144b6fd05e2490fb81e07d974f1241fb04cc809b2830f9d5183d2b height=60 version=0x20000000 log2_work=6.9307373 tx=61 date='2020-01-10T01:10:11Z' progress=1.000000 cache=0.0MiB(60txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=13fffa2eba4fc4f63d55f0502dba9e19c7a05c6cf84b7f307bbbcc44c60bf3f8 height=61 version=0x20000000 log2_work=6.9541963 tx=62 date='2020-01-10T01:10:11Z' progress=1.000000 cache=0.0MiB(61txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=22cc39fc036ab6f6dceefadaa4f15d4afd0e2b60c5618d7cd2de5c7b1702ab26 height=62 version=0x20000000 log2_work=6.9772799 tx=63 date='2020-01-10T01:10:12Z' progress=1.000000 cache=0.0MiB(62txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=2501bc565e9e70e4ce11ffdcda3e41ab1c3ae00c921ed9f0a5157aea406716ca height=63 version=0x20000000 log2_work=7 tx=64 date='2020-01-10T01:10:12Z' progress=1.000000 cache=0.0MiB(63txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=563f29529b21438644510753fa7287750ad6365a6b541676e0d48b0cbb39cc7b height=64 version=0x20000000 log2_work=7.0223678 tx=65 date='2020-01-10T01:10:12Z' progress=1.000000 cache=0.0MiB(64txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=0f4a5b903b3c4fdc34839146012dffed1a9129cba7ed0f60e93ebd5471ba91c7 height=65 version=0x20000000 log2_work=7.0443941 tx=66 date='2020-01-10T01:10:12Z' progress=1.000000 cache=0.0MiB(65txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=55ed71d9990c048f3b691c44963fb7f1c3439714a04048d573a0c83690d3779a height=66 version=0x20000000 log2_work=7.0660892 tx=67 date='2020-01-10T01:10:12Z' progress=1.000000 cache=0.0MiB(66txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=11a3bd5df19eadbec0fb2120c5168a4b6343165d5a2260a709508dea3040d780 height=67 version=0x20000000 log2_work=7.0874628 tx=68 date='2020-01-10T01:10:12Z' progress=1.000000 cache=0.0MiB(67txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=1a6d06b4026eb9896c0df0231a2419e7520b48334366231577a4240c1d94fe37 height=68 version=0x20000000 log2_work=7.1085245 tx=69 date='2020-01-10T01:10:13Z' progress=1.000000 cache=0.0MiB(68txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=59cca4d2b70a7d94c1696adec48c13e0e15774d03e92c44a6b1d9f95b74c008c height=69 version=0x20000000 log2_work=7.129283 tx=70 date='2020-01-10T01:10:13Z' progress=1.000000 cache=0.0MiB(69txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=4726581f62a0dff2a6aa5892ef0001d9a8cc820c974cdc0aadb5e9a17d70e464 height=70 version=0x20000000 log2_work=7.1497471 tx=71 date='2020-01-10T01:10:13Z' progress=1.000000 cache=0.0MiB(70txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=1d133dd6439177016756f22e580a1d83fac19a36ba58a968e6d5477c0487fa7f height=71 version=0x20000000 log2_work=7.169925 tx=72 date='2020-01-10T01:10:13Z' progress=1.000000 cache=0.0MiB(71txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=3ad4a7a92f2ddbccce1bb65a34adb41436a49948aef3cd73fd66e7d86bf29848 height=72 version=0x20000000 log2_work=7.1898246 tx=73 date='2020-01-10T01:10:13Z' progress=1.000000 cache=0.0MiB(72txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=624e45722f1c491f7d32e7660e9b36d821d5610d85a32eeb0426c1917644b5ae height=73 version=0x20000000 log2_work=7.2094534 tx=74 date='2020-01-10T01:10:13Z' progress=1.000000 cache=0.0MiB(73txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=4187bcad23321cd15c4d4a3c4784c21be480240ca13a19601bfa46c5bf9af02f height=74 version=0x20000000 log2_work=7.2288187 tx=75 date='2020-01-10T01:10:14Z' progress=1.000000 cache=0.0MiB(74txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=1e6977730e167d7be05eb2e6d2c93c5b0a02ad8f61653c39f84a6f534ccf9670 height=75 version=0x20000000 log2_work=7.2479275 tx=76 date='2020-01-10T01:10:14Z' progress=1.000000 cache=0.0MiB(75txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=58c0e9a11996aad9a65005537083c0fdcc4dc9983bc750510684ff49af9bfb3e height=76 version=0x20000000 log2_work=7.2667865 tx=77 date='2020-01-10T01:10:14Z' progress=1.000000 cache=0.0MiB(76txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=21437b041ee3724fbed78a375299c1def4abf419c541a906ac549e82301e7b39 height=77 version=0x20000000 log2_work=7.2854022 tx=78 date='2020-01-10T01:10:14Z' progress=1.000000 cache=0.0MiB(77txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=1068fd4e17a456c260726def443a346d407d6bd5774989e7e5ae45f5b4459b6c height=78 version=0x20000000 log2_work=7.3037807 tx=79 date='2020-01-10T01:10:14Z' progress=1.000000 cache=0.0MiB(78txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=59d375d7a36b1a4ad167dc69c0b8f707c32749d8b61af3bd3ebc88178d31ba58 height=79 version=0x20000000 log2_work=7.3219281 tx=80 date='2020-01-10T01:10:14Z' progress=1.000000 cache=0.0MiB(79txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=23b98316aa5604765d74f06420a0378f96d3d59c616abc78b8992ac5a82588b3 height=80 version=0x20000000 log2_work=7.33985 tx=81 date='2020-01-10T01:10:15Z' progress=1.000000 cache=0.0MiB(80txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=4ed705f25ca40d13381508bc58a075816645119323b6e87b8c12e990a2d08fef height=81 version=0x20000000 log2_work=7.357552 tx=82 date='2020-01-10T01:10:15Z' progress=1.000000 cache=0.0MiB(81txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=7b9f87f38f6ff8872186c42449168c148854991679134cacd6f41e74a5dda6cc height=82 version=0x20000000 log2_work=7.3750394 tx=83 date='2020-01-10T01:10:15Z' progress=1.000000 cache=0.0MiB(82txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=22c9bce7239e3a0ad253c4f7098c389a0f978e23a9e4b053c1060eb8bf21d675 height=83 version=0x20000000 log2_work=7.3923174 tx=84 date='2020-01-10T01:10:15Z' progress=1.000000 cache=0.0MiB(83txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=0437164c6837cd8f05d1f5ce69f9a8c13bca77e430a61f70f35d78ff21f26ce9 height=84 version=0x20000000 log2_work=7.4093909 tx=85 date='2020-01-10T01:10:15Z' progress=1.000000 cache=0.0MiB(84txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=65ad129e4d969c8801519be127fc0df3f81ed95946a60da41f47b18050a36c83 height=85 version=0x20000000 log2_work=7.4262648 tx=86 date='2020-01-10T01:10:15Z' progress=1.000000 cache=0.0MiB(85txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=05176a3edb27b51d93dca8ace533e72ef3ad575ec3dc459c43ecac8770117e1c height=86 version=0x20000000 log2_work=7.4429435 tx=87 date='2020-01-10T01:10:16Z' progress=1.000000 cache=0.0MiB(86txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=75619db7f1b5854fa38b82e6f5bbd69ea599cfc09b200199b2e2d58562dee901 height=87 version=0x20000000 log2_work=7.4594316 tx=88 date='2020-01-10T01:10:16Z' progress=1.000000 cache=0.0MiB(87txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=6db9822679dddfd60a54045abb741e7a9373e9b37fbf2ce07ab531b3d98b7cdd height=88 version=0x20000000 log2_work=7.4757334 tx=89 date='2020-01-10T01:10:16Z' progress=1.000000 cache=0.0MiB(88txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=68f72d636ed8766a117c9f566bec8de3c98de222d02012d080b4e2add4669ddd height=89 version=0x20000000 log2_work=7.4918531 tx=90 date='2020-01-10T01:10:16Z' progress=1.000000 cache=0.0MiB(89txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=53d2673ef86f9c2b24cc32bca7d0624b2d80f3e11ed9dfeb58c20933739e1640 height=90 version=0x20000000 log2_work=7.5077946 tx=91 date='2020-01-10T01:10:16Z' progress=1.000000 cache=0.0MiB(90txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=2d2af2e36920fef676c3755c8b98df804f6863cd035f35bbd0ac24b6095b52c7 height=91 version=0x20000000 log2_work=7.523562 tx=92 date='2020-01-10T01:10:16Z' progress=1.000000 cache=0.0MiB(91txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=0b97d8a7058dea6aeede0dc4ae51b8e1dfe27cf8ed638f6df4e4f99c618dd1ba height=92 version=0x20000000 log2_work=7.5391588 tx=93 date='2020-01-10T01:10:17Z' progress=1.000000 cache=0.0MiB(92txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=5cd31a86d8bf0096470e9d1d509e5b52afe313a7b48e281ff91c2649a297c404 height=93 version=0x20000000 log2_work=7.5545889 tx=94 date='2020-01-10T01:10:17Z' progress=1.000000 cache=0.0MiB(93txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=20072fc6753281d8abc4bf2ebb91fb57a2868dced73257556cc371048cdcee31 height=94 version=0x20000000 log2_work=7.5698556 tx=95 date='2020-01-10T01:10:17Z' progress=1.000000 cache=0.0MiB(94txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=257f77803c5faf4188313a5bb73562ff8166d7c40d21ebc3d50ae8c2da90a2a1 height=95 version=0x20000000 log2_work=7.5849625 tx=96 date='2020-01-10T01:10:17Z' progress=1.000000 cache=0.0MiB(95txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=5711ed197e06c0e5d6271d21f5b5180e18f513351c5f411d65b1b2fa5e3a2d15 height=96 version=0x20000000 log2_work=7.5999128 tx=97 date='2020-01-10T01:10:17Z' progress=1.000000 cache=0.0MiB(96txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=4d115dd80b007409a1ca029989e3b8a6aca88768a6b4c8a9cf5d0069d1840def height=97 version=0x20000000 log2_work=7.6147098 tx=98 date='2020-01-10T01:10:17Z' progress=1.000000 cache=0.0MiB(97txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=5c1505fe8f00eee300df07e19c4ca498ef9010e6505a7f74d1786762e65ce5a3 height=98 version=0x20000000 log2_work=7.6293566 tx=99 date='2020-01-10T01:10:18Z' progress=1.000000 cache=0.0MiB(98txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=264271146cf0a64296262ef6b9286e50a537efaba1069749d1cea6cbc95e76a0 height=99 version=0x20000000 log2_work=7.6438562 tx=100 date='2020-01-10T01:10:18Z' progress=1.000000 cache=0.0MiB(99txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z UpdateTip: new best=681a560bd2ae63606f1ad74404083ced985bddf6b7b4bb566f301c818629d93c height=100 version=0x20000000 log2_work=7.6582115 tx=101 date='2020-01-10T01:10:18Z' progress=1.000000 cache=0.0MiB(100txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Warning: parsed potentially confusing double-negative -value=0[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Warning: parsed potentially confusing double-negative -value=abc[0;39;49m
+[1;34;49mtest/util_tests.cpp(287): Leaving test case "util_CheckValue"; testing time: 40365us
+[0;39;49m[1;34;49mtest/util_tests.cpp(306): Entering test case "util_ParseParameters"
+[0;39;49m[1;36;49m2020-01-10T01:10:00Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/util_tests.cpp(306): Leaving test case "util_ParseParameters"; testing time: 2389us
+[0;39;49m[1;34;49mtest/util_tests.cpp(358): Entering test case "util_ArgParsing"
+[0;39;49m[1;36;49m2020-01-10T01:10:00Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/util_tests.cpp(358): Leaving test case "util_ArgParsing"; testing time: 2442us
+[0;39;49m[1;34;49mtest/util_tests.cpp(397): Entering test case "util_GetBoolArg"
+[0;39;49m[1;36;49m2020-01-10T01:10:00Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/util_tests.cpp(397): Leaving test case "util_GetBoolArg"; testing time: 2298us
+[0;39;49m[1;34;49mtest/util_tests.cpp(438): Entering test case "util_GetBoolArgEdgeCases"
+[0;39;49m[1;36;49m2020-01-10T01:10:00Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Warning: parsed potentially confusing double-negative -bar=0[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Warning: parsed potentially confusing double-negative -bar=0[0;39;49m
+[1;34;49mtest/util_tests.cpp(438): Leaving test case "util_GetBoolArgEdgeCases"; testing time: 2476us
+[0;39;49m[1;34;49mtest/util_tests.cpp(491): Entering test case "util_ReadConfigStream"
+[0;39;49m[1;36;49m2020-01-10T01:10:00Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Warning: parsed potentially confusing double-negative -ggg=0[0;39;49m
+[1;34;49mtest/util_tests.cpp(491): Leaving test case "util_ReadConfigStream"; testing time: 2458us
+[0;39;49m[1;34;49mtest/util_tests.cpp(687): Entering test case "util_GetArg"
+[0;39;49m[1;36;49m2020-01-10T01:10:00Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/util_tests.cpp(687): Leaving test case "util_GetArg"; testing time: 2340us
+[0;39;49m[1;34;49mtest/util_tests.cpp(726): Entering test case "util_GetChainName"
+[0;39;49m[1;36;49m2020-01-10T01:10:00Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/util_tests.cpp(726): Leaving test case "util_GetChainName"; testing time: 2396us
+[0;39;49m[1;34;49mtest/util_tests.cpp(885): Entering test case "util_ArgsMerge"
+[0;39;49m[1;36;49m2020-01-10T01:10:00Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:00Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/util_tests.cpp(885): Leaving test case "util_ArgsMerge"; testing time: 1506736us
+[0;39;49m[1;34;49mtest/util_tests.cpp(1020): Entering test case "util_ChainMerge"
+[0;39;49m[1;36;49m2020-01-10T01:10:02Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/util_tests.cpp(1020): Leaving test case "util_ChainMerge"; testing time: 14278us
+[0;39;49m[1;34;49mtest/util_tests.cpp(1104): Entering test case "util_FormatMoney"
+[0;39;49m[1;36;49m2020-01-10T01:10:02Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/util_tests.cpp(1104): Leaving test case "util_FormatMoney"; testing time: 2440us
+[0;39;49m[1;34;49mtest/util_tests.cpp(1129): Entering test case "util_ParseMoney"
+[0;39;49m[1;36;49m2020-01-10T01:10:02Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/util_tests.cpp(1129): Leaving test case "util_ParseMoney"; testing time: 2342us
+[0;39;49m[1;34;49mtest/util_tests.cpp(1187): Entering test case "util_IsHex"
+[0;39;49m[1;36;49m2020-01-10T01:10:02Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/util_tests.cpp(1187): Leaving test case "util_IsHex"; testing time: 2289us
+[0;39;49m[1;34;49mtest/util_tests.cpp(1202): Entering test case "util_IsHexNumber"
+[0;39;49m[1;36;49m2020-01-10T01:10:02Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/util_tests.cpp(1202): Leaving test case "util_IsHexNumber"; testing time: 2283us
+[0;39;49m[1;34;49mtest/util_tests.cpp(1227): Entering test case "util_seed_insecure_rand"
+[0;39;49m[1;36;49m2020-01-10T01:10:02Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/util_tests.cpp(1227): Leaving test case "util_seed_insecure_rand"; testing time: 3827us
+[0;39;49m[1;34;49mtest/util_tests.cpp(1252): Entering test case "util_TimingResistantEqual"
+[0;39;49m[1;36;49m2020-01-10T01:10:02Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/util_tests.cpp(1252): Leaving test case "util_TimingResistantEqual"; testing time: 2233us
+[0;39;49m[1;34;49mtest/util_tests.cpp(1267): Entering test case "strprintf_numbers"
+[0;39;49m[1;36;49m2020-01-10T01:10:02Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/util_tests.cpp(1267): Leaving test case "strprintf_numbers"; testing time: 2239us
+[0;39;49m[1;34;49mtest/util_tests.cpp(1293): Entering test case "gettime"
+[0;39;49m[1;36;49m2020-01-10T01:10:02Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/util_tests.cpp(1293): Leaving test case "gettime"; testing time: 2160us
+[0;39;49m[1;34;49mtest/util_tests.cpp(1298): Entering test case "util_time_GetTime"
+[0;39;49m[1;36;49m2020-01-10T01:10:02Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/util_tests.cpp(1298): Leaving test case "util_time_GetTime"; testing time: 6470us
+[0;39;49m[1;34;49mtest/util_tests.cpp(1319): Entering test case "test_IsDigit"
+[0;39;49m[1;36;49m2020-01-10T01:10:02Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/util_tests.cpp(1319): Leaving test case "test_IsDigit"; testing time: 2334us
+[0;39;49m[1;34;49mtest/util_tests.cpp(1334): Entering test case "test_ParseInt32"
+[0;39;49m[1;36;49m2020-01-10T01:10:02Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/util_tests.cpp(1334): Leaving test case "test_ParseInt32"; testing time: 2233us
+[0;39;49m[1;34;49mtest/util_tests.cpp(1363): Entering test case "test_ParseInt64"
+[0;39;49m[1;36;49m2020-01-10T01:10:02Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/util_tests.cpp(1363): Leaving test case "test_ParseInt64"; testing time: 2245us
+[0;39;49m[1;34;49mtest/util_tests.cpp(1393): Entering test case "test_ParseUInt32"
+[0;39;49m[1;36;49m2020-01-10T01:10:02Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/util_tests.cpp(1393): Leaving test case "test_ParseUInt32"; testing time: 2190us
+[0;39;49m[1;34;49mtest/util_tests.cpp(1424): Entering test case "test_ParseUInt64"
+[0;39;49m[1;36;49m2020-01-10T01:10:02Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/util_tests.cpp(1424): Leaving test case "test_ParseUInt64"; testing time: 2241us
+[0;39;49m[1;34;49mtest/util_tests.cpp(1456): Entering test case "test_ParseDouble"
+[0;39;49m[1;36;49m2020-01-10T01:10:02Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/util_tests.cpp(1456): Leaving test case "test_ParseDouble"; testing time: 2318us
+[0;39;49m[1;34;49mtest/util_tests.cpp(1484): Entering test case "test_FormatParagraph"
+[0;39;49m[1;36;49m2020-01-10T01:10:02Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/util_tests.cpp(1484): Leaving test case "test_FormatParagraph"; testing time: 2250us
+[0;39;49m[1;34;49mtest/util_tests.cpp(1511): Entering test case "test_FormatSubVersion"
+[0;39;49m[1;36;49m2020-01-10T01:10:02Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/util_tests.cpp(1511): Leaving test case "test_FormatSubVersion"; testing time: 2224us
+[0;39;49m[1;34;49mtest/util_tests.cpp(1523): Entering test case "test_ParseFixedPoint"
+[0;39;49m[1;36;49m2020-01-10T01:10:02Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/util_tests.cpp(1523): Leaving test case "test_ParseFixedPoint"; testing time: 2231us
+[0;39;49m[1;34;49mtest/util_tests.cpp(1626): Entering test case "test_LockDirectory"
+[0;39;49m[1;36;49m2020-01-10T01:10:02Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z ERROR: Error while attempting to lock directory /tmp/test_common_Bitcoin Core/1954486691/lock_dir: No such file or directory[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z ERROR: Error while attempting to lock directory /tmp/test_common_Bitcoin Core/1954486691/lock_dir: Resource temporarily unavailable[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z ERROR: Error while attempting to lock directory /tmp/test_common_Bitcoin Core/1954486691/lock_dir: Resource temporarily unavailable[0;39;49m
+[1;34;49mtest/util_tests.cpp(1626): Leaving test case "test_LockDirectory"; testing time: 7211us
+[0;39;49m[1;34;49mtest/util_tests.cpp(1714): Entering test case "test_DirIsWritable"
+[0;39;49m[1;36;49m2020-01-10T01:10:02Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/util_tests.cpp(1714): Leaving test case "test_DirIsWritable"; testing time: 2555us
+[0;39;49m[1;34;49mtest/util_tests.cpp(1730): Entering test case "test_ToLower"
+[0;39;49m[1;36;49m2020-01-10T01:10:02Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/util_tests.cpp(1730): Leaving test case "test_ToLower"; testing time: 2318us
+[0;39;49m[1;34;49mtest/util_tests.cpp(1744): Entering test case "test_ToUpper"
+[0;39;49m[1;36;49m2020-01-10T01:10:02Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/util_tests.cpp(1744): Leaving test case "test_ToUpper"; testing time: 2283us
+[0;39;49m[1;34;49mtest/util_tests.cpp(1758): Entering test case "test_Capitalize"
+[0;39;49m[1;36;49m2020-01-10T01:10:02Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/util_tests.cpp(1758): Leaving test case "test_Capitalize"; testing time: 2157us
+[0;39;49m[1;34;49mtest/util_tests.cpp(1770): Entering test case "test_spanparsing"
+[0;39;49m[1;36;49m2020-01-10T01:10:02Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/util_tests.cpp(1770): Leaving test case "test_spanparsing"; testing time: 2183us
+[0;39;49m[1;34;49mtest/util_tests.cpp(1888): Entering test case "test_LogEscapeMessage"
+[0;39;49m[1;36;49m2020-01-10T01:10:02Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/util_tests.cpp(1888): Leaving test case "test_LogEscapeMessage"; testing time: 2174us
+[0;39;49m[1;34;49mtest/util_tests.cpp(1929): Entering test case "test_tracked_vector"
+[0;39;49m[1;36;49m2020-01-10T01:10:02Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=365608d1b0bcd46a88b287565323b390d47d1fea5fd3c34c0aa8cb22823c6e65[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:02Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/util_tests.cpp(1929): Leaving test case "test_tracked_vector"; testing time: 2159us
+[0;39;49m[1;34;49mtest/util_tests.cpp(37): Leaving test suite "util_tests"; testing time: 1674526us
+[0;39;49m[1;34;49mLeaving test module "Bitcoin Core Test Suite"; testing time: 1674624us
+[0;39;49m
+[1;32;49m*** No errors detected
+[0;39;49m

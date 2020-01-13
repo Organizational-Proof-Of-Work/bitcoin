@@ -1,0 +1,14 @@
+Running 1 test case...
+[1;34;49mEntering test module "Bitcoin Core Test Suite"
+[0;39;49m[1;34;49mtest/fs_tests.cpp(11): Entering test suite "fs_tests"
+[0;39;49m[1;34;49mtest/fs_tests.cpp(13): Entering test case "fsbridge_fstream"
+[0;39;49m[1;36;49m2020-01-10T01:09:41Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=4faac4d2f2153836121d07ba02f5858b5cf89a09b71114b2d782c85a220cb083[0;39;49m
+[1;36;49m2020-01-10T01:09:41Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:41Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:41Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/fs_tests.cpp(13): Leaving test case "fsbridge_fstream"; testing time: 15355us
+[0;39;49m[1;34;49mtest/fs_tests.cpp(11): Leaving test suite "fs_tests"; testing time: 15372us
+[0;39;49m[1;34;49mLeaving test module "Bitcoin Core Test Suite"; testing time: 15474us
+[0;39;49m
+[1;32;49m*** No errors detected
+[0;39;49m

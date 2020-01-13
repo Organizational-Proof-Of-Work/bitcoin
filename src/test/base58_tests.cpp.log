@@ -1,0 +1,26 @@
+Running 3 test cases...
+[1;34;49mEntering test module "Bitcoin Core Test Suite"
+[0;39;49m[1;34;49mtest/base58_tests.cpp(19): Entering test suite "base58_tests"
+[0;39;49m[1;34;49mtest/base58_tests.cpp(22): Entering test case "base58_EncodeBase58"
+[0;39;49m[1;36;49m2020-01-10T01:09:30Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=4cb56231a62629c0580763c342567c14d646ed57c58d5b4fb633e2a2fc0dfb93[0;39;49m
+[1;36;49m2020-01-10T01:09:30Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:30Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:30Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/base58_tests.cpp(22): Leaving test case "base58_EncodeBase58"; testing time: 16482us
+[0;39;49m[1;34;49mtest/base58_tests.cpp(42): Entering test case "base58_DecodeBase58"
+[0;39;49m[1;36;49m2020-01-10T01:09:30Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=4cb56231a62629c0580763c342567c14d646ed57c58d5b4fb633e2a2fc0dfb93[0;39;49m
+[1;36;49m2020-01-10T01:09:30Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:30Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:30Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/base58_tests.cpp(42): Leaving test case "base58_DecodeBase58"; testing time: 3144us
+[0;39;49m[1;34;49mtest/base58_tests.cpp(82): Entering test case "base58_random_encode_decode"
+[0;39;49m[1;36;49m2020-01-10T01:09:30Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=4cb56231a62629c0580763c342567c14d646ed57c58d5b4fb633e2a2fc0dfb93[0;39;49m
+[1;36;49m2020-01-10T01:09:30Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:30Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:30Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/base58_tests.cpp(82): Leaving test case "base58_random_encode_decode"; testing time: 74503us
+[0;39;49m[1;34;49mtest/base58_tests.cpp(19): Leaving test suite "base58_tests"; testing time: 94186us
+[0;39;49m[1;34;49mLeaving test module "Bitcoin Core Test Suite"; testing time: 94293us
+[0;39;49m
+[1;32;49m*** No errors detected
+[0;39;49m

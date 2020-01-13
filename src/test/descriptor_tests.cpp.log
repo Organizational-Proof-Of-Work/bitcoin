@@ -1,0 +1,14 @@
+Running 1 test case...
+[1;34;49mEntering test module "Bitcoin Core Test Suite"
+[0;39;49m[1;34;49mtest/descriptor_tests.cpp(212): Entering test suite "descriptor_tests"
+[0;39;49m[1;34;49mtest/descriptor_tests.cpp(214): Entering test case "descriptor_test"
+[0;39;49m[1;36;49m2020-01-10T01:09:41Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=5cad4938fbe96da2520fe3a211bb3a9ef0adc0ea1ca543fb28741e82cd1bbfc2[0;39;49m
+[1;36;49m2020-01-10T01:09:41Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:41Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:41Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/descriptor_tests.cpp(214): Leaving test case "descriptor_test"; testing time: 145781us
+[0;39;49m[1;34;49mtest/descriptor_tests.cpp(212): Leaving test suite "descriptor_tests"; testing time: 145800us
+[0;39;49m[1;34;49mLeaving test module "Bitcoin Core Test Suite"; testing time: 145904us
+[0;39;49m
+[1;32;49m*** No errors detected
+[0;39;49m

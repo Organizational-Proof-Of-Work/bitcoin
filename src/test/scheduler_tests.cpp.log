@@ -1,0 +1,12 @@
+Running 2 test cases...
+[1;34;49mEntering test module "Bitcoin Core Test Suite"
+[0;39;49m[1;34;49mtest/scheduler_tests.cpp(13): Entering test suite "scheduler_tests"
+[0;39;49m[1;34;49mtest/scheduler_tests.cpp(40): Entering test case "manythreads"
+[0;39;49m[1;34;49mtest/scheduler_tests.cpp(40): Leaving test case "manythreads"; testing time: 6007us
+[0;39;49m[1;34;49mtest/scheduler_tests.cpp(114): Entering test case "singlethreadedscheduler_ordered"
+[0;39;49m[1;34;49mtest/scheduler_tests.cpp(114): Leaving test case "singlethreadedscheduler_ordered"; testing time: 5127us
+[0;39;49m[1;34;49mtest/scheduler_tests.cpp(13): Leaving test suite "scheduler_tests"; testing time: 11187us
+[0;39;49m[1;34;49mLeaving test module "Bitcoin Core Test Suite"; testing time: 11305us
+[0;39;49m
+[1;32;49m*** No errors detected
+[0;39;49m

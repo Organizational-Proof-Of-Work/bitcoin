@@ -1,0 +1,14 @@
+Running 1 test case...
+[1;34;49mEntering test module "Bitcoin Core Test Suite"
+[0;39;49m[1;34;49mtest/limitedmap_tests.cpp(11): Entering test suite "limitedmap_tests"
+[0;39;49m[1;34;49mtest/limitedmap_tests.cpp(13): Entering test case "limitedmap_test"
+[0;39;49m[1;36;49m2020-01-10T01:09:42Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=f3f74f8f839e4d606a1aa02db183aea1da31da0df5accb4b649cc71a21af7abb[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:42Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/limitedmap_tests.cpp(13): Leaving test case "limitedmap_test"; testing time: 15981us
+[0;39;49m[1;34;49mtest/limitedmap_tests.cpp(11): Leaving test suite "limitedmap_tests"; testing time: 15995us
+[0;39;49m[1;34;49mLeaving test module "Bitcoin Core Test Suite"; testing time: 16105us
+[0;39;49m
+[1;32;49m*** No errors detected
+[0;39;49m

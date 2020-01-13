@@ -1,0 +1,61 @@
+Running 7 test cases...
+[1;34;49mEntering test module "Bitcoin Core Test Suite"
+[0;39;49m[1;34;49mwallet/test/init_tests.cpp(13): Entering test suite "init_tests"
+[0;39;49m[1;34;49mwallet/test/init_tests.cpp(15): Entering test case "walletinit_verify_walletdir_default"
+[0;39;49m[1;36;49m2020-01-10T01:10:12Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=447b913d9c1f08225cbf1e0746630523072b5df16acf8d92e1821774045e0491[0;39;49m
+[1;36;49m2020-01-10T01:10:12Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:12Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:12Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:12Z Using wallet directory /tmp/test_common_Bitcoin Core/3051782614/wallets[0;39;49m
+[1;36;49m2020-01-10T01:10:12Z init message: Verifying wallet(s)...[0;39;49m
+[1;34;49mwallet/test/init_tests.cpp(15): Leaving test case "walletinit_verify_walletdir_default"; testing time: 15213us
+[0;39;49m[1;34;49mwallet/test/init_tests.cpp(25): Entering test case "walletinit_verify_walletdir_custom"
+[0;39;49m[1;36;49m2020-01-10T01:10:12Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=447b913d9c1f08225cbf1e0746630523072b5df16acf8d92e1821774045e0491[0;39;49m
+[1;36;49m2020-01-10T01:10:12Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:12Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:12Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:12Z Using wallet directory /tmp/test_common_Bitcoin Core/1484253877/my_wallets[0;39;49m
+[1;36;49m2020-01-10T01:10:12Z init message: Verifying wallet(s)...[0;39;49m
+[1;34;49mwallet/test/init_tests.cpp(25): Leaving test case "walletinit_verify_walletdir_custom"; testing time: 2717us
+[0;39;49m[1;34;49mwallet/test/init_tests.cpp(35): Entering test case "walletinit_verify_walletdir_does_not_exist"
+[0;39;49m[1;36;49m2020-01-10T01:10:12Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=447b913d9c1f08225cbf1e0746630523072b5df16acf8d92e1821774045e0491[0;39;49m
+[1;36;49m2020-01-10T01:10:12Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:12Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:12Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:12Z : Specified -walletdir "/tmp/test_common_Bitcoin Core/2079517039/path_does_not_exist" does not exist[0;39;49m
+[1;34;49mwallet/test/init_tests.cpp(35): Leaving test case "walletinit_verify_walletdir_does_not_exist"; testing time: 2760us
+[0;39;49m[1;34;49mwallet/test/init_tests.cpp(45): Entering test case "walletinit_verify_walletdir_is_not_directory"
+[0;39;49m[1;36;49m2020-01-10T01:10:12Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=447b913d9c1f08225cbf1e0746630523072b5df16acf8d92e1821774045e0491[0;39;49m
+[1;36;49m2020-01-10T01:10:12Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:12Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:12Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:12Z : Specified -walletdir "/tmp/test_common_Bitcoin Core/2625512852/not_a_directory.dat" is not a directory[0;39;49m
+[1;34;49mwallet/test/init_tests.cpp(45): Leaving test case "walletinit_verify_walletdir_is_not_directory"; testing time: 2578us
+[0;39;49m[1;34;49mwallet/test/init_tests.cpp(55): Entering test case "walletinit_verify_walletdir_is_not_relative"
+[0;39;49m[1;36;49m2020-01-10T01:10:12Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=447b913d9c1f08225cbf1e0746630523072b5df16acf8d92e1821774045e0491[0;39;49m
+[1;36;49m2020-01-10T01:10:12Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:12Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:12Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:12Z : Specified -walletdir "wallets" is a relative path[0;39;49m
+[1;34;49mwallet/test/init_tests.cpp(55): Leaving test case "walletinit_verify_walletdir_is_not_relative"; testing time: 2582us
+[0;39;49m[1;34;49mwallet/test/init_tests.cpp(65): Entering test case "walletinit_verify_walletdir_no_trailing"
+[0;39;49m[1;36;49m2020-01-10T01:10:12Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=447b913d9c1f08225cbf1e0746630523072b5df16acf8d92e1821774045e0491[0;39;49m
+[1;36;49m2020-01-10T01:10:12Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:12Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:12Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:12Z Using wallet directory /tmp/test_common_Bitcoin Core/1659661474/wallets[0;39;49m
+[1;36;49m2020-01-10T01:10:12Z init message: Verifying wallet(s)...[0;39;49m
+[1;34;49mwallet/test/init_tests.cpp(65): Leaving test case "walletinit_verify_walletdir_no_trailing"; testing time: 2523us
+[0;39;49m[1;34;49mwallet/test/init_tests.cpp(75): Entering test case "walletinit_verify_walletdir_no_trailing2"
+[0;39;49m[1;36;49m2020-01-10T01:10:12Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=447b913d9c1f08225cbf1e0746630523072b5df16acf8d92e1821774045e0491[0;39;49m
+[1;36;49m2020-01-10T01:10:12Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:12Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:12Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:12Z Using wallet directory /tmp/test_common_Bitcoin Core/3462676962/wallets[0;39;49m
+[1;36;49m2020-01-10T01:10:12Z init message: Verifying wallet(s)...[0;39;49m
+[1;34;49mwallet/test/init_tests.cpp(75): Leaving test case "walletinit_verify_walletdir_no_trailing2"; testing time: 2488us
+[0;39;49m[1;34;49mwallet/test/init_tests.cpp(13): Leaving test suite "init_tests"; testing time: 30965us
+[0;39;49m[1;34;49mLeaving test module "Bitcoin Core Test Suite"; testing time: 31061us
+[0;39;49m
+[1;32;49m*** No errors detected
+[0;39;49m

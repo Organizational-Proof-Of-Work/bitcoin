@@ -1,0 +1,20 @@
+Running 2 test cases...
+[1;34;49mEntering test module "Bitcoin Core Test Suite"
+[0;39;49m[1;34;49mtest/sigopcount_tests.cpp(26): Entering test suite "sigopcount_tests"
+[0;39;49m[1;34;49mtest/sigopcount_tests.cpp(28): Entering test case "GetSigOpCount"
+[0;39;49m[1;36;49m2020-01-10T01:09:51Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=c244e3fe0929ab70e22c561a94476434aa1a06c2f86334226654870b3a3e99f4[0;39;49m
+[1;36;49m2020-01-10T01:09:51Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:51Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:51Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/sigopcount_tests.cpp(28): Leaving test case "GetSigOpCount"; testing time: 14845us
+[0;39;49m[1;34;49mtest/sigopcount_tests.cpp(108): Entering test case "GetTxSigOpCost"
+[0;39;49m[1;36;49m2020-01-10T01:09:51Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=c244e3fe0929ab70e22c561a94476434aa1a06c2f86334226654870b3a3e99f4[0;39;49m
+[1;36;49m2020-01-10T01:09:51Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:51Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:51Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/sigopcount_tests.cpp(108): Leaving test case "GetTxSigOpCost"; testing time: 2582us
+[0;39;49m[1;34;49mtest/sigopcount_tests.cpp(26): Leaving test suite "sigopcount_tests"; testing time: 17454us
+[0;39;49m[1;34;49mLeaving test module "Bitcoin Core Test Suite"; testing time: 17544us
+[0;39;49m
+[1;32;49m*** No errors detected
+[0;39;49m

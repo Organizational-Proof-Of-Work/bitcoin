@@ -1,0 +1,123 @@
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+********* Start testing of AppTests *********
+Config: Using QtTest library 5.9.8, Qt 5.9.8 (x86_64-little_endian-lp64 static release build; by GCC 4.8.4)
+PASS   : AppTests::initTestCase()
+QINFO  : AppTests::appTests() Backing up GUI settings to "/tmp/test_common_Bitcoin Core/1410588015/regtest/guisettings.ini.bak"
+QWARN  : AppTests::appTests() QFont::setPointSizeF: Point size <= 0 (-1.000000), must be greater than 0
+QWARN  : AppTests::appTests() QFont::setPointSizeF: Point size <= 0 (-1.000000), must be greater than 0
+QWARN  : AppTests::appTests() QFont::setPointSizeF: Point size <= 0 (-1.000000), must be greater than 0
+QWARN  : AppTests::appTests() QFont::setPointSizeF: Point size <= 0 (-1.000000), must be greater than 0
+QWARN  : AppTests::appTests() QFont::setPointSizeF: Point size <= 0 (-1.000000), must be greater than 0
+QWARN  : AppTests::appTests() QFont::setPointSizeF: Point size <= 0 (-1.000000), must be greater than 0
+QWARN  : AppTests::appTests() QFont::setPointSizeF: Point size <= 0 (-1.000000), must be greater than 0
+QWARN  : AppTests::appTests() QFont::setPointSizeF: Point size <= 0 (-1.000000), must be greater than 0
+QWARN  : AppTests::appTests() QFont::setPointSizeF: Point size <= 0 (-1.000000), must be greater than 0
+QWARN  : AppTests::appTests() QFont::setPointSizeF: Point size <= 0 (-1.000000), must be greater than 0
+QWARN  : AppTests::appTests() QFont::setPointSizeF: Point size <= 0 (-1.000000), must be greater than 0
+QDEBUG : AppTests::appTests() requestInitialize : Requesting initialize
+QDEBUG : AppTests::appTests() initialize : Running initialization in thread
+QDEBUG : AppTests::appTests() initializeResult : Initialization result:  true
+QINFO  : AppTests::appTests() Platform customization: "other"
+QDEBUG : AppTests::appTests() TransactionTablePriv::refreshWallet
+QWARN  : AppTests::appTests() This plugin does not support propagateSizeHints()
+QWARN  : AppTests::appTests() This plugin does not support propagateSizeHints()
+QWARN  : AppTests::appTests() This plugin does not support raise()
+QWARN  : AppTests::appTests() This plugin does not support raise()
+QWARN  : AppTests::appTests() This plugin does not support grabbing the keyboard
+QWARN  : AppTests::appTests() QFont::setPointSizeF: Point size <= 0 (-1.000000), must be greater than 0
+QWARN  : AppTests::appTests() QFont::setPointSizeF: Point size <= 0 (-1.000000), must be greater than 0
+QWARN  : AppTests::appTests() QFont::setPointSizeF: Point size <= 0 (-1.000000), must be greater than 0
+QWARN  : AppTests::appTests() QFont::setPointSizeF: Point size <= 0 (-1.000000), must be greater than 0
+QWARN  : AppTests::appTests() QFont::setPointSizeF: Point size <= 0 (-1.000000), must be greater than 0
+QWARN  : AppTests::appTests() QFont::setPointSizeF: Point size <= 0 (-1.000000), must be greater than 0
+QWARN  : AppTests::appTests() This plugin does not support propagateSizeHints()
+QDEBUG : AppTests::appTests() requestShutdown : Requesting shutdown
+QDEBUG : AppTests::appTests() shutdown : Running Shutdown in thread
+QDEBUG : AppTests::appTests() NotifyUnload
+QDEBUG : AppTests::appTests() shutdown : Shutdown finished
+PASS   : AppTests::appTests()
+PASS   : AppTests::cleanupTestCase()
+Totals: 3 passed, 0 failed, 0 skipped, 0 blacklisted, 1593ms
+********* Finished testing of AppTests *********
+********* Start testing of URITests *********
+Config: Using QtTest library 5.9.8, Qt 5.9.8 (x86_64-little_endian-lp64 static release build; by GCC 4.8.4)
+PASS   : URITests::initTestCase()
+PASS   : URITests::uriTests()
+PASS   : URITests::cleanupTestCase()
+Totals: 3 passed, 0 failed, 0 skipped, 0 blacklisted, 0ms
+********* Finished testing of URITests *********
+********* Start testing of RPCNestedTests *********
+Config: Using QtTest library 5.9.8, Qt 5.9.8 (x86_64-little_endian-lp64 static release build; by GCC 4.8.4)
+PASS   : RPCNestedTests::initTestCase()
+PASS   : RPCNestedTests::rpcNestedTests()
+PASS   : RPCNestedTests::cleanupTestCase()
+Totals: 3 passed, 0 failed, 0 skipped, 0 blacklisted, 15ms
+********* Finished testing of RPCNestedTests *********
+********* Start testing of CompatTests *********
+Config: Using QtTest library 5.9.8, Qt 5.9.8 (x86_64-little_endian-lp64 static release build; by GCC 4.8.4)
+PASS   : CompatTests::initTestCase()
+PASS   : CompatTests::bswapTests()
+PASS   : CompatTests::cleanupTestCase()
+Totals: 3 passed, 0 failed, 0 skipped, 0 blacklisted, 0ms
+********* Finished testing of CompatTests *********
+********* Start testing of WalletTests *********
+Config: Using QtTest library 5.9.8, Qt 5.9.8 (x86_64-little_endian-lp64 static release build; by GCC 4.8.4)
+PASS   : WalletTests::initTestCase()
+QDEBUG : WalletTests::walletTests() TransactionTablePriv::refreshWallet
+QWARN  : WalletTests::walletTests() This plugin does not support propagateSizeHints()
+QDEBUG : WalletTests::walletTests() "NotifyTransactionChanged: 4af7c50dfa0f33dad011574cbe0e6605f3cc74fdf98eca223fad3afb55301c64 status= 0"
+QDEBUG : WalletTests::walletTests() "NotifyTransactionChanged: c16a5d09069d414f9fbc00000b2185f1d22381c0ff2ebba36707dd9f6c154530 status= 1"
+QDEBUG : WalletTests::walletTests() "NotifyAddressBookChanged: mfWxJ45yp2SFn7UciZyNpvDKrzbhyfKrY8  isMine=0 purpose=send status=0"
+QDEBUG : WalletTests::walletTests() "TransactionTablePriv::updateWallet: 4af7c50dfa0f33dad011574cbe0e6605f3cc74fdf98eca223fad3afb55301c64 0"
+QDEBUG : WalletTests::walletTests() "    inModel=0 Index=43-43 showTransaction=1 derivedStatus=0"
+QDEBUG : WalletTests::walletTests() "TransactionTablePriv::updateWallet: c16a5d09069d414f9fbc00000b2185f1d22381c0ff2ebba36707dd9f6c154530 1"
+QDEBUG : WalletTests::walletTests() "    inModel=1 Index=24-25 showTransaction=1 derivedStatus=1"
+QWARN  : WalletTests::walletTests() This plugin does not support propagateSizeHints()
+QDEBUG : WalletTests::walletTests() "NotifyTransactionChanged: bfa9c7c1938106c376a20abfa977db7abe44312f2fd25a673c66280581148b85 status= 0"
+QDEBUG : WalletTests::walletTests() "NotifyTransactionChanged: a109738b2a0483862216ff77f14a59b2fd23b98d2ac09c476e7011673a3392d3 status= 1"
+QDEBUG : WalletTests::walletTests() "TransactionTablePriv::updateWallet: bfa9c7c1938106c376a20abfa977db7abe44312f2fd25a673c66280581148b85 0"
+QDEBUG : WalletTests::walletTests() "    inModel=0 Index=61-61 showTransaction=1 derivedStatus=0"
+QDEBUG : WalletTests::walletTests() "TransactionTablePriv::updateWallet: a109738b2a0483862216ff77f14a59b2fd23b98d2ac09c476e7011673a3392d3 1"
+QDEBUG : WalletTests::walletTests() "    inModel=1 Index=90-91 showTransaction=1 derivedStatus=1"
+QWARN  : WalletTests::walletTests() This plugin does not support raise()
+QWARN  : WalletTests::walletTests() This plugin does not support grabbing the keyboard
+QWARN  : WalletTests::walletTests() This plugin does not support propagateSizeHints()
+QWARN  : WalletTests::walletTests() This plugin does not support raise()
+QWARN  : WalletTests::walletTests() This plugin does not support grabbing the keyboard
+QWARN  : WalletTests::walletTests() This plugin does not support propagateSizeHints()
+QWARN  : WalletTests::walletTests() This plugin does not support raise()
+QWARN  : WalletTests::walletTests() This plugin does not support grabbing the keyboard
+QWARN  : WalletTests::walletTests() This plugin does not support propagateSizeHints()
+QDEBUG : WalletTests::walletTests() "NotifyTransactionChanged: 336ca78f28396cbb2fab0bc20f826d5699769cceb9672f5f33e97b40da9ee6dc status= 0"
+QDEBUG : WalletTests::walletTests() "NotifyTransactionChanged: a109738b2a0483862216ff77f14a59b2fd23b98d2ac09c476e7011673a3392d3 status= 1"
+QDEBUG : WalletTests::walletTests() "NotifyTransactionChanged: bfa9c7c1938106c376a20abfa977db7abe44312f2fd25a673c66280581148b85 status= 1"
+QDEBUG : WalletTests::walletTests() "TransactionTablePriv::updateWallet: bfa9c7c1938106c376a20abfa977db7abe44312f2fd25a673c66280581148b85 1"
+QDEBUG : WalletTests::walletTests() "    inModel=1 Index=61-62 showTransaction=1 derivedStatus=1"
+QDEBUG : WalletTests::walletTests() "TransactionTablePriv::updateWallet: 336ca78f28396cbb2fab0bc20f826d5699769cceb9672f5f33e97b40da9ee6dc 0"
+QDEBUG : WalletTests::walletTests() "    inModel=0 Index=93-93 showTransaction=1 derivedStatus=0"
+QDEBUG : WalletTests::walletTests() "TransactionTablePriv::updateWallet: a109738b2a0483862216ff77f14a59b2fd23b98d2ac09c476e7011673a3392d3 1"
+QDEBUG : WalletTests::walletTests() "    inModel=1 Index=90-91 showTransaction=1 derivedStatus=1"
+QDEBUG : WalletTests::walletTests() "TransactionTablePriv::updateWallet: bfa9c7c1938106c376a20abfa977db7abe44312f2fd25a673c66280581148b85 1"
+QDEBUG : WalletTests::walletTests() "    inModel=1 Index=61-62 showTransaction=1 derivedStatus=1"
+QWARN  : WalletTests::walletTests() This plugin does not support raise()
+QWARN  : WalletTests::walletTests() This plugin does not support grabbing the keyboard
+QWARN  : WalletTests::walletTests() This plugin does not support propagateSizeHints()
+QDEBUG : WalletTests::walletTests() "NotifyAddressBookChanged: mi5oJ2huoUVq2GK8DWV3Tr2EXQQTw5Nqob TEST_LABEL_1 isMine=1 purpose=receive status=0"
+QWARN  : WalletTests::walletTests() This plugin does not support propagateSizeHints()
+PASS   : WalletTests::walletTests()
+PASS   : WalletTests::cleanupTestCase()
+Totals: 3 passed, 0 failed, 0 skipped, 0 blacklisted, 541ms
+********* Finished testing of WalletTests *********
+********* Start testing of AddressBookTests *********
+Config: Using QtTest library 5.9.8, Qt 5.9.8 (x86_64-little_endian-lp64 static release build; by GCC 4.8.4)
+PASS   : AddressBookTests::initTestCase()
+QDEBUG : AddressBookTests::addressBookTests() TransactionTablePriv::refreshWallet
+QWARN  : AddressBookTests::addressBookTests() This plugin does not support propagateSizeHints()
+QWARN  : AddressBookTests::addressBookTests() This plugin does not support propagateSizeHints()
+QDEBUG : AddressBookTests::addressBookTests() "NotifyAddressBookChanged: bcrt1qa04v8l8hx00qxm2uts2vsxuhz4xjdqvacegc5w new isMine=0 purpose=send status=0"
+PASS   : AddressBookTests::addressBookTests()
+PASS   : AddressBookTests::cleanupTestCase()
+Totals: 3 passed, 0 failed, 0 skipped, 0 blacklisted, 120ms
+********* Finished testing of AddressBookTests *********
+~BitcoinApplication : Stopping thread
+~BitcoinApplication : Stopped thread

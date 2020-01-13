@@ -1,0 +1,18 @@
+Running 5 test cases...
+[1;34;49mEntering test module "Bitcoin Core Test Suite"
+[0;39;49m[1;34;49mtest/blockfilter_tests.cpp(17): Entering test suite "blockfilter_tests"
+[0;39;49m[1;34;49mtest/blockfilter_tests.cpp(19): Entering test case "gcsfilter_test"
+[0;39;49m[1;34;49mtest/blockfilter_tests.cpp(19): Leaving test case "gcsfilter_test"; testing time: 1645us
+[0;39;49m[1;34;49mtest/blockfilter_tests.cpp(42): Entering test case "gcsfilter_default_constructor"
+[0;39;49m[1;34;49mtest/blockfilter_tests.cpp(42): Leaving test case "gcsfilter_default_constructor"; testing time: 336us
+[0;39;49m[1;34;49mtest/blockfilter_tests.cpp(55): Entering test case "blockfilter_basic_test"
+[0;39;49m[1;34;49mtest/blockfilter_tests.cpp(55): Leaving test case "blockfilter_basic_test"; testing time: 214us
+[0;39;49m[1;34;49mtest/blockfilter_tests.cpp(128): Entering test case "blockfilters_json_test"
+[0;39;49m[1;34;49mtest/blockfilter_tests.cpp(128): Leaving test case "blockfilters_json_test"; testing time: 768us
+[0;39;49m[1;34;49mtest/blockfilter_tests.cpp(182): Entering test case "blockfilter_type_names"
+[0;39;49m[1;34;49mtest/blockfilter_tests.cpp(182): Leaving test case "blockfilter_type_names"; testing time: 181us
+[0;39;49m[1;34;49mtest/blockfilter_tests.cpp(17): Leaving test suite "blockfilter_tests"; testing time: 3227us
+[0;39;49m[1;34;49mLeaving test module "Bitcoin Core Test Suite"; testing time: 3343us
+[0;39;49m
+[1;32;49m*** No errors detected
+[0;39;49m

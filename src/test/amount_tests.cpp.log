@@ -1,0 +1,32 @@
+Running 4 test cases...
+[1;34;49mEntering test module "Bitcoin Core Test Suite"
+[0;39;49m[1;34;49mtest/amount_tests.cpp(11): Entering test suite "amount_tests"
+[0;39;49m[1;34;49mtest/amount_tests.cpp(13): Entering test case "MoneyRangeTest"
+[0;39;49m[1;36;49m2020-01-10T01:09:30Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=01896ba4616d06ea463db05eb7b006933e7863c750e2e57db08627f8017bd515[0;39;49m
+[1;36;49m2020-01-10T01:09:30Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:30Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:30Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/amount_tests.cpp(13): Leaving test case "MoneyRangeTest"; testing time: 16203us
+[0;39;49m[1;34;49mtest/amount_tests.cpp(22): Entering test case "GetFeeTest"
+[0;39;49m[1;36;49m2020-01-10T01:09:30Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=01896ba4616d06ea463db05eb7b006933e7863c750e2e57db08627f8017bd515[0;39;49m
+[1;36;49m2020-01-10T01:09:30Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:30Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:30Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/amount_tests.cpp(22): Leaving test case "GetFeeTest"; testing time: 3137us
+[0;39;49m[1;34;49mtest/amount_tests.cpp(89): Entering test case "BinaryOperatorTest"
+[0;39;49m[1;36;49m2020-01-10T01:09:30Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=01896ba4616d06ea463db05eb7b006933e7863c750e2e57db08627f8017bd515[0;39;49m
+[1;36;49m2020-01-10T01:09:30Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:30Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:30Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/amount_tests.cpp(89): Leaving test case "BinaryOperatorTest"; testing time: 3006us
+[0;39;49m[1;34;49mtest/amount_tests.cpp(106): Entering test case "ToStringTest"
+[0;39;49m[1;36;49m2020-01-10T01:09:30Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=01896ba4616d06ea463db05eb7b006933e7863c750e2e57db08627f8017bd515[0;39;49m
+[1;36;49m2020-01-10T01:09:30Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:30Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:30Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/amount_tests.cpp(106): Leaving test case "ToStringTest"; testing time: 3020us
+[0;39;49m[1;34;49mtest/amount_tests.cpp(11): Leaving test suite "amount_tests"; testing time: 25445us
+[0;39;49m[1;34;49mLeaving test module "Bitcoin Core Test Suite"; testing time: 25570us
+[0;39;49m
+[1;32;49m*** No errors detected
+[0;39;49m

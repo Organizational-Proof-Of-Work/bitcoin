@@ -1,0 +1,26 @@
+Running 3 test cases...
+[1;34;49mEntering test module "Bitcoin Core Test Suite"
+[0;39;49m[1;34;49mwallet/test/wallet_crypto_tests.cpp(13): Entering test suite "wallet_crypto_tests"
+[0;39;49m[1;34;49mwallet/test/wallet_crypto_tests.cpp(74): Entering test case "passphrase"
+[0;39;49m[1;36;49m2020-01-10T01:10:06Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=af07d240edc44b00e79a119ed0e03fca395dea9e90f00d1720dc9babbf922545[0;39;49m
+[1;36;49m2020-01-10T01:10:06Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:06Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:06Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mwallet/test/wallet_crypto_tests.cpp(74): Leaving test case "passphrase"; testing time: 1017228us
+[0;39;49m[1;34;49mwallet/test/wallet_crypto_tests.cpp(90): Entering test case "encrypt"
+[0;39;49m[1;36;49m2020-01-10T01:10:07Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=af07d240edc44b00e79a119ed0e03fca395dea9e90f00d1720dc9babbf922545[0;39;49m
+[1;36;49m2020-01-10T01:10:07Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:07Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:07Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mwallet/test/wallet_crypto_tests.cpp(90): Leaving test case "encrypt"; testing time: 50625us
+[0;39;49m[1;34;49mwallet/test/wallet_crypto_tests.cpp(105): Entering test case "decrypt"
+[0;39;49m[1;36;49m2020-01-10T01:10:07Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=af07d240edc44b00e79a119ed0e03fca395dea9e90f00d1720dc9babbf922545[0;39;49m
+[1;36;49m2020-01-10T01:10:07Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:07Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:07Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mwallet/test/wallet_crypto_tests.cpp(105): Leaving test case "decrypt"; testing time: 14998us
+[0;39;49m[1;34;49mwallet/test/wallet_crypto_tests.cpp(13): Leaving test suite "wallet_crypto_tests"; testing time: 1082983us
+[0;39;49m[1;34;49mLeaving test module "Bitcoin Core Test Suite"; testing time: 1083082us
+[0;39;49m
+[1;32;49m*** No errors detected
+[0;39;49m

@@ -1,0 +1,71 @@
+Running 10 test cases...
+[1;34;49mEntering test module "Bitcoin Core Test Suite"
+[0;39;49m[1;34;49mtest/net_tests.cpp(79): Entering test suite "net_tests"
+[0;39;49m[1;34;49mtest/net_tests.cpp(81): Entering test case "cnode_listen_port"
+[0;39;49m[1;36;49m2020-01-10T01:09:47Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=d08a39b8845a1c59a8f746ec6bf6902dfa8b6f7d133d5669a664707337493b23[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/net_tests.cpp(81): Leaving test case "cnode_listen_port"; testing time: 14478us
+[0;39;49m[1;34;49mtest/net_tests.cpp(93): Entering test case "caddrdb_read"
+[0;39;49m[1;36;49m2020-01-10T01:09:47Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=d08a39b8845a1c59a8f746ec6bf6902dfa8b6f7d133d5669a664707337493b23[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/net_tests.cpp(93): Leaving test case "caddrdb_read"; testing time: 3188us
+[0;39;49m[1;34;49mtest/net_tests.cpp(137): Entering test case "caddrdb_read_corrupted"
+[0;39;49m[1;36;49m2020-01-10T01:09:47Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=d08a39b8845a1c59a8f746ec6bf6902dfa8b6f7d133d5669a664707337493b23[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z ERROR: DeserializeDB: Deserialize or I/O error - CDataStream::read(): end of data[0;39;49m
+[1;34;49mtest/net_tests.cpp(137): Leaving test case "caddrdb_read_corrupted"; testing time: 2669us
+[0;39;49m[1;34;49mtest/net_tests.cpp(167): Entering test case "cnode_simple_test"
+[0;39;49m[1;36;49m2020-01-10T01:09:47Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=d08a39b8845a1c59a8f746ec6bf6902dfa8b6f7d133d5669a664707337493b23[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/net_tests.cpp(167): Leaving test case "cnode_simple_test"; testing time: 2913us
+[0;39;49m[1;34;49mtest/net_tests.cpp(192): Entering test case "ipv4_peer_with_ipv6_addrMe_test"
+[0;39;49m[1;36;49m2020-01-10T01:09:47Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=d08a39b8845a1c59a8f746ec6bf6902dfa8b6f7d133d5669a664707337493b23[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/net_tests.cpp(192): Leaving test case "ipv4_peer_with_ipv6_addrMe_test"; testing time: 2533us
+[0;39;49m[1;34;49mtest/net_tests.cpp(230): Entering test case "LimitedAndReachable_Network"
+[0;39;49m[1;36;49m2020-01-10T01:09:47Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=d08a39b8845a1c59a8f746ec6bf6902dfa8b6f7d133d5669a664707337493b23[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/net_tests.cpp(230): Leaving test case "LimitedAndReachable_Network"; testing time: 2295us
+[0;39;49m[1;34;49mtest/net_tests.cpp(253): Entering test case "LimitedAndReachable_NetworkCaseUnroutableAndInternal"
+[0;39;49m[1;36;49m2020-01-10T01:09:47Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=d08a39b8845a1c59a8f746ec6bf6902dfa8b6f7d133d5669a664707337493b23[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/net_tests.cpp(253): Leaving test case "LimitedAndReachable_NetworkCaseUnroutableAndInternal"; testing time: 2256us
+[0;39;49m[1;34;49mtest/net_tests.cpp(276): Entering test case "LimitedAndReachable_CNetAddr"
+[0;39;49m[1;36;49m2020-01-10T01:09:47Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=d08a39b8845a1c59a8f746ec6bf6902dfa8b6f7d133d5669a664707337493b23[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/net_tests.cpp(276): Leaving test case "LimitedAndReachable_CNetAddr"; testing time: 2312us
+[0;39;49m[1;34;49mtest/net_tests.cpp(290): Entering test case "LocalAddress_BasicLifecycle"
+[0;39;49m[1;36;49m2020-01-10T01:09:47Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=d08a39b8845a1c59a8f746ec6bf6902dfa8b6f7d133d5669a664707337493b23[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z AddLocal(2.1.1.1:1000,1000)[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z RemoveLocal(2.1.1.1:1000)[0;39;49m
+[1;34;49mtest/net_tests.cpp(290): Leaving test case "LocalAddress_BasicLifecycle"; testing time: 2287us
+[0;39;49m[1;34;49mtest/net_tests.cpp(304): Entering test case "PoissonNextSend"
+[0;39;49m[1;36;49m2020-01-10T01:09:47Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=d08a39b8845a1c59a8f746ec6bf6902dfa8b6f7d133d5669a664707337493b23[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/net_tests.cpp(304): Leaving test case "PoissonNextSend"; testing time: 2257us
+[0;39;49m[1;34;49mtest/net_tests.cpp(79): Leaving test suite "net_tests"; testing time: 37318us
+[0;39;49m[1;34;49mLeaving test module "Bitcoin Core Test Suite"; testing time: 37431us
+[0;39;49m
+[1;32;49m*** No errors detected
+[0;39;49m

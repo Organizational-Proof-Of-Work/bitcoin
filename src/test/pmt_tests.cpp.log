@@ -1,0 +1,20 @@
+Running 2 test cases...
+[1;34;49mEntering test module "Bitcoin Core Test Suite"
+[0;39;49m[1;34;49mtest/pmt_tests.cpp(29): Entering test suite "pmt_tests"
+[0;39;49m[1;34;49mtest/pmt_tests.cpp(31): Entering test case "pmt_test1"
+[0;39;49m[1;36;49m2020-01-10T01:09:47Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=dad24940db05baf8ed4a0f993601a9846ad81f12e6a35273ab60b6c039dd9b37[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/pmt_tests.cpp(31): Leaving test case "pmt_test1"; testing time: 205141us
+[0;39;49m[1;34;49mtest/pmt_tests.cpp(108): Entering test case "pmt_malleability"
+[0;39;49m[1;36;49m2020-01-10T01:09:47Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=dad24940db05baf8ed4a0f993601a9846ad81f12e6a35273ab60b6c039dd9b37[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/pmt_tests.cpp(108): Leaving test case "pmt_malleability"; testing time: 2478us
+[0;39;49m[1;34;49mtest/pmt_tests.cpp(29): Leaving test suite "pmt_tests"; testing time: 207653us
+[0;39;49m[1;34;49mLeaving test module "Bitcoin Core Test Suite"; testing time: 207754us
+[0;39;49m
+[1;32;49m*** No errors detected
+[0;39;49m

@@ -1,0 +1,92 @@
+Running 14 test cases...
+[1;34;49mEntering test module "Bitcoin Core Test Suite"
+[0;39;49m[1;34;49mtest/addrman_tests.cpp(86): Entering test suite "addrman_tests"
+[0;39;49m[1;34;49mtest/addrman_tests.cpp(88): Entering test case "addrman_simple"
+[0;39;49m[1;36;49m2020-01-10T01:09:29Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=3d1b28e0230699f1a60f5620bc3b15565e7124cfb6ce6a6647a5a1053e51dd8b[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/addrman_tests.cpp(88): Leaving test case "addrman_simple"; testing time: 15140us
+[0;39;49m[1;34;49mtest/addrman_tests.cpp(137): Entering test case "addrman_ports"
+[0;39;49m[1;36;49m2020-01-10T01:09:29Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=3d1b28e0230699f1a60f5620bc3b15565e7124cfb6ce6a6647a5a1053e51dd8b[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/addrman_tests.cpp(137): Leaving test case "addrman_ports"; testing time: 2851us
+[0;39;49m[1;34;49mtest/addrman_tests.cpp(166): Entering test case "addrman_select"
+[0;39;49m[1;36;49m2020-01-10T01:09:29Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=3d1b28e0230699f1a60f5620bc3b15565e7124cfb6ce6a6647a5a1053e51dd8b[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/addrman_tests.cpp(166): Leaving test case "addrman_select"; testing time: 14308us
+[0;39;49m[1;34;49mtest/addrman_tests.cpp(225): Entering test case "addrman_new_collisions"
+[0;39;49m[1;36;49m2020-01-10T01:09:29Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=3d1b28e0230699f1a60f5620bc3b15565e7124cfb6ce6a6647a5a1053e51dd8b[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/addrman_tests.cpp(225): Leaving test case "addrman_new_collisions"; testing time: 2534us
+[0;39;49m[1;34;49mtest/addrman_tests.cpp(251): Entering test case "addrman_tried_collisions"
+[0;39;49m[1;36;49m2020-01-10T01:09:29Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=3d1b28e0230699f1a60f5620bc3b15565e7124cfb6ce6a6647a5a1053e51dd8b[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/addrman_tests.cpp(251): Leaving test case "addrman_tried_collisions"; testing time: 95035us
+[0;39;49m[1;34;49mtest/addrman_tests.cpp(278): Entering test case "addrman_find"
+[0;39;49m[1;36;49m2020-01-10T01:09:29Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=3d1b28e0230699f1a60f5620bc3b15565e7124cfb6ce6a6647a5a1053e51dd8b[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/addrman_tests.cpp(278): Leaving test case "addrman_find"; testing time: 2694us
+[0;39;49m[1;34;49mtest/addrman_tests.cpp(311): Entering test case "addrman_create"
+[0;39;49m[1;36;49m2020-01-10T01:09:29Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=3d1b28e0230699f1a60f5620bc3b15565e7124cfb6ce6a6647a5a1053e51dd8b[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/addrman_tests.cpp(311): Leaving test case "addrman_create"; testing time: 2730us
+[0;39;49m[1;34;49mtest/addrman_tests.cpp(331): Entering test case "addrman_delete"
+[0;39;49m[1;36;49m2020-01-10T01:09:29Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=3d1b28e0230699f1a60f5620bc3b15565e7124cfb6ce6a6647a5a1053e51dd8b[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/addrman_tests.cpp(331): Leaving test case "addrman_delete"; testing time: 2643us
+[0;39;49m[1;34;49mtest/addrman_tests.cpp(351): Entering test case "addrman_getaddr"
+[0;39;49m[1;36;49m2020-01-10T01:09:29Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=3d1b28e0230699f1a60f5620bc3b15565e7124cfb6ce6a6647a5a1053e51dd8b[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/addrman_tests.cpp(351): Leaving test case "addrman_getaddr"; testing time: 325038us
+[0;39;49m[1;34;49mtest/addrman_tests.cpp(412): Entering test case "caddrinfo_get_tried_bucket"
+[0;39;49m[1;36;49m2020-01-10T01:09:29Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=3d1b28e0230699f1a60f5620bc3b15565e7124cfb6ce6a6647a5a1053e51dd8b[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/addrman_tests.cpp(412): Leaving test case "caddrinfo_get_tried_bucket"; testing time: 5579us
+[0;39;49m[1;34;49mtest/addrman_tests.cpp(466): Entering test case "caddrinfo_get_new_bucket"
+[0;39;49m[1;36;49m2020-01-10T01:09:29Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=3d1b28e0230699f1a60f5620bc3b15565e7124cfb6ce6a6647a5a1053e51dd8b[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/addrman_tests.cpp(466): Leaving test case "caddrinfo_get_new_bucket"; testing time: 10727us
+[0;39;49m[1;34;49mtest/addrman_tests.cpp(532): Entering test case "addrman_selecttriedcollision"
+[0;39;49m[1;36;49m2020-01-10T01:09:29Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=3d1b28e0230699f1a60f5620bc3b15565e7124cfb6ce6a6647a5a1053e51dd8b[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/addrman_tests.cpp(532): Leaving test case "addrman_selecttriedcollision"; testing time: 32153us
+[0;39;49m[1;34;49mtest/addrman_tests.cpp(564): Entering test case "addrman_noevict"
+[0;39;49m[1;36;49m2020-01-10T01:09:29Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=3d1b28e0230699f1a60f5620bc3b15565e7124cfb6ce6a6647a5a1053e51dd8b[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/addrman_tests.cpp(564): Leaving test case "addrman_noevict"; testing time: 46184us
+[0;39;49m[1;34;49mtest/addrman_tests.cpp(620): Entering test case "addrman_evictionworks"
+[0;39;49m[1;36;49m2020-01-10T01:09:29Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=3d1b28e0230699f1a60f5620bc3b15565e7124cfb6ce6a6647a5a1053e51dd8b[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:29Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/addrman_tests.cpp(620): Leaving test case "addrman_evictionworks"; testing time: 36769us
+[0;39;49m[1;34;49mtest/addrman_tests.cpp(86): Leaving test suite "addrman_tests"; testing time: 594693us
+[0;39;49m[1;34;49mLeaving test module "Bitcoin Core Test Suite"; testing time: 594814us
+[0;39;49m
+[1;32;49m*** No errors detected
+[0;39;49m

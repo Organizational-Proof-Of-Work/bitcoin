@@ -1,0 +1,38 @@
+Running 2 test cases...
+[1;34;49mEntering test module "Bitcoin Core Test Suite"
+[0;39;49m[1;34;49mtest/versionbits_tests.cpp(159): Entering test suite "versionbits_tests"
+[0;39;49m[1;34;49mtest/versionbits_tests.cpp(161): Entering test case "versionbits_test"
+[0;39;49m[1;36;49m2020-01-10T01:10:03Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=415851df233315d9338b1a9cd8f363e5f31df7d252ba9e73dcaa5532a610edbe[0;39;49m
+[1;36;49m2020-01-10T01:10:03Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:03Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:03Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:03Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:10:03Z Using obfuscation key for /tmp/test_common_Bitcoin Core/2364076484/blocks/index: 0000000000000000[0;39;49m
+[1;36;49m2020-01-10T01:10:03Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:10:03Z Wrote new obfuscate key for /tmp/test_common_Bitcoin Core/2364076484/chainstate: d86d056d596a1fc0[0;39;49m
+[1;36;49m2020-01-10T01:10:03Z Using obfuscation key for /tmp/test_common_Bitcoin Core/2364076484/chainstate: d86d056d596a1fc0[0;39;49m
+[1;36;49m2020-01-10T01:10:03Z Pre-allocating up to position 0x1000000 in blk00000.dat[0;39;49m
+[1;36;49m2020-01-10T01:10:03Z UpdateTip: new best=000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f height=0 version=0x00000001 log2_work=32.000022 tx=1 date='2009-01-03T18:15:05Z' progress=0.000000 cache=0.0MiB(0txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:03Z ERROR: DeserializeFileDB: Failed to open file /tmp/test_common_Bitcoin Core/2364076484/banlist.dat[0;39;49m
+[1;36;49m2020-01-10T01:10:03Z Invalid or missing banlist.dat; recreating[0;39;49m
+[1;34;49mtest/versionbits_tests.cpp(161): Leaving test case "versionbits_test"; testing time: 508188us
+[0;39;49m[1;34;49mtest/versionbits_tests.cpp(249): Entering test case "versionbits_computeblockversion"
+[0;39;49m[1;36;49m2020-01-10T01:10:04Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=415851df233315d9338b1a9cd8f363e5f31df7d252ba9e73dcaa5532a610edbe[0;39;49m
+[1;36;49m2020-01-10T01:10:04Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:10:04Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:04Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:10:04Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:10:04Z Using obfuscation key for /tmp/test_common_Bitcoin Core/523142785/blocks/index: 0000000000000000[0;39;49m
+[1;36;49m2020-01-10T01:10:04Z Opened LevelDB successfully[0;39;49m
+[1;36;49m2020-01-10T01:10:04Z Wrote new obfuscate key for /tmp/test_common_Bitcoin Core/523142785/chainstate: 2727cf36b3d9349d[0;39;49m
+[1;36;49m2020-01-10T01:10:04Z Using obfuscation key for /tmp/test_common_Bitcoin Core/523142785/chainstate: 2727cf36b3d9349d[0;39;49m
+[1;36;49m2020-01-10T01:10:04Z Pre-allocating up to position 0x1000000 in blk00000.dat[0;39;49m
+[1;36;49m2020-01-10T01:10:04Z UpdateTip: new best=000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f height=0 version=0x00000001 log2_work=32.000022 tx=1 date='2009-01-03T18:15:05Z' progress=0.000000 cache=0.0MiB(0txo)[0;39;49m
+[1;36;49m2020-01-10T01:10:04Z ERROR: DeserializeFileDB: Failed to open file /tmp/test_common_Bitcoin Core/523142785/banlist.dat[0;39;49m
+[1;36;49m2020-01-10T01:10:04Z Invalid or missing banlist.dat; recreating[0;39;49m
+[1;34;49mtest/versionbits_tests.cpp(249): Leaving test case "versionbits_computeblockversion"; testing time: 14347us
+[0;39;49m[1;34;49mtest/versionbits_tests.cpp(159): Leaving test suite "versionbits_tests"; testing time: 522582us
+[0;39;49m[1;34;49mLeaving test module "Bitcoin Core Test Suite"; testing time: 522699us
+[0;39;49m
+[1;32;49m*** No errors detected
+[0;39;49m

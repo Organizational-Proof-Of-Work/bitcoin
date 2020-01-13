@@ -1,0 +1,26 @@
+Running 3 test cases...
+[1;34;49mEntering test module "Bitcoin Core Test Suite"
+[0;39;49m[1;34;49mtest/multisig_tests.cpp(19): Entering test suite "multisig_tests"
+[0;39;49m[1;34;49mtest/multisig_tests.cpp(38): Entering test case "multisig_verify"
+[0;39;49m[1;36;49m2020-01-10T01:09:47Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=491da8863c27e5ef21c60a659a1410b791efe97e2eb15446ab46ee2bad8b3fe3[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/multisig_tests.cpp(38): Leaving test case "multisig_verify"; testing time: 23089us
+[0;39;49m[1;34;49mtest/multisig_tests.cpp(138): Entering test case "multisig_IsStandard"
+[0;39;49m[1;36;49m2020-01-10T01:09:47Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=491da8863c27e5ef21c60a659a1410b791efe97e2eb15446ab46ee2bad8b3fe3[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/multisig_tests.cpp(138): Leaving test case "multisig_IsStandard"; testing time: 3127us
+[0;39;49m[1;34;49mtest/multisig_tests.cpp(174): Entering test case "multisig_Sign"
+[0;39;49m[1;36;49m2020-01-10T01:09:47Z Seed: Setting random seed for current tests to RANDOM_CTX_SEED=491da8863c27e5ef21c60a659a1410b791efe97e2eb15446ab46ee2bad8b3fe3[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Bitcoin Core version v0.19.99.0-e7f8450 (release build)[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements[0;39;49m
+[1;36;49m2020-01-10T01:09:47Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements[0;39;49m
+[1;34;49mtest/multisig_tests.cpp(174): Leaving test case "multisig_Sign"; testing time: 3655us
+[0;39;49m[1;34;49mtest/multisig_tests.cpp(19): Leaving test suite "multisig_tests"; testing time: 29916us
+[0;39;49m[1;34;49mLeaving test module "Bitcoin Core Test Suite"; testing time: 30010us
+[0;39;49m
+[1;32;49m*** No errors detected
+[0;39;49m
