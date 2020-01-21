@@ -1,5 +1,5 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2019 The Bitcoin Core developers
+// Copyright (c) 2009-2020 The Bitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -27,7 +27,7 @@
 #endif
 
 // Settings
-static CCriticalSection cs_proxyInfos;
+static RecursiveMutex cs_proxyInfos;
 static proxyType proxyInfo[NET_MAX] GUARDED_BY(cs_proxyInfos);
 static proxyType nameProxy GUARDED_BY(cs_proxyInfos);
 int nConnectTimeout = DEFAULT_CONNECT_TIMEOUT;
@@ -763,7 +763,7 @@ bool IsProxy(const CNetAddr &addr) {
  * @param hSocket The socket on which to connect to the SOCKS5 proxy.
  * @param nTimeout Wait this many milliseconds for the connection to the SOCKS5
  *                 proxy to be established.
- * @param outProxyConnectionFailed[out] Whether or not the connection to the
+ * @param[out] outProxyConnectionFailed Whether or not the connection to the
  *                                      SOCKS5 proxy failed.
  *
  * @returns Whether or not the operation succeeded.
